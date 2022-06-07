@@ -1,0 +1,449 @@
+/***************************TAG Selectors****************/
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 1px #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.heading-main{
+    text-decoration: none;
+}
+
+.master-div{
+    width: 100%;
+    
+}
+
+/***************************SECTION Selectors****************/
+
+#sidebar-left {
+    
+    float: left;
+    width: 10%;
+    background-color: red;
+    height: 100vh;
+    
+}
+
+#sidebar-right {
+    float: right;
+    width: 10%;
+    background-color: red;
+    
+    
+}
+
+/***************************CLASS Selectors****************/
+
+/***************************Capsule****************/
+
+.carousel{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.mastercarousel{
+ 
+    border-style: groove;
+    border-width: 2px;
+    border-color: lightgray;
+    border-radius:2px;
+    -webkit-border-radius:10px;
+    padding-bottom: 25px;
+    
+}
+
+
+/***************************Twitter and Koo****************/
+
+.twitter-koo-box{
+  
+    padding:2px 5px;
+    border-radius:1px;
+    -webkit-border-radius:10px;
+    cursor: pointer;   
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 3px;
+    height: 250px;
+    position: relative;
+}
+
+.twitter-box{
+    border-color: #d0e7f5;
+}
+
+.twitter-box:hover{
+    background-color: #ebf1f5;
+}
+
+.koo-box{
+    border-color: #f3edc8;
+}
+
+.koo-box:hover{
+    background-color: #f7f7e7;
+}
+
+.twitter-koo-biosection{
+    display: flex;
+}
+
+.twitter-koo-biopic{
+    width: 25%;
+}
+
+.twitter-koo-biopic-with-image{
+    width: 20%;
+}
+
+.twitter-koo-img-profile{
+    width : 40px;
+    height: 40px; 
+    border-radius: 50%;
+}
+
+.twitter-koo-biotext{
+    width: 50%;
+    font-family: Roboto;
+    font-size: 12px;
+    display: block;
+   
+}
+
+.twitter-koo-logo-div{
+    width: 25%;
+    text-align: right;
+}
+
+.twitter-koo-logo{
+    width : 40px;
+    height: 40px; 
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.filler-div{
+    width: 25%;
+}
+
+.filler-div-tweet{
+    width: 15%;
+}
+
+
+
+.twitter-logo-with-media{
+    margin-left: 10px;
+}
+
+
+.twitter-koo-text{
+    font-size: .875 rem;
+    line-height: 25px;
+    font-family: Roboto;  
+}
+
+.twitter-koo-image-div{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tweet-koo-inline-image{
+    height: 120px;
+    width: 95%;
+    object-fit: fit;
+    margin: auto;
+    display: block;
+    border-radius:1px;
+    -webkit-border-radius:10px;
+}
+
+
+
+
+
+/***************************Headline and Inline****************/
+.headline-box{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa ; 
+    padding: 5px;
+    cursor: pointer;    
+    width: auto;  
+}
+
+.headline-box:hover{
+    background-color: #FAF9F6;
+}
+
+.site-logo-headline{
+    width: 80%;
+}
+
+.site-logo{   
+    width: 75px;
+    height: 25px;  
+   
+}
+
+.headline-text{
+    font-family: 'Roboto:ital';
+    font-weight: bold;
+    font-size: 1.0rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.headline-image{ 
+    width: 100px;
+    height: 80px;
+    justify-content: flex-end;
+    border-radius:1px;
+    -webkit-border-radius:10px;    
+    object-fit: fill;
+}
+
+.news-inline-box{
+    padding:2px 5px;
+    border-radius:1px;
+    -webkit-border-radius:10px;
+    cursor: pointer;   
+    border-style: groove;
+    border-width: 2px;
+    margin-top: 3px;
+    height: 250px;
+    position: relative;
+
+}
+
+.news-inline-box:hover{
+    background-color: #FAF9F6;
+}
+
+
+.news-box:hover{
+    background-color: #FAF9F6;
+}
+
+.news-inline-image{
+
+
+    width: 100%;
+    height: 125px;
+  margin: auto;
+  display: block;
+  border-radius:1px;
+  -webkit-border-radius:10px;
+}
+
+.news-inline-sitelogo{
+   max-width: 100px;
+    height: 40px; 
+   
+}
+
+.news-inline-text{
+    font-size: .875 rem;
+    line-height: 25px;
+    font-family: Roboto; 
+    display: inline;
+}
+
+.instaImage{
+    height: 120px;
+}
+
+.youtube-box{
+    
+    border-radius:1px;
+    -webkit-border-radius:10px;
+    cursor: pointer;   
+    border-style: groove;
+    border-width: 2px;
+    border-color:#f7bebe;
+    margin-top: 3px;
+    height: 250px;
+    width: 250px;
+
+}
+
+
+
+/***************************Slider****************/
+
+
+.arrowRight{
+    width: 30px;
+    position: relative; /* Declared position allows for location changes */
+    top: -35px; /* Moves the image 2px closer to the top of the page */
+    right: 5px;
+    background: white;
+    
+}
+.arrowRight:hover{
+    transform: scale(1.2);
+}
+
+.arrowLeft{
+    width: 30px;
+    position: relative; /* Declared position allows for location changes */
+    top: -35px; /* Moves the image 2px closer to the top of the page */
+    right: 5px;
+    background: white;
+}
+.arrowLeft:hover{
+    transform: scale(1.2);
+}
+
+.slick-slide {
+    margin: 0px 4px;
+    
+}
+
+.margin-filler{
+    height: 25px;
+}
+
+
+
+
+/***************************Mobile****************/
+
+/* Hide slider left and right images on small devices */
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+      display: hidden;
+    }
+  }
+/***************************Header****************/
+
+.navbar-header {
+    background-color: #F16E10;
+  }
+
+  .padding{
+      padding: 0px;
+  }
+
+  /***************************About and Contact****************/
+
+  .about-container{
+      padding-left: 0px;
+      padding-right: 0px;
+      display: flex;
+      justify-content: center;
+  }
+
+  
+.about{
+    border-style: groove;
+    border-width: 2px;
+    border-color: lightgray;
+    border-radius:2px;
+    -webkit-border-radius:10px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    
+    
+
+  }
+
+  .contactus{
+   
+    text-align: center;
+    
+    
+  }
+
+  .route-heading{
+    font-family: Roboto;
+    font-size: 25px;
+  }
+
+  .contactus-text{
+    font-family: Roboto;
+    font-size: 15px;
+    color: grey;
+  }
+
+
+  /***************************Footer****************/
+
+  .footer{
+      margin: auto;
+      text-align: center;
+      height: 50px;
+      background-color: white ; 
+      color: black;
+
+  }
+
+  .navbar { 
+      padding-bottom: 0px !important;
+ }
+
+
+  .hamaralogo{
+      padding-top:0px;
+      width: 300px;
+  }
+
+
+  .endslide{
+    cursor: pointer; 
+    border-radius:1px;  
+    -webkit-border-radius:10px;
+    border-style: groove;
+    border-width: 2px;
+    height: 250px;
+    background-color: #fafafa ; 
+    border-color: orange;
+  }
+
+  .vericaltext{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.read-again-text{
+    font-family: 'Roboto:ital';
+    font-weight: normal;
+    font-size: 1.0rem;
+    margin: auto;
+    text-align: center;
+    
+    line-height: 100px;
+
+}
+.vertical-filler{
+    height: 30%;
+    margin-bottom: 35px;
+}
+
+.read-again-image{
+    width: 50px;
+    margin: auto;
+}
+
+  
+
+
