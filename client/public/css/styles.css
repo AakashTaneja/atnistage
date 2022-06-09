@@ -204,9 +204,10 @@ h2 {
 }
 
 .headline-text{
-    font-family: 'Roboto:ital';
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 1.0rem;
+    line-height: 25px;
     align-items: center;
     justify-content: center;
     
