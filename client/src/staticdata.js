@@ -17,7 +17,9 @@ const staticdata = {
         india:"http://static.businessworld.in/article/article_large_image/1461587703_sJrvhp_Brand_India.com-_289.png",
         hindustantimes: "https://www.hindustantimes.com/res/images/logo.png",
         moneycontrol: "https://planahead.in/wp-content/uploads/2019/04/moneycontrol-logo.jpg",
-        "zeenews.india": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2020/02/01/842640-zee-news-logo.jpg"
+        "zeenews.india": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2020/02/01/842640-zee-news-logo.jpg",
+        bollywoodlife:"https://st1.bollywoodlife.com/wp-content/uploads/2019/11/bl-desktop-mobile-logo.png",
+        filmfare: "https://m.filmfare.com/static/img/filmfare_icon_512x512.png"
 
 
         

@@ -1,12 +1,347 @@
+[
+  {
 
- [
+  "index": 0,
+  "headline":{
+ 
+     "newsURL" : "https://www.newindianexpress.com/nation/2022/jun/05/remarks-against-prophet-muhammad-bjp-suspends-nupur-sharma-expels-naveen-kumar-jindal-from-party-2462095.html",
+     "headlineText" : "'BJP respects all religions': Party suspends Nupur Sharma, expels Naveen Kumar Jindal over remarks against Prophet Muhammad",
+     "newsImage" : "https://images.newindianexpress.com/uploads/user/imagelibrary/2022/6/5/w900X450/BJP_Flags_PTI_poll.jpg?w=720&dpr=1.0"
+     
+     },
+   "social": [ 
+ 
+     {
+       "type": "NewsInline",
+       "key":5,
+       "newsInlineURL" : "https://www.india.com/news/delhi/prophet-remarks-row-delhi-police-registers-firs-against-nupur-sharma-naveen-jindal-and-others-5442639/",
+       "newsInlineText" : "Prophet Remarks Row: Delhi Police Registers FIRs Against Nupur Sharma, Naveen Jindal And Others",
+       "newsInlineImage" : "https://static.india.com/wp-content/uploads/2022/06/Nupur-Sharma-BJP.jpg?impolicy=Medium_Widthonly&w=700&h=467"
+       
+     },
+ 
+    
 
-  {       
-    "index": 1,
+     {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/OpIndia_com/status/1534211080515244032",
+      "tweetText" : "Kamlesh Tiwari was executed years after he made objectionable comments on Prophet Muhammad. People stabbed him to death. Don't think you'll (Sharma) be forgiven. Do not ever play with the 1100 volt current, Mohammad Hamid threatened",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1053913042176495616/zz0ZWkjl_400x400.jpg",
+      "name" : "OpIndia.com",
+      "handle" : "@OpIndia_com",
+      "tweetImage": "https://pbs.twimg.com/media/FUo0buYaQAA7QKV?format=png&name=small"
+    },
+ 
+    
+
+     {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/ani_digital/status/1534096520152489985",
+      "tweetText" : "Remarks against Prophet: Nupur Sharma gets security after death threat complaint.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/817977303242133505/jSSyMKvf_400x400.jpg",
+      "name" : "ANI Digital",
+      "handle" : "@ani_digital",
+      "tweetImage": "https://pbs.twimg.com/media/FUo0buYaQAA7QKV?format=png&name=small"
+    },
+     {
+       "type": "TweetMuchText",
+       "key":2,
+       "tweetURL" : "https://twitter.com/dha_kar_mika18/status/1534749847714136066",
+       "tweetText" : "Bhim sena chief, Satpal Tanwar has announced bounty of Rs1 cr on BJP's Nupur Sharma's head. He deletes all his tweets and vids. Who has given a right to use abusive language and death threats to any citizens of the country in the name of Fos?",
+       "profilePic" : "https://pbs.twimg.com/profile_images/1534119438961745921/Mei-tO1N_400x400.jpg",
+       "name" : "Aatm_Darshi",
+       "handle" : "@dha_kar_mika18",
+     },
+
+     
+    
+ 
+     {
+       "type": "Youtube",
+       "key":4,
+       "youtubeURL":"https://www.youtube.com/embed/UNRKKTBKLHo"
+     },
+
+     {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/NupurSharmaBJP/status/1533409262809927680",
+      "tweetText" : "I request all media houses and everybody else not to make my address public. There is a security threat to my family.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1495804777732603905/3wo-lYCK_400x400.jpg",
+      "name" : "Nupur Sharma",
+      "handle" : "@NupurSharmaBJP",
+    },
+ 
+     
+ 
+    
+    
+      
+     
+   ]
+ },
+
+ 
+
+{       
+  "index": 1,
+ "headline":{
+
+    "newsURL" : "https://indianexpress.com/article/world/iraq-libya-malaysia-join-over-a-dozen-muslim-countries-in-condemning-controversial-remarks-against-prophet-7957541/",
+    "headlineText" : "Iraq, Libya, Malaysia join over a dozen Muslim countries in condemning controversial remarks against Prophet",
+    "newsImage" : "https://images.indianexpress.com/2022/06/Iraq-PM.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://thewire.in/communalism/the-full-list-of-18-countries-and-bodies-that-have-condemned-the-bjp-leaders-remarks",
+      "newsInlineText" : "The Full List of 20 Countries and Bodies That Have Condemned the BJP Leaders’ Remarks",
+      "newsInlineImage" : "https://cdn.thewire.in/wp-content/uploads/2022/06/07122227/Screenshot-2022-06-07-at-12.22.20-PM.png"
+      
+    },
+
+    {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/Kemlu_RI/status/1533800135666577408",
+      "tweetText" : "Indonesia strongly condemns unacceptable derogatory remarks against Prophet Muhammad PBUH by two Indian politicians. This message has been conveyed to Indian Ambassador in Jakarta.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1485475786165735426/hO9VuSMz_400x400.jpg",
+      "name" : "MoFA Indonesia",
+      "handle" : "@Kemlu_RI"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://timesofindia.indiatimes.com/india/amid-growing-chorus-in-gulf-india-slams-unwarranted-oic-remarks/articleshow/92046706.cms",
+      "newsInlineText" : "Prophet Comment Row: Amid growing chorus in Gulf, India slams ‘unwarranted’ OIC attacks",
+      "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92046709,imgsize-92134,width-400,resizemode-4/92046709.jpg"
+      
+    },
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/MEAIndia/status/1533714704312705024",
+      "tweetText" : "Our response to media queries regarding tweet by the Pakistani Prime Minister and statement by its Ministry of Foreign Affairs",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1373257046770872322/XJJoPraG_400x400.jpg",
+      "name" : "Arindam Bagchi",
+      "handle" : "@MEAIndia",
+      "tweetImage": "https://pbs.twimg.com/media/FUjZX-naIAIEPfL?format=jpg"
+    },
+   
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/DNrUgMBLOow"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.timesnownews.com/india/not-important-kerela-guv-rubbishes-qatars-demand-for-public-apology-over-prophet-mohammed-row-article-92050280",
+      "newsInlineText" : "'Not important': Kerela Guv rubbishes Qatar's demand for public apology over Prophet Mohammed row",
+      "newsInlineImage" : "https://static.tnn.in/photo/msid-92050931,imgsize-28694,updatedat-1654575509460,width-200,height-200,resizemode-75/92050931.jpg"
+      
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
+      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
+      "name" : "Geert Wilders",
+      "handle" : "@geertwilderspvv"
+    },
+
+   
+   
+     
+    
+  ]
+},
+
+{       
+  "index":2,
+ "headline":{
+
+    "newsURL" : "https://indianexpress.com/article/cities/delhi/satyendar-jain-ed-custody-june-13-delhi-court-7960310/",
+    "headlineText" : "Money laundering case: Satyendar Jain sent to ED custody till June 13",
+    "newsImage" : "https://images.indianexpress.com/2022/06/satyendar-jain-1200-1.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "KooMuchText",
+      "key":5,
+      "kooURL":"https://www.kooapp.com/koo/manshul27/41dd8d6b-a376-42a6-948e-d8100b2c2d64",
+      "name" : "Manshul Rathodiya",
+      "handle": "@manshul27",
+      "profilePic" : "https://images.kooapp.com/transcode_input/2690579/54a3137c-cdfc-4771-8302-b424a7ee48e8voke.jpg",
+      "kooText" : "Enforcement Directorate (ED) got the custody of AAP leader and Delhi Health Minister Dr. Satyendra Jain till 13 June in money laundering case. Earlier ED had custody of Dr. Jain till 9 June. Dr. Jain was arrested by ED on 31 May."
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.indiatoday.in/india/story/satyendar-jain-slow-writer-ed-probe-money-laundering-scam-1960237-2022-06-09",
+      "newsInlineText" : "Satyendar Jain a slow writer; denies statement if not written by him: ED explains delay in quizzing AAP leader",
+      "newsInlineImage" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202206/Satyendar_Jain_1200x768.png"
+      
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/vijaygajera/status/1534151854963056640",
+      "tweetText" : "ED found this gold from the Kattar Imandar AAP minister Satyendra Jain!",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1456518861482643461/TDGMSqap_400x400.jpg",
+      "name" : "Vijay Patel",
+      "handle" : "@vijaygajera",
+      "tweetImage": "https://pbs.twimg.com/media/FUpm9z8XEAATIJe?format=jpg&name=small"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.hindustantimes.com/cities/delhi-news/i-want-to-ask-smriti-irani-s-fresh-attacks-on-kejriwal-over-satyendar-jain-101654681260449.html",
+      "newsInlineText" : "‘I want to ask…’: Smriti Irani's fresh attack on Kejriwal over Satyendar Jain",
+      "newsInlineImage" : "https://images.hindustantimes.com/img/2022/06/08/550x309/Smriti_Irani_and_Arvind_Kejriwal_1654681255056_1654681255233.jpg"
+      
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/smritiirani/status/1533507282629234689",
+      "tweetText" : "Delhi HC order dated 21.8.19 confirmed that Satyendra Jain laundered ₹16.39 Cr through hawala operators with the help of his 4 shell companies. This new claim of Mr. Jain’s innocence is as fictitious as earlier claim of CBI closure report in DA case. कृपया AAP और झूठ ना बोलें",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1475324678788956163/iYXsazeX_400x400.jpg",
+      "name" : "Smriti Z Irani",
+      "handle" : "@smritiirani",
+      "tweetImage": "https://pbs.twimg.com/media/FUpm9z8XEAATIJe?format=jpg&name=small"
+    },
+
+    
+
+    {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/AAPNewsOfficial/status/1534787802554019840",
+      "tweetText" : "Delhi Health Minister Satyendra Jain’s Heath deteriorates outside courtroom, rushed to hospital. He was produced in a court by the ED.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1534802541963141120/JTNwx5ed_400x400.jpg",
+      "name" : "AAP News",
+      "handle" : "@AAPNewsOfficial"
+    },
+
+    
+    
+   
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/PnPC9ix_WN8"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.timesnownews.com/india/not-important-kerela-guv-rubbishes-qatars-demand-for-public-apology-over-prophet-mohammed-row-article-92050280",
+      "newsInlineText" : "'Not important': Kerela Guv rubbishes Qatar's demand for public apology over Prophet Mohammed row",
+      "newsInlineImage" : "https://static.tnn.in/photo/msid-92050931,imgsize-28694,updatedat-1654575509460,width-200,height-200,resizemode-75/92050931.jpg"
+      
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
+      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
+      "name" : "Geert Wilders",
+      "handle" : "@geertwilderspvv"
+    },
+
+   
+   
+     
+    
+  ]
+},
+
+{       
+  "index":3,
+ "headline":{
+
+    "newsURL" : "https://www.moneycontrol.com/news/india/coronavirus-update-india-records-7240-new-covid-19-cases-8-deaths-8662291.html",
+    "headlineText" : "Coronavirus Update | India records 7,240 new COVID-19 cases, 8 deaths",
+    "newsImage" : "https://images.moneycontrol.com/static-mcnews/2022/02/Coronavirus.jpg?impolicy=website&width=770&height=431"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.hindustantimes.com/india-news/india-reports-7-240-covid-cases-in-24-hours-highest-since-march-101654745891853.html",
+      "newsInlineText" : "India reports 7,240 Covid cases in 24 hours, highest since March",
+      "newsInlineImage" : "https://images.hindustantimes.com/img/2022/06/09/550x309/delhi-coronavirus-lockdown-day-91_b4803c3c-b6d7-11ea-bb4b-1e210f9e7edf_1654745965578.jpg"
+      
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://zeenews.india.com/india/covid-19-fourth-wave-to-arrive-soon-in-india-check-experts-opinions-symptoms-to-watch-out-for-here-2471812.html",
+      "newsInlineText" : "Covid-19 fourth wave to arrive soon in India? Check experts' opinions, symptoms to watch out for here",
+      "newsInlineImage" : "https://english.cdn.zeenews.com/sites/default/files/2022/06/09/1051670-covid.jpg"
+      
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/IndiaToday/status/1534502237997010944",
+      "tweetText" : "The order comes after the Delhi High Court asked the regulatory body to initiate action against passengers who don’t wear masks at airports and flights",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1395253672678809601/s-kiJ9xn_400x400.png",
+      "name" : "IndiaToday",
+      "handle" : "@IndiaToday",
+      "tweetImage": "https://pbs.twimg.com/card_img/1534502062343729153/7yToePik?format=jpg&name=small"
+    },
+
+    {
+      "type": "KooWithImage",
+      "key":5,
+      "kooURL":"https://embed.kooapp.com/embedKoo?kooId=006b6b90-e124-42a7-bf54-ad0c36212714",
+      "name" : "Chennai Airport (MAA)",
+      "handle": "@AAIChennaiAirport",
+      "profilePic" : "https://images.kooapp.com/transcode_input/11339560/18fd9bcc-910b-455b-887b-d86455641c9fvoke.jpg",
+      "kooText" : "Passengers are requested to adhere to the #COVID19 protocols at all times during travel.",
+      "kooImage": "https://images.kooapp.com/transcode_input/11339560/FINAL-IMAGE-WEB-c69feb6f-edba-494c-826d-e0359befec9f.png",
+    },
+
+   
+
+    
+
+   
+    
+  ]
+},
+
+{       
+    "index": 10,
    "headline":{
 
       "newsURL" : "https://www.theguardian.com/music/2022/jun/01/indian-singer-kk-dies-aged-53-after-falling-ill-while-performing",
-      "headlineText" : "Indian singer KK dies aged 53 after falling ill while performing",
+      "headlineText" : "This is file, Indian singer KK dies aged 53 after falling ill while performing",
       "newsImage" : "https://i.guim.co.uk/img/media/1153d813a3b04465a8cff0afcb31e239a5e30929/620_374_2090_1254/master/2090.jpg?width=620&quality=85&auto=format&fit=max&s=3c17ba78b32e13340cfd82f64e27bc0e"
       
       },
@@ -59,6 +394,17 @@
         "handle" : "@bhak_sala",
         "tweetImage": "https://pbs.twimg.com/media/FUAsGdGaMAE62_Y?format=jpg&name=small"
       },
+
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/TiredBhiim/status/1531730843420758016",
+        "tweetText" : "People often say, 'Emraan Hashmi Ke Saare Gaane Best Hote Hai'. But not many of them knows, KK sang most of them and earn this tag for him",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1532392485988671488/LNsInI4r_400x400.jpg",
+        "name" : "Eleven Bheem",
+        "handle" : "@TiredBhiim",
+       
+      },
      
        
       
@@ -66,70 +412,12 @@
 },
     
 
-      {       
-        "index": 2,
-       "headline":{
     
-          "newsURL" : "https://timesofindia.indiatimes.com/city/delhi/delhi-health-minister-satyendar-jain-arrested-by-ed/articleshow/91895746.cms",
-          "headlineText" : "Satyendar Jain, Delhi health minister, arrested by ED in money laundering case",
-          "newsImage" : "https://static.toiimg.com/thumb/msid-91896138,imgsize-608586,width-400,resizemode-4/91896138.jpg"
-          
-          },
-        "social": [ 
-
-          {
-            "type": "TweetWithImage",
-            "key":2,
-            "tweetURL" : "https://twitter.com/ndtv/status/1530210758583554049",
-            "tweetText" : "Enforcement Directorate arrests Delhi Health Minister Satyendar Jain in a case connected to hawala transactions related to a Kolkata-based company: Officials",
-            "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
-            "name" : "ANI",
-            "handle" : "@ani",
-            "tweetImage": "https://pbs.twimg.com/media/FUAsGdGaMAE62_Y?format=jpg&name=small"
-          },
-
-          {
-            "type": "NewsInline",
-            "key":5,
-            "newsInlineURL" : "https://www.ndtv.com/india-news/arvind-kejriwal-predicted-satyendar-jains-arrest-in-january-3023180",
-            "newsInlineText" : "Arvind Kejriwal Predicted Minister Satyendar Jain's Arrest In January",
-            "newsInlineImage" : "https://c.ndtvimg.com/2022-05/ojtqpolc_arvind-kejriwal-650_625x300_22_May_22.jpg"
-            
-          },
-
-          {
-            "type": "Youtube",
-            "key":4,
-            "youtubeURL":"https://www.youtube.com/embed/_gki3xvCh8k"
-          },
-
-          {
-            "type": "NewsInline",
-            "key":5,
-            "newsInlineURL" : "https://www.news18.com/news/india/delhi-govt-minister-satyendar-jain-arrested-by-ed-in-case-linked-to-hawala-transaction-5277625.html",
-            "newsInlineText" : "Delhi Min Satyendar Jain Arrested by ED for Money Laundering; to be Produced in Court on Tuesday",
-            "newsInlineImage" : "https://images.news18.com/ibnlive/uploads/2022/05/untitled-design-2022-05-30t192105.115-16539186583x2.jpg?impolicy=website&width=510&height=356"
-            
-          },
-          {
-            "type": "TweetWithImage",
-            "key":2,
-            "tweetURL" : "https://twitter.com/republic/status/1531300497122070528",
-            "tweetText" : "Delhi Health Minister Satyendar Jain arrested: Bagga, Kumar Vishwas tear into AAP-led govt",
-            "profilePic" : "https://pbs.twimg.com/profile_images/1526956913078194178/Q0uCWWTh_400x400.jpg",
-            "name" : "Republic",
-            "handle" : "@republic",
-            "tweetImage": "https://pbs.twimg.com/card_img/1531300499907026944/EiNDU1Cm?format=jpg&name=small"
-          },
-           
-          
-        ]
-    },
 
 
 
           {       
-            "index": 3,
+            "index": 30,
            "headline":{
         
               "newsURL" : "https://indianexpress.com/article/cities/chandigarh/punjabi-singer-congress-leader-sidhu-moose-wala-shot-dead-7942590/",
@@ -138,6 +426,12 @@
               
               },
             "social": [ 
+
+              {
+                "type": "Youtube",
+                "key":4,
+                "youtubeURL":"https://www.youtube.com/embed/56IlM6__lyU"
+              },
 
               {
                 "type": "TweetMuchText",
@@ -160,11 +454,7 @@
                 "handle" : "@capt_amarinder",
                
               },
-              {
-                "type": "Youtube",
-                "key":4,
-                "youtubeURL":"https://www.youtube.com/embed/VvlXoyeaa8A"
-              },
+             
              
     
               {
@@ -194,7 +484,7 @@
       },
 
       {       
-        "index": 4,
+        "index": 40,
        "headline":{
     
           "newsURL" : "https://www.thehindubusinessline.com/news/national/lack-of-sufficient-evidence-ncb-gives-clean-chit-to-aryan-khan-in-drug-case/article65467731.ece",
@@ -274,7 +564,3 @@
       
     
   ]
-
-
-  
-  
