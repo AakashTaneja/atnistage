@@ -134,7 +134,14 @@ const newsdataJSON = [
       "handle" : "@MEAIndia",
       "tweetImage": "https://pbs.twimg.com/media/FUjZX-naIAIEPfL?format=jpg"
     },
-   
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.hindustantimes.com/india-news/if-anything-happens-sanjay-raut-s-message-to-bjp-on-al-qaeda-threat-reports-101654757017333.html",
+      "newsInlineText" : "'If anything happens…': Sanjay Raut’s message to BJP on al Qaeda threat reports",
+      "newsInlineImage" : "https://images.hindustantimes.com/img/2022/06/09/550x309/a8236188-cac3-11ec-8ffc-07511f5657a1_1651571074549_1654757176567.jpg"
+      
+    },
 
     {
       "type": "Youtube",
@@ -155,7 +162,7 @@ const newsdataJSON = [
       "type": "TweetMuchText",
       "key":2,
       "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
-      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
+      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine.Why does India apologize?",
       "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
       "name" : "Geert Wilders",
       "handle" : "@geertwilderspvv"
@@ -251,24 +258,7 @@ const newsdataJSON = [
       "youtubeURL":"https://www.youtube.com/embed/PnPC9ix_WN8"
     },
 
-    {
-      "type": "NewsInline",
-      "key":5,
-      "newsInlineURL" : "https://www.timesnownews.com/india/not-important-kerela-guv-rubbishes-qatars-demand-for-public-apology-over-prophet-mohammed-row-article-92050280",
-      "newsInlineText" : "'Not important': Kerela Guv rubbishes Qatar's demand for public apology over Prophet Mohammed row",
-      "newsInlineImage" : "https://static.tnn.in/photo/msid-92050931,imgsize-28694,updatedat-1654575509460,width-200,height-200,resizemode-75/92050931.jpg"
-      
-    },
-
-    {
-      "type": "TweetMuchText",
-      "key":2,
-      "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
-      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
-      "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
-      "name" : "Geert Wilders",
-      "handle" : "@geertwilderspvv"
-    },
+    
 
    
    
@@ -387,6 +377,119 @@ const newsdataJSON = [
       "name" : "Kaushik LM",
       "handle" : "@LMKMovieManiac",
       
+    },
+
+  
+   
+    
+  ]
+},
+
+{       
+  "index":7,
+ "headline":{
+
+    "newsURL" : "https://www.news18.com/news/movies/mahima-chaudhry-battles-breast-cancer-pardes-actress-breaks-down-while-sharing-her-story-watch-5338285.html",
+    "headlineText" : "Mahima Chaudhry Battles Breast Cancer, Pardes Actress Breaks Down While Sharing Her Story; Watch",
+    "newsImage" : "https://images.news18.com/ibnlive/uploads/2022/06/mahima-breast-cancer-16547549013x2.jpg?impolicy=website&width=510&height=356"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/2ZNAcuykRXs"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://zeenews.india.com/photos/entertainment/mahima-chaudhry-diagnosed-with-breast-cancer-list-of-celebs-who-battled-the-deadly-disease-2472054",
+      "newsInlineText" : "Mahima Chaudhry diagnosed with breast cancer - List of celebs who battled the deadly disease!",
+      "newsInlineImage" : "https://english.cdn.zeenews.com/sites/default/files/2022/06/09/1051925-pjimage-2021-12-22t182913.237.jpg"
+      
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/AbsoluteIndNews/status/1534890106577858560",
+      "tweetText" : "Anupam Kher pens wise words of wisdom for Mahima Chaudhry as she battles Cancer",
+      "profilePic" : "https://pbs.twimg.com/profile_images/869894777365569536/7Hsl9lTN_400x400.jpg",
+      "name" : "Absolute India",
+      "handle" : "@AbsoluteIndNews",
+      "tweetImage": "https://pbs.twimg.com/media/FU0GaVMVEAAz_FJ?format=jpg&name=small"
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/SRKsDiary/status/1475853567038738434",
+      "tweetText" : "Pardes (1997) | #ShahRukhKhan • #MahimaChaudhry",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1391994140364206081/w40vSkHD_400x400.jpg",
+      "name" : "SRK's Diary Fan Club",
+      "handle" : "@SRKsDiary",
+      "tweetImage": "https://pbs.twimg.com/media/FHtI7-LXoAE6U6S?format=jpg&name=360x360"
+    }
+
+
+   
+
+  
+   
+    
+  ]
+},
+
+{       
+  "index":9 ,
+ "headline":{
+
+    "newsURL" : "https://www.cricbuzz.com/cricket-news/122528/mithali-raj-announces-retirement-from-international-cricket-cricbuzzcom",
+    "headlineText" : "Mithali Raj announces retirement from international cricket",
+    "newsImage" : "https://www.cricbuzz.com/a/img/v1/595x396/i1/c191208/raj-announced-her-decision-on.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/M_Raj03/status/1534454266324205568",
+      "tweetText" : "Thank you for all your love & support over the years! I look forward to my 2nd innings with your blessing and support.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/923503085502177280/7rik-4_3_400x400.jpg",
+      "name" : "Mithali Raj",
+      "handle" : "@M_Raj03",
+      "tweetImage": "https://pbs.twimg.com/media/FUt6BeoVUAEC0UI?format=jpg&name=900x900"
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/sachin_rt/status/1534766716948951040",
+      "tweetText" : "Congratulations on a stellar career Mithali Raj! Your contribution to Indian Women’s Cricket over the last 23 years has been immense and you have been an inspiration to young girls wanting to play for India. Wishing you the very best for all your future endeavours.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1410819014255730689/u76ZqFWN_400x400.jpg",
+      "name" : "Sachin Tendulkar",
+      "handle" : "@sachin_rt"
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/IndiaHistorypic/status/1534471109730390016",
+      "tweetText" : "1980s :: Little Mithali Raj (@M_Raj03) During Childhood",
+      "profilePic" : "https://pbs.twimg.com/profile_images/427508853211541505/7shY9eCC_400x400.jpeg",
+      "name" : "indianhistorypics",
+      "handle" : "@ndiaHistorypic",
+      "tweetImage": "https://pbs.twimg.com/media/FUuJVwWacAADA2a?format=jpg&name=900x900"
+    },
+
+    
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/w0yagF5pjjM"
     },
 
   

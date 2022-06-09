@@ -154,7 +154,7 @@
       "type": "TweetMuchText",
       "key":2,
       "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
-      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
+      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine.Why does India apologize?",
       "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
       "name" : "Geert Wilders",
       "handle" : "@geertwilderspvv"
@@ -250,24 +250,7 @@
       "youtubeURL":"https://www.youtube.com/embed/PnPC9ix_WN8"
     },
 
-    {
-      "type": "NewsInline",
-      "key":5,
-      "newsInlineURL" : "https://www.timesnownews.com/india/not-important-kerela-guv-rubbishes-qatars-demand-for-public-apology-over-prophet-mohammed-row-article-92050280",
-      "newsInlineText" : "'Not important': Kerela Guv rubbishes Qatar's demand for public apology over Prophet Mohammed row",
-      "newsInlineImage" : "https://static.tnn.in/photo/msid-92050931,imgsize-28694,updatedat-1654575509460,width-200,height-200,resizemode-75/92050931.jpg"
-      
-    },
-
-    {
-      "type": "TweetMuchText",
-      "key":2,
-      "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
-      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician #NupurSharma @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine. Why does India apologize?",
-      "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
-      "name" : "Geert Wilders",
-      "handle" : "@geertwilderspvv"
-    },
+    
 
    
    
