@@ -1,3 +1,6 @@
+body{
+    -webkit-font-smoothing: antialiased;
+}
 /***************************TAG Selectors****************/
 h1 {
     margin: 30px;
@@ -8,7 +11,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;
+    font-family: Roboto , sans-serif; 
     font-size: 12px;
 }
 
@@ -112,7 +115,7 @@ h2 {
 
 .twitter-koo-biotext{
     width: 50%;
-    font-family: Roboto;
+    font-family: Roboto , sans-serif; 
     font-size: 12px;
     display: block;
    
@@ -147,9 +150,10 @@ h2 {
 
 
 .twitter-koo-text{
-    font-size: .875 rem;
+    font-size: 16px;
     line-height: 25px;
-    font-family: Roboto;  
+    font-family: Roboto , sans-serif; 
+    
 }
 
 .twitter-koo-image-div{
@@ -204,10 +208,10 @@ h2 {
 }
 
 .headline-text{
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 1.0rem;
-    line-height: 25px;
+    font-family: 'Roboto' , sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+  
     align-items: center;
     justify-content: center;
     
@@ -262,9 +266,9 @@ h2 {
 }
 
 .news-inline-text{
-    font-size: .875 rem;
+    font-size: 16px;
     line-height: 25px;
-    font-family: Roboto; 
+    font-family: Roboto , sans-serif; 
     display: inline;
 }
 
@@ -376,12 +380,12 @@ h2 {
   }
 
   .route-heading{
-    font-family: Roboto;
+    font-family: Roboto , sans-serif; 
     font-size: 25px;
   }
 
   .contactus-text{
-    font-family: Roboto;
+    font-family: Roboto , sans-serif; 
     font-size: 15px;
     color: grey;
   }
