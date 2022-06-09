@@ -11,6 +11,14 @@ const staticdata = {
         "timesofindia.indiatimes": "https://static.wikia.nocookie.net/logopedia/images/2/28/ToI.png",
         news18: "https://www.radioandmusic.com/sites/www.radioandmusic.com/files/images/entertainment/2017/02/15/news18.jpg",
         theguardian: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/The_Guardian_2018.svg/2560px-The_Guardian_2018.svg.png",
+        thewire: "https://cdn.thewire.in/wp-content/uploads/thewire-app-images/wire-logo.svg",
+        timesnownews:"https://static.tnn.in/authorthumb/479257182.cms?width=30&height=30",
+        newindianexpress:"https://www.dutchdesignbrand.com/wp-content/uploads/2014/06/new-indian-express-cover.png",
+        india:"http://static.businessworld.in/article/article_large_image/1461587703_sJrvhp_Brand_India.com-_289.png",
+        hindustantimes: "https://www.hindustantimes.com/res/images/logo.png",
+        moneycontrol: "https://planahead.in/wp-content/uploads/2019/04/moneycontrol-logo.jpg",
+        "zeenews.india": "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2020/02/01/842640-zee-news-logo.jpg"
+
 
         
 
