@@ -324,7 +324,15 @@ h2 {
 }
 
 .margin-filler{
-    height: 25px;
+    height: 10px;
+    background-color: #f5e5c4;
+   
+    border-style: groove;
+    border-width: 0px;
+    border-radius:0px;
+    -webkit-border-radius:10px;
+   
+
 }
 
 
