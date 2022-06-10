@@ -87,7 +87,7 @@ const newsdataJSON = [
  
 
 {       
-  "index": 1,
+  "index": 10,
  "headline":{
 
     "newsURL" : "https://indianexpress.com/article/world/iraq-libya-malaysia-join-over-a-dozen-muslim-countries-in-condemning-controversial-remarks-against-prophet-7957541/",
@@ -176,7 +176,7 @@ const newsdataJSON = [
 },
 
 {       
-  "index":2,
+  "index":20,
  "headline":{
 
     "newsURL" : "https://indianexpress.com/article/cities/delhi/satyendar-jain-ed-custody-june-13-delhi-court-7960310/",
@@ -268,7 +268,7 @@ const newsdataJSON = [
 },
 
 {       
-  "index":3,
+  "index":30,
  "headline":{
 
     "newsURL" : "https://www.moneycontrol.com/news/india/coronavirus-update-india-records-7240-new-covid-19-cases-8-deaths-8662291.html",
@@ -329,7 +329,7 @@ const newsdataJSON = [
 
 
 {       
-  "index":4,
+  "index":40,
  "headline":{
 
     "newsURL" : "https://www.hindustantimes.com/entertainment/tamil-cinema/nayantharavignesh-shivan-wedding-live-updates-rajinikanth-arrives-couple-to-host-reception-for-1-lakh-people-101654752367203.html",
@@ -386,7 +386,7 @@ const newsdataJSON = [
 },
 
 {       
-  "index":7,
+  "index":70,
  "headline":{
 
     "newsURL" : "https://www.news18.com/news/movies/mahima-chaudhry-battles-breast-cancer-pardes-actress-breaks-down-while-sharing-her-story-watch-5338285.html",
@@ -443,7 +443,70 @@ const newsdataJSON = [
 },
 
 {       
-  "index":9 ,
+  "index":80,
+ "headline":{
+
+    "newsURL" : "https://www.tribuneindia.com/news/health/first-time-in-history-cancer-vanishes-for-every-patient-in-drug-trial-indian-origin-patient-among-those-healed-completely-402050",
+    "headlineText" : "'First time in history': Cancer vanishes for every patient in drug trial; Indian-origin patient among those healed completely",
+    "newsImage" : "https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/6/2022_6$largeimg_1470231729.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://indianexpress.com/article/explained/explained-drug-trial-cured-rectal-cancer-patients-india-7959134/",
+      "newsInlineText" : "Explained: The science behind the cancer cure, and the therapy’s future in India",
+      "newsInlineImage" : "https://images.indianexpress.com/2022/06/Cancer-1.jpg"
+      
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/washingtonpost/status/1534665600072568837",
+      "tweetText" : "A small drug trial is having a seismic impact in the world of oncology: After six months of an experimental treatment, tumors vanished in all 14 patients diagnosed with early stage rectal cancer who completed the study by the time it was published.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_400x400.jpg",
+      "name" : "The Washington Post",
+      "handle" : "@washingtonpost",
+     
+    },
+
+    {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/LogicalIndians/status/1534471579702542336",
+      "tweetText" : "A drug called 'Dostarlimab' was administered to 18 patients for around six months. At the end of the trial, all the patients saw their tumours had disappeared and could not be detected.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1424236372362088452/6jQfXgR6_400x400.jpg",
+      "name" : "The LogicalIndia",
+      "handle" : "@LogicalIndians",
+     
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.onmanorama.com/lifestyle/health/2022/06/09/nisha-varghese-indian-undergo-trial-miracle-drug-cancer.html",
+      "newsInlineText" : "Nisha Varghese, the only Indian to undergo the trial of miracle drug for cancer",
+      "newsInlineImage" : "https://www.onmanorama.com/content/dam/mm/en/lifestyle/health/images/2022/6/9/nisha-varghese-new-c.jpg.transform/onm-articleimage/image.jpg"
+      
+    },
+
+    
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/ndgb2mKh1jw"
+    },  
+   
+    
+  ]
+},
+
+{       
+  "index":90,
  "headline":{
 
     "newsURL" : "https://www.cricbuzz.com/cricket-news/122528/mithali-raj-announces-retirement-from-international-cricket-cricbuzzcom",
@@ -499,7 +562,7 @@ const newsdataJSON = [
 },
 
 {       
-    "index": 10,
+    "index": 100,
    "headline":{
 
       "newsURL" : "https://www.theguardian.com/music/2022/jun/01/indian-singer-kk-dies-aged-53-after-falling-ill-while-performing",
@@ -579,7 +642,7 @@ const newsdataJSON = [
 
 
           {       
-            "index": 30,
+            "index": 110,
            "headline":{
         
               "newsURL" : "https://indianexpress.com/article/cities/chandigarh/punjabi-singer-congress-leader-sidhu-moose-wala-shot-dead-7942590/",
@@ -646,7 +709,7 @@ const newsdataJSON = [
       },
 
       {       
-        "index": 40,
+        "index": 120,
        "headline":{
     
           "newsURL" : "https://www.thehindubusinessline.com/news/national/lack-of-sufficient-evidence-ncb-gives-clean-chit-to-aryan-khan-in-drug-case/article65467731.ece",
