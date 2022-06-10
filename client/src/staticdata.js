@@ -21,7 +21,8 @@ const staticdata = {
         bollywoodlife:"https://st1.bollywoodlife.com/wp-content/uploads/2019/11/bl-desktop-mobile-logo.png",
         filmfare: "https://m.filmfare.com/static/img/filmfare_icon_512x512.png",
         cricbuzz: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Cricbuzz_Logo.png",
-        onmanorama:"https://img.onmanorama.com/etc/designs/commonutils/clientlib-img/img/dummy-image-onmanorama-big.jpg"
+        onmanorama:"https://img.onmanorama.com/etc/designs/commonutils/clientlib-img/img/dummy-image-onmanorama-big.jpg",
+        "business-standard":"https://s3.ap-south-1.amazonaws.com/mumorgbsmedia.business-standard.com/include/_mod/site/images/no_preview.jpg"
 
 
         

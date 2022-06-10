@@ -74,6 +74,16 @@ const newsdataJSON = [
       "name" : "Nupur Sharma",
       "handle" : "@NupurSharmaBJP",
     },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/swati_gs/status/1535128300082716673",
+      "tweetText" : "Beheading Calls From Jammu Mosque Against Journalist Who Supported Nupur Sharma Against Rape Threats. The person who gave the speech at the mosque also said that those criticising hijab will be killed as well",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1504498591859036161/mDNxtYbU_400x400.jpg",
+      "name" : "Swati Goel Sharma",
+      "handle" : "@swati_gs",
+    },
  
      
  
@@ -331,9 +341,9 @@ const newsdataJSON = [
   "index":30,
  "headline":{
 
-    "newsURL" : "https://www.moneycontrol.com/news/india/coronavirus-update-india-records-7240-new-covid-19-cases-8-deaths-8662291.html",
-    "headlineText" : "Coronavirus Update | India records 7,240 new COVID-19 cases, 8 deaths",
-    "newsImage" : "https://images.moneycontrol.com/static-mcnews/2022/02/Coronavirus.jpg?impolicy=website&width=770&height=431"
+    "newsURL" : "https://www.indiatvnews.com/news/india/coronavirus-pandemic-covid-positive-cases-death-toll-vaccination-covid-variant-health-ministry-corona-active-cases-positivity-rate-booster-dose-2022-06-10-783431",
+    "headlineText" : "COVID: India reports 7,584 fresh cases, 24 deaths in last 24 hours; active cases rise to 36,267",
+    "newsImage" : "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/06/sarojini-nagar-market-1654830800.jpg"
     
     },
   "social": [ 
@@ -359,6 +369,17 @@ const newsdataJSON = [
     {
       "type": "TweetWithImage",
       "key":2,
+      "tweetURL" : "https://twitter.com/NilanjanDasAITC/status/1535095726287384576",
+      "tweetText" : "In the sharpest rise in India’s #COVID19 infections since 3rd wave, daily cases topped 7,000 for the first time in 99 days. India reported 7,230 cases on Wednesday, with Maharashtra & Kerala accounting for nearly 70% of the tally. Bengal recorded about 95 infections in past 24 h.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1531834719096016896/5u44u1cB_400x400.jpg",
+      "name" : "Nilanjan Das",
+      "handle" : "@NilanjanDasAITC",
+      "tweetImage": "https://pbs.twimg.com/media/FU3BbWZacAAhI6q?format=jpg&name=small"
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
       "tweetURL" : "https://twitter.com/IndiaToday/status/1534502237997010944",
       "tweetText" : "The order comes after the Delhi High Court asked the regulatory body to initiate action against passengers who don’t wear masks at airports and flights",
       "profilePic" : "https://pbs.twimg.com/profile_images/1395253672678809601/s-kiJ9xn_400x400.png",
@@ -376,6 +397,15 @@ const newsdataJSON = [
       "profilePic" : "https://images.kooapp.com/transcode_input/11339560/18fd9bcc-910b-455b-887b-d86455641c9fvoke.jpg",
       "kooText" : "Passengers are requested to adhere to the #COVID19 protocols at all times during travel.",
       "kooImage": "https://images.kooapp.com/transcode_input/11339560/FINAL-IMAGE-WEB-c69feb6f-edba-494c-826d-e0359befec9f.png",
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.business-standard.com/article/international/china-covid-19-cases-8-districts-to-lockdown-test-millions-as-covid-cases-rise-again-122061000153_1.html",
+      "newsInlineText" : "Shanghai to lock down 8 districts, test millions as Covid cases rise again",
+      "newsInlineImage" : "https://bsmedia.business-standard.com/_media/bs/img/article/2022-06/10/full/1654831097-47.jpg?im=Resize,width=640"
+      
     },
 
    
