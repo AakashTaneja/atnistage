@@ -176,6 +176,66 @@ const newsdataJSON = [
 },
 
 {       
+  "index": 15,
+ "headline":{
+
+    "newsURL" : "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-mla-aravind-limbavalis-daughter-trades-words-with-cops-after-car-stopped/articleshow/92115641.cms",
+    "headlineText" : "VIP arrogance in Bengaluru: BMW stopped, MLA Aravind Limbavali's daughter abuses cops",
+    "newsImage" : "https://static.toiimg.com/thumb/msid-92115656,imgsize-1111700,width-400,resizemode-4/92115656.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/0m8L5UJM7tM"
+    },
+    {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/MirrorNow/status/1534931208118755329",
+      "tweetText" : "WATCH NETA'S KID DRUNK ON POWER #BJP Leader #AravindLimbavali's daughter was caught on camera misbehaving with police and the media. @KeypadGuerilla reports.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1519924225272090624/62689u_G_400x400.jpg",
+      "name" : "Mirror Now",
+      "handle" : "@MirrorNow"
+    },
+
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/IndiaToday/status/1535110907520753665",
+      "tweetText" : "BJP MLA Aravind Limbavali apologised after his daughter misbehaved with the media and police officials when she was stopped for flouting traffic rules.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1395253672678809601/s-kiJ9xn_400x400.png",
+      "name" : "IndiaToday",
+      "handle" : "@IndiaToday",
+      "tweetImage": "https://pbs.twimg.com/card_img/1535110336898306049/jaBvpUPc?format=jpg&name=small"
+    },
+
+    
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/ArvindLBJP/status/1534806143033176064",
+      "tweetText" : "Modi government is highly committed towards empowering women and safe guarding their rights. Several schemes of Modi government are financially empowering women and are also delivering Social Justice to them.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/2655022129/abfda61400181850fee3c2a3910442c2_400x400.png",
+      "name" : "Aravind Limbavali",
+      "handle" : "@ArvindLBJP"
+    },
+
+    
+
+   
+
+   
+   
+     
+    
+  ]
+},
+
+{       
   "index":20,
  "headline":{
 

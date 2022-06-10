@@ -175,6 +175,95 @@
 },
 
 {       
+  "index": 15,
+ "headline":{
+
+    "newsURL" : "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-mla-aravind-limbavalis-daughter-trades-words-with-cops-after-car-stopped/articleshow/92115641.cms",
+    "headlineText" : "VIP arrogance in Bengaluru: BMW stopped, MLA Aravind Limbavali's daughter abuses cops",
+    "newsImage" : "https://static.toiimg.com/thumb/msid-92115656,imgsize-1111700,width-400,resizemode-4/92115656.jpg"
+    
+    },
+  "social": [ 
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://thewire.in/communalism/the-full-list-of-18-countries-and-bodies-that-have-condemned-the-bjp-leaders-remarks",
+      "newsInlineText" : "The Full List of 20 Countries and Bodies That Have Condemned the BJP Leaders’ Remarks",
+      "newsInlineImage" : "https://cdn.thewire.in/wp-content/uploads/2022/06/07122227/Screenshot-2022-06-07-at-12.22.20-PM.png"
+      
+    },
+
+    {
+      "type": "Tweet",
+      "key":2,
+      "tweetURL" : "https://twitter.com/Kemlu_RI/status/1533800135666577408",
+      "tweetText" : "Indonesia strongly condemns unacceptable derogatory remarks against Prophet Muhammad PBUH by two Indian politicians. This message has been conveyed to Indian Ambassador in Jakarta.",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1485475786165735426/hO9VuSMz_400x400.jpg",
+      "name" : "MoFA Indonesia",
+      "handle" : "@Kemlu_RI"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://timesofindia.indiatimes.com/india/amid-growing-chorus-in-gulf-india-slams-unwarranted-oic-remarks/articleshow/92046706.cms",
+      "newsInlineText" : "Prophet Comment Row: Amid growing chorus in Gulf, India slams ‘unwarranted’ OIC attacks",
+      "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92046709,imgsize-92134,width-400,resizemode-4/92046709.jpg"
+      
+    },
+    {
+      "type": "TweetWithImage",
+      "key":2,
+      "tweetURL" : "https://twitter.com/MEAIndia/status/1533714704312705024",
+      "tweetText" : "Our response to media queries regarding tweet by the Pakistani Prime Minister and statement by its Ministry of Foreign Affairs",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1373257046770872322/XJJoPraG_400x400.jpg",
+      "name" : "Arindam Bagchi",
+      "handle" : "@MEAIndia",
+      "tweetImage": "https://pbs.twimg.com/media/FUjZX-naIAIEPfL?format=jpg"
+    },
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.hindustantimes.com/india-news/if-anything-happens-sanjay-raut-s-message-to-bjp-on-al-qaeda-threat-reports-101654757017333.html",
+      "newsInlineText" : "'If anything happens…': Sanjay Raut’s message to BJP on al Qaeda threat reports",
+      "newsInlineImage" : "https://images.hindustantimes.com/img/2022/06/09/550x309/a8236188-cac3-11ec-8ffc-07511f5657a1_1651571074549_1654757176567.jpg"
+      
+    },
+
+    {
+      "type": "Youtube",
+      "key":4,
+      "youtubeURL":"https://www.youtube.com/embed/DNrUgMBLOow"
+    },
+
+    {
+      "type": "NewsInline",
+      "key":5,
+      "newsInlineURL" : "https://www.timesnownews.com/india/not-important-kerela-guv-rubbishes-qatars-demand-for-public-apology-over-prophet-mohammed-row-article-92050280",
+      "newsInlineText" : "'Not important': Kerela Guv rubbishes Qatar's demand for public apology over Prophet Mohammed row",
+      "newsInlineImage" : "https://static.tnn.in/photo/msid-92050931,imgsize-28694,updatedat-1654575509460,width-200,height-200,resizemode-75/92050931.jpg"
+      
+    },
+
+    {
+      "type": "TweetMuchText",
+      "key":2,
+      "tweetURL" : "https://twitter.com/geertwilderspvv/status/1533820267339866113",
+      "tweetText" : "It is ridiculous that Arab and Islamic countries are angered by Indian politician @NupurSharmaBJP for speaking the truth about #ProphetMuhammad who indeed married Aisha when she was six years old and consumed the marriage when she was nine.Why does India apologize?",
+      "profilePic" : "https://pbs.twimg.com/profile_images/1340255277841526788/-XWV4YNN_400x400.jpg",
+      "name" : "Geert Wilders",
+      "handle" : "@geertwilderspvv"
+    },
+
+   
+   
+     
+    
+  ]
+},
+
+{       
   "index":20,
  "headline":{
 
