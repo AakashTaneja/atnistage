@@ -11,6 +11,7 @@ import Navbar2 from "./components/Navbar2";
 
 
 
+
 function App() {
 
 
@@ -18,12 +19,11 @@ function App() {
         <div className="master-div"> 
             <Router>
             
-            <Navbar2 />
-            
+            <Navbar2 /> 
             <Routes>
-            <Route path="/" element={Capsule()}></Route>
-            <Route path="/about" element={About()}></Route>
-            <Route path="/contact" element={Contact()}></Route>
+                <Route path="/" element={Capsule()}></Route>
+                <Route path="/about" element={About()}></Route>
+                <Route path="/contact" element={Contact()}></Route>
             </Routes>
             <Footer />
         </Router>

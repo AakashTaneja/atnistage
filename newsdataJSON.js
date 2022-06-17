@@ -1,5 +1,85 @@
 
 const newsdataJSON = [
+
+  {
+
+    "index": -1,
+    "headline":{
+   
+       "newsURL" : "https://timesofindia.indiatimes.com/india/agnipath-scheme-live-protests-continue-in-several-states-opposition-seeks-withdrawal-of-scheme/liveblog/92256192.cms",
+       "headlineText" : "Agnipath Scheme Protest LIVE Updates: 1 dead, over 200 trains cancelled as protests spread to multiple states.",
+       "newsImage" : "https://static.toiimg.com/thumb/imgsize-868456,msid-92256192,width-400,resizemode-4/92256192.jpg"
+       
+       },
+     "social": [ 
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://zeenews.india.com/india/agneepath-scheme-eligibility-age-limit-womens-quota-all-details-about-agneepath-yojana-2474717.html",
+         "newsInlineText" : "Agnipath scheme: Eligibility, age limit, women's quota- All details about Agneepath Yojana",
+         "newsInlineImage" : "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2022/06/17/1054760-agnipath-recruitment-scheme-rajnath-singh.jpeg"
+         
+       },
+
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/sirajnoorani/status/1537781700536610816",
+        "tweetText" : "#Railway authorities have cancelled as many as 72 trains following large-scale violence that rocked #Secunderabad railway station on Friday.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1209373251287339008/rHaJA_PE_400x400.jpg",
+        "name" : "Siraj Noorani",
+        "handle" : "@sirajnoorani",
+        "tweetImage": "https://pbs.twimg.com/media/FVdIdGsUsAAWC6L?format=jpg&name=small"
+      },
+   
+      
+  
+       {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/arunbothra/status/1537713101365207043",
+        "tweetText" : "Railways has changed a lot in last few decades but we haven't. Trains continue to be the soft target always. #Agniveer",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1495651845594779649/I_JLebR7_400x400.jpg",
+        "name" : "Arun Bothra",
+        "handle" : "@arunbothra",
+        "tweetImage": "https://pbs.twimg.com/media/FUo0buYaQAA7QKV?format=png&name=small"
+      },
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/DyQdUsXilzg"
+      },
+   
+      
+  
+      
+       {
+         "type": "TweetWithImage",
+         "key":2,
+         "tweetURL" : "https://twitter.com/coolfunnytshirt/status/1537759181117136899",
+         "tweetText" : "Indian railways when friday stone pelters and anarchists protest against anything:",
+         "profilePic" : "https://pbs.twimg.com/profile_images/1408104101246763014/mwTHw41M_400x400.jpg",
+         "name" : "Keh Ke Peheno",
+         "handle" : "@coolfunnytshirt",
+         "tweetImage": "https://pbs.twimg.com/media/FVc301BacAAzm9W?format=jpg&name=small"
+       },
+  
+       
+      
+   
+       
+  
+      
+       
+   
+      
+      
+        
+       
+     ]
+   },
   {
 
   "index": 0,
