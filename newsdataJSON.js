@@ -49,7 +49,7 @@ const newsdataJSON = [
       {
         "type": "Youtube",
         "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/DyQdUsXilzg"
+        "youtubeURL":"https://www.youtube.com/embed/qJmznMgvBnM"
       },
    
       

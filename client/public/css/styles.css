@@ -44,6 +44,8 @@ h2 {
     
 }
 
+
+
 /***************************CLASS Selectors****************/
 
 /***************************Capsule****************/
@@ -51,6 +53,8 @@ h2 {
 .carousel{
     margin-left: 3px;
     margin-right: 3px;
+    max-width: 90%;
+    margin: auto;
 }
 
 .mastercarousel{
@@ -345,8 +349,8 @@ h2 {
 /* Hide slider left and right images on small devices */
 @media (max-width: 767px) {
     .hidden-mobile {
-      display: none;
-      display: hidden;
+        transform: scale(1.0);
+     
     }
   }
 /***************************Header****************/
