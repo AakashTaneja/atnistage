@@ -20,7 +20,8 @@ const getAllNews = asyncHandler(async (req, res) => {
         res.json(newsdataJSON); 
     }
     else{ // for else assume prod and send back from database.
-        const news = await newsModel.find();
+        //console.log("Environent is prod, responding from database");
+        const news = await newsModel.find().sort({'index':1});
         res.json(news);
     }
     
