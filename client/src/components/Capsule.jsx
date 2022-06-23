@@ -4,6 +4,7 @@ import React from "react";
 //import resultsFromDB from "../Database";
 import HeadLine from "./HeadLine.jsx";
 import {Container, Row, Col} from "react-bootstrap";
+import InfiniteScroll from 'react-infinite-scroll-component';
 import SocialSlider from "./SocialSlider";
 import Margin from "./Margin";
 // var newsDataFromDB = [{}];
@@ -20,46 +21,95 @@ import Margin from "./Margin";
 
 function Capsule(){
     
-    const [newsDataFromDB, setnewsDataFromDB] = React.useState(null);
+    const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
+    const [hasMoreData, setHasMoreData] = React.useState(true);
+    const [page, setPage] = React.useState(0);
+
     React.useEffect(() => {
-        fetch('http://192.168.1.10:3001/api/news')
+        fetch("http://192.168.1.10:3001/api/news?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
         .then((data) =>{
             //data.sort((a, b) => a.index - b.index);
             setnewsDataFromDB(data);
+            setPage(page+1);
+            //console.log("page num is "+page);
+            
         })
     }, []);
+
+    const fetchMoreCapsues = async()=>{
+        const res =  await fetch("http://192.168.1.10:3001/api/news?page="+page+"&limit=3");
+        const data = res.json();
+       
+        setPage(page+1);
+        //console.log("page num fetchMoreCapsues is "+page);
+        
+        return data;
+    }
+
+   
+
+    const fetchData = async () =>{
+        const capsulesFromServer =  await fetchMoreCapsues();
+        //console.log("next items "+capsulesFromServer);
+        if(capsulesFromServer.length === 0){
+            setHasMoreData(false);
+        }
+        setnewsDataFromDB([...newsDataFromDB, ...capsulesFromServer]);
+    };
     
     
     return(
+
+        <div>
+            
+
+<InfiniteScroll
+    dataLength={newsDataFromDB.length} //This is important field to render the next data
+    next={fetchData}
+    hasMore={hasMoreData}
+    loader={<h4>Loading...</h4>}
+    endMessage={
+        <p style={{ textAlign: 'center', }}>
+        <b>Yay! You have seen it all</b>
+        </p>
+    }
+
+>
+ <div className="carousel">
+ {newsDataFromDB && newsDataFromDB.map(newsitem =>
+
+<div>
+    {/* {alert(JSON.stringify(newsitem.headline))} */}
+    <Container className="mastercarousel">
+            <Row>
+                <Col>
+                <HeadLine headline={newsitem.headline}/>
+                </Col>
+            </Row> 
+            <Row>
+                <Col>
+                    <SocialSlider socaildata={newsitem.social}/>
+                </Col>
+            </Row>
+            
+        </Container> 
+        <Margin />
+</div>
+)}
+ </div>
+   
+</InfiniteScroll>
+ 
+
+
+
+</div>
+       
         
-        <div className="carousel">
-             
-           {newsDataFromDB && newsDataFromDB.map(newsitem =>
-           
-           <div>
-            {/* {alert(JSON.stringify(newsitem.headline))} */}
-            <Container className="mastercarousel">
-                    <Row>
-                        <Col>
-                        <HeadLine headline={newsitem.headline}/>
-                        </Col>
-                    </Row> 
-                    <Row>
-                        <Col>
-                            <SocialSlider socaildata={newsitem.social}/>
-                        </Col>
-                    </Row>
-                    
-                </Container> 
-                <Margin />
-           </div>
-           )}
-           
-          
-        </div>
+       
 
     );
 }

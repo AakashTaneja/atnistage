@@ -15,13 +15,15 @@ const newsdataJSON = require('../newsdataJSON');
 //console.log("picked up "+process.env.ENV);
 
 const getAllNews = asyncHandler(async (req, res) => {
+    const page = req.query.page || 0;
+    const resPerPage = req.query.limit;
     if(process.env.ENV === "STAGE"){
         //console.log("Environent is stage, responding with file")
         res.json(newsdataJSON); 
     }
     else{ // for else assume prod and send back from database.
         //console.log("Environent is prod, responding from database");
-        const news = await newsModel.find().sort({'index':1});
+        const news = await newsModel.find().sort({'index':1}).skip(page * resPerPage).limit(resPerPage);
         res.json(news);
     }
     
