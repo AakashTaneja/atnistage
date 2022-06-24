@@ -7,6 +7,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import InfiniteScroll from 'react-infinite-scroll-component';
 import SocialSlider from "./SocialSlider";
 import Margin from "./Margin";
+import Loader from "./Loader.jsx";
 // var newsDataFromDB = [{}];
 
 // async function fetchNewsDB(){
@@ -70,7 +71,7 @@ function Capsule(){
     dataLength={newsDataFromDB.length} //This is important field to render the next data
     next={fetchData}
     hasMore={hasMoreData}
-    loader={<h4>Loading...</h4>}
+    loader={<Loader />}
     endMessage={
         <p style={{ textAlign: 'center', }}>
         <b>Yay! You have seen it all</b>

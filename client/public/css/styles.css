@@ -50,6 +50,7 @@ h2 {
 
 /***************************Capsule****************/
 
+
 .carousel{
     margin-left: 3px;
     margin-right: 3px;
@@ -68,6 +69,14 @@ h2 {
     
 }
 
+.loader-custom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
 
 /***************************Twitter and Koo****************/
 
