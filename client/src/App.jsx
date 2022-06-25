@@ -8,16 +8,16 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
-import ReactGa from 'react-ga';
 
 
 
 
 function App() {
-    React.useEffect(()=>{
-        ReactGa.initialize('G-DPJ2RNTEGS');
-        ReactGa.pageview('/');
-    }, [])
+    // React.useEffect(()=>{
+    //     console.log("Inside useEffect");
+    //     ReactGA.initialize('G-5ELP4P5703');
+    //     ReactGA.pageview(window.location.pathname + window.location.search);
+    // }, [])
 
 
     return (
