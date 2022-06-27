@@ -3,6 +3,161 @@ const newsdataJSON = [
 
   {
 
+    "index": -20,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/cities/mumbai/maharashtra-crisis-uddhav-thackeray-portfolios-rebel-ministers-reallocates-7993764/",
+       "headlineText" : "Maharashtra crisis: Uddhav Thackeray takes away portfolios of rebel ministers, reallocates them.",
+       "newsImage" : "https://images.indianexpress.com/2022/06/UDDHAV-1-2-1-2.jpg"
+       
+       },
+     "social": [ 
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://www.india.com/maharashtra/maharashtra-live-harish-salve-to-appear-for-shinde-camp-sibal-singhvi-to-represent-uddhav-in-sc-5477048/",
+         "newsInlineText" : "BREAKING: Shinde Camp MLAs Can Now Reply To Disqualification Notice Until July 12, Says Supreme Court | LIVE Updates",
+         "newsInlineImage" : "https://static.india.com/wp-content/uploads/2022/06/Maharashtra-Political-Crisis-LIVE-Update-1.jpg?impolicy=Medium_Widthonly&w=700&h=467%20widht="
+         
+       },
+
+       {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/rishibagree/status/1541353100598214660",
+        "tweetText" : "Lawyers representing Maharashtra's crisis in Supreme Court: • Harish Salve for Eknath Shinde • Neeraj Kishan Kaul for 15 rebels • Kapil Sibal for Deputy Speaker • AM Singhvi for Uddhav Thackeray • Devadatt Kamat for Maharashtra Govt • SG Tushar Mehta for Centre",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1333822345140531200/AZpyEQnu_400x400.jpg",
+        "name" : "Rishi Bagree",
+        "handle" : "@rishibagree",
+        "tweetImage": "https://pbs.twimg.com/media/FVc301BacAAzm9W?format=jpg&name=small"
+      },
+
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/rautsanjay61/status/1541329078849900545",
+        "tweetText" : "I just came to know that the ED has summoned me. Good ! There are big political developments in Maharashtra. We, Balasaheb's Shivsainiks are fighting a big battle. This is a conspiracy to stop me. Even if you behead me, I won't take the Guwahati route. Arrest me ! Jai Hind!",
+        "profilePic" : "https://pbs.twimg.com/profile_images/856448618282098688/Du39ujEP_400x400.jpg",
+        "name" : "Sanjay Raut",
+        "handle" : "@rautsanjay61",
+        "tweetImage": "https://pbs.twimg.com/media/FWPmnyUWQAIMMPV?format=jpg&name=small"
+      },
+   
+      {
+        "type": "KooWithImage",
+        "key":5,
+        "kooURL":"https://www.kooapp.com/koo/singhbirbal05/a334ad62-a8e3-4b39-a934-b3d4f65427c8",
+        "name" : "Birbal Singh",
+        "handle": "@singhbirbal05",
+        "profilePic" : "https://images.kooapp.com/transcode_input/21125802/03b911ce-1702-4a7a-9d46-72a3e5887db0voke.jpg",
+        "kooText" : "ED notice to #SanjayRaut in Patra Chawl scam money laundering case, summoned tomorrow.",
+        "kooImage": "https://images.kooapp.com/transcode_input/21125802/2bdc6d0f-f3d3-4464-9130-30bbab0f2714.jpg",
+      },
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/CI7TMrkFX6Q"
+      },
+  
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1541358263790612480",
+        "tweetText" : "Marathi actress Ketaki Chitale has been granted interim relief in 21 pending FIRs registered against her by Maharashtra Police over her post against NCP chief Sharad Pawar. The High Court instructed the police not to take any coercive action against her.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ani",
+        "tweetImage": "https://pbs.twimg.com/media/FWQBFF0aUAAf-Xn?format=png&name=small"
+      },
+
+      
+   
+      
+  
+      
+      
+  
+       
+      
+   
+       
+  
+      
+  
+        
+       
+     ]
+   },
+
+   {
+
+    "index": -10,
+    "headline":{
+   
+       "newsURL" : "https://www.indiatoday.in/movies/celebrities/story/baby-on-the-way-alia-bhatt-ranbir-kapoor-to-welcoming-first-child-3-months-after-wedding-1967146-2022-06-27",
+       "headlineText" : "Baby on the way! Alia Bhatt, Ranbir Kapoor announce pregnancy 3 months after wedding",
+       "newsImage" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202206/alia_(6).png?5pMe2nGWytzjjQmm28XROq5jTbFdx5nF&size=770:433"
+       
+       },
+     "social": [ 
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://www.ndtv.com/entertainment/after-alia-bhatts-baby-coming-soon-post-neetu-kapoors-reaction-goes-viral-3104337",
+         "newsInlineText" : "After Alia Bhatt's 'Baby Coming Soon' Post, Neetu Kapoor's Reaction Goes Viral",
+         "newsInlineImage" : "https://c.ndtvimg.com/2022-06/djjk0qao_neetukapoorpaps650_625x300_27_June_22.jpg"
+         
+       },
+
+       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.india.com/entertainment/alia-bhatt-ranbir-kapoor-pregnancy-excited-mahesh-bhatt-says-ill-be-coolest-granddaddy-5478230/",
+        "newsInlineText" : "Alia Bhatt – Ranbir Kapoor Pregnancy: Excited Mahesh Bhatt Says ‘I’ll Be Coolest Granddaddy’",
+        "newsInlineImage" : "https://static.india.com/wp-content/uploads/2022/06/Collage-Maker-27-Jun-2022-03.48-PM.jpg?impolicy=Medium_Widthonly&w=700&h=467%20widht="
+        
+      },
+
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/filmfare/status/1541305581818232832",
+        "tweetText" : "#KaranJohar is thrilled at #AliaBhatt and #RanbirKapoor’s pregnancy announcement!",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1539236004523134979/2cTfVeYD_400x400.jpg",
+        "name" : "Filmfare",
+        "handle" : "@filmfare",
+        "tweetImage": "https://pbs.twimg.com/media/FWPRQNVaAAAA6XL?format=jpg&name=medium"
+      },
+
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/smart__leaks/status/1541306762548064258",
+        "tweetText" : "#AliaBhatt pregnant into 2 months of marriage Meanwhile:",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1522482741186506752/IGfRDJD7_400x400.jpg",
+        "name" : "Tanishq Ganu",
+        "handle" : "@smart__leaks",
+        "tweetImage": "https://pbs.twimg.com/media/FWPSVLbaIAEd1bO?format=jpg&name=small"
+      },
+   
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/AishRanliaLoove/status/1541357014248472579",
+        "tweetText" : "kapoor's 5th generation is growing",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1539611695374647297/4tfjktSB_400x400.jpg",
+        "name" : "Ashh-Loove ♡♡♡",
+        "handle" : "@AishRanliaLoove",
+        "tweetImage": "https://pbs.twimg.com/media/FWQABZ_WYAIc1lC?format=jpg&name=small"
+      },
+    ]
+   },
+
+  {
+
     "index": -1,
     "headline":{
    
