@@ -2,6 +2,8 @@ body{
     -webkit-font-smoothing: antialiased;
    
 }
+
+
 /***************************TAG Selectors****************/
 h1 {
     margin: 30px;
@@ -56,6 +58,7 @@ h2 {
     margin-right: 3px;
     max-width: 90%;
     margin: auto;
+    
 }
 
 .mastercarousel{
@@ -66,8 +69,10 @@ h2 {
     border-radius:2px;
     -webkit-border-radius:10px;
     padding-bottom: 25px;
+    max-width: 99%;
     
 }
+
 
 .loader-custom{
     margin-top: 20px;
@@ -191,10 +196,6 @@ h2 {
     border-radius:1px;
     -webkit-border-radius:10px;
 }
-
-
-
-
 
 /***************************Headline and Inline****************/
 .headline-box{  

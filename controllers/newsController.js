@@ -18,7 +18,7 @@ const getAllNews = asyncHandler(async (req, res) => {
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
     if(process.env.ENV === "STAGE"){
-        //console.log("Environent is stage, responding with file")
+        console.log("Environent is stage, responding with file")
         res.json(newsdataJSON); 
     }
     else{ // for else assume prod and send back from database.
