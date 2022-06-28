@@ -22,7 +22,8 @@ const staticdata = {
         filmfare: "https://m.filmfare.com/static/img/filmfare_icon_512x512.png",
         cricbuzz: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Cricbuzz_Logo.png",
         onmanorama:"https://img.onmanorama.com/etc/designs/commonutils/clientlib-img/img/dummy-image-onmanorama-big.jpg",
-        "business-standard":"https://s3.ap-south-1.amazonaws.com/mumorgbsmedia.business-standard.com/include/_mod/site/images/no_preview.jpg"
+        "business-standard":"https://s3.ap-south-1.amazonaws.com/mumorgbsmedia.business-standard.com/include/_mod/site/images/no_preview.jpg",
+        businessinsider:"https://i.insider.com/597a0306b50ab126008b4b46?width=300&format=jpeg&auto=webp"
 
 
         
