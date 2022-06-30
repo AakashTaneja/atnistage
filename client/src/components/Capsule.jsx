@@ -27,7 +27,7 @@ function Capsule(){
     const [page, setPage] = React.useState(0);
 
     React.useEffect(() => {
-        fetch("http://192.168.1.10:3001/api/news?page="+page+"&limit=3")
+        fetch("http://192.168.1.11:3001/api/news?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
@@ -41,7 +41,7 @@ function Capsule(){
     }, []);
 
     const fetchMoreCapsues = async()=>{
-        const res =  await fetch("http://192.168.1.10:3001/api/news?page="+page+"&limit=3");
+        const res =  await fetch("http://192.168.1.11:3001/api/news?page="+page+"&limit=3");
         const data = res.json();
        
         setPage(page+1);
@@ -66,7 +66,7 @@ function Capsule(){
 
         <div>
             
-
+            <div className="carousel">
 <InfiniteScroll
     dataLength={newsDataFromDB.length} //This is important field to render the next data
     next={fetchData}
@@ -79,7 +79,7 @@ function Capsule(){
     }
 
 >
- <div className="carousel">
+ 
  {newsDataFromDB && newsDataFromDB.map(newsitem =>
 
 <div>
@@ -100,9 +100,10 @@ function Capsule(){
         <Margin />
 </div>
 )}
- </div>
+ 
    
 </InfiniteScroll>
+</div>
  
 
 

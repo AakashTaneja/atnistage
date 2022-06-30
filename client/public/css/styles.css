@@ -56,7 +56,7 @@ h2 {
 .carousel{
     margin-left: 3px;
     margin-right: 3px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     
 }
@@ -69,7 +69,7 @@ h2 {
     border-radius:2px;
     -webkit-border-radius:10px;
     padding-bottom: 25px;
-    max-width: 99%;
+    max-width: 89.4%;
    
     
 }
@@ -318,6 +318,7 @@ h2 {
     top: -35px; /* Moves the image 2px closer to the top of the page */
     right: 5px;
     background: white;
+   
     
 }
 .arrowRight:hover{
@@ -343,11 +344,12 @@ h2 {
 .margin-filler{
     height: 10px;
     background-color: #f5e5c4;
+    max-width: 90%;
    
     border-style: groove;
     border-width: 0px;
     border-radius:0px;
-    -webkit-border-radius:10px;
+    
    
 
 }

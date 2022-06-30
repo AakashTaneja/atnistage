@@ -23,8 +23,9 @@ function SocialSlider(props){
         dots: true,
         infinite: true,
         variableWidth: true,
-        speed: 600,
+        speed: 500,
         centerMode: false,
+        slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />
@@ -40,19 +41,19 @@ function SocialSlider(props){
         lowerCase(socialitem.type) === lowerCase("Tweet") ?
         (<div style={{ width: 220 }}> <Tweet  socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetWithImage") ?
-        (<div style={{ width: 265 }}> <TweetWithImage socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <TweetWithImage socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetMuchText") ?
-        (<div style={{ width: 290 }}> <TweetMuchText socialdata={socialitem}/> </div> )
+        (<div style={{ width: 300 }}> <TweetMuchText socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Koo") ?
         (<div style={{ width: 220 }}> <Koo socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooWithImage") ?
-        (<div style={{ width: 265 }}> <KooWithImage socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <KooWithImage socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooMuchText") ?
-        (<div style={{ width: 290 }}> <KooMuchText socialdata={socialitem}/> </div> )
+        (<div style={{ width: 300 }}> <KooMuchText socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Youtube") ?
         (<div style={{ width: 250 }}> <Youtube socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("NewsInline") ?
-        (<div style={{ width: 265 }}> <NewsInline socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <NewsInline socialdata={socialitem}/> </div> )
         : (<div style={{ width: 1 }}> </div> )
         
     
