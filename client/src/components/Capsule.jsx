@@ -27,7 +27,7 @@ function Capsule(){
     const [page, setPage] = React.useState(0);
 
     React.useEffect(() => {
-        fetch("http://192.168.1.11:3001/api/news?page="+page+"&limit=3")
+        fetch("http://192.168.1.7:3001/api/news?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
@@ -41,7 +41,7 @@ function Capsule(){
     }, []);
 
     const fetchMoreCapsues = async()=>{
-        const res =  await fetch("http://192.168.1.11:3001/api/news?page="+page+"&limit=3");
+        const res =  await fetch("http://192.168.1.7:3001/api/news?page="+page+"&limit=3");
         const data = res.json();
        
         setPage(page+1);

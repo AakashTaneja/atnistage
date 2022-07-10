@@ -28,7 +28,11 @@ function SocialSlider(props){
         slidesToShow: 1,
         slidesToScroll: 1,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
+        prevArrow: <PrevArrow />,
+        afterChange: (index)=>{
+          //console.log("slide changed");
+          //window.dataLayer.push({event: "Slide"});
+       }
       };
       //console.log("this is social data type "+JSON.stringify(props.socaildata));
 

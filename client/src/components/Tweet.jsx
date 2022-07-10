@@ -8,6 +8,10 @@ function Tweet(props){
 
     function handleClick(){
         //window.location.href = tweetURL;
+        // window.dataLayer.push({
+        //     event: 'Outbound',
+        //     Site: 'Twitter'
+        // });
         window.open( 
             props.socialdata.tweetURL, "_blank");
     }
