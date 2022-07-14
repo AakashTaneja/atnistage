@@ -42,6 +42,10 @@ function Capsule(){
 
     const fetchMoreCapsues = async()=>{
         const res =  await fetch("http://192.168.1.7:3001/api/news?page="+page+"&limit=3");
+        window.dataLayer.push({
+            event: 'capsule_fetch'
+        });
+
         const data = res.json();
        
         setPage(page+1);
