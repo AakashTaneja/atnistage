@@ -10,7 +10,7 @@ function Tweet(props){
         //window.location.href = tweetURL;
         window.dataLayer.push({
             event: 'outbound',
-            Site: 'Twitter'
+            site_name: 'Twitter'
         });
         window.open( 
             props.socialdata.tweetURL, "_blank");
