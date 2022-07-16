@@ -11,7 +11,7 @@ function KooMuchText(props){
         console.log("pushing to GA4 site_name Twitter_muchtext");
         window.dataLayer.push({
             event: 'outbound',
-            site_name: 'Twitter_muchtext',
+            site_name: 'Koo_muchtext',
         });
         window.open( 
             props.socialdata.tweetURL, "_blank");
