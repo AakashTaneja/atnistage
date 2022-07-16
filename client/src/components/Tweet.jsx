@@ -8,9 +8,10 @@ function Tweet(props){
 
     function handleClick(){
         //window.location.href = tweetURL;
+        console.log("pushing to GA4 site_name Twitter_plain");
         window.dataLayer.push({
             event: 'outbound',
-            site_name: 'Twitter'
+            site_name: 'Twitter_plain',
         });
         window.open( 
             props.socialdata.tweetURL, "_blank");

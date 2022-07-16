@@ -5,6 +5,11 @@ import {headlineLogoObject} from "../staticdata";
 function Koo(props){
     function handleClick(){
         //window.location.href = tweetURL;
+        console.log("pushing to GA4 site_name Koo_plain");
+        window.dataLayer.push({
+            event: 'outbound',
+            site_name: 'Koo_plain',
+        });
         window.open( 
             props.socialdata.kooURL, "_blank");
     }
