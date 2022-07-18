@@ -14,7 +14,7 @@ function KooWithImage(props){
             site_name: 'Koo_image',
         });
         window.open( 
-            props.socialdata.tweetURL, "_blank");
+            props.socialdata.kooURL, "_blank");
     }
 
     function maxString(){
