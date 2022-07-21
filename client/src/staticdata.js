@@ -24,7 +24,8 @@ const staticdata = {
         onmanorama:"https://img.onmanorama.com/etc/designs/commonutils/clientlib-img/img/dummy-image-onmanorama-big.jpg",
         "business-standard":"https://s3.ap-south-1.amazonaws.com/mumorgbsmedia.business-standard.com/include/_mod/site/images/no_preview.jpg",
         businessinsider:"https://i.insider.com/597a0306b50ab126008b4b46?width=300&format=jpeg&auto=webp",
-        "opindia":"https://upload.wikimedia.org/wikipedia/commons/9/9a/OpIndia_logo_%28transparent%29.png"
+        "opindia":"https://upload.wikimedia.org/wikipedia/commons/9/9a/OpIndia_logo_%28transparent%29.png",
+        "dnaindia":"https://cdn.dnaindia.com/images/2018/DNA-1200.png"
 
 
         
@@ -39,3 +40,5 @@ const headlineLogoObject = staticdata.newssiteLogos;
 export {
     headlineLogoObject
   }
+
+  

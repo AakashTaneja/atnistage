@@ -7,8 +7,8 @@ const newsdataJSON = [
     "headline":{
    
        "newsURL" : "https://indianexpress.com/article/india/presidential-election-2022-results-counting-votes-live-updates-yashwant-sinha-droupadi-murmu-8042430/",
-       "headlineText" : "Presidential Election 2022 Result Live Updates: Counting of votes underway; Droupadi Murmu poised to win",
-       "newsImage" : "https://images.indianexpress.com/2022/07/Presidential-poll-results-live-blog.jpg"
+       "headlineText" : "Presidential Election 2022 Result Live Updates: Droupadi Murmu makes history, becomes India’s first tribal woman President",
+       "newsImage" : "https://images.indianexpress.com/2022/07/modi-13.jpg"
        
        },
      "social": [ 
@@ -19,6 +19,15 @@ const newsdataJSON = [
         "newsInlineURL" : "https://timesofindia.indiatimes.com/india/99-turnout-in-presidential-poll-result-on-july-21/articleshow/92966498.cms",
         "newsInlineText" : "President Election 2022: 99% turnout in presidential poll, result on July 21",
         "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92960187,imgsize-67152,width-400,resizemode-4/92960187.jpg"
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.dnaindia.com/india/report-what-will-be-droupadi-murmu-s-monthly-salary-as-president-president-of-india-s-car-pension-allowances-2970297",
+        "newsInlineText" : "Droupadi Murmu news: What will be her monthly salary? President of India's car, pension, allowances explained",
+        "newsInlineImage" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523995-untitled-design-90.png"
         
       },
       {
