@@ -10,13 +10,13 @@ var headline_GA4 = "Headline_"+newsLogo;
 // var logo = "indianexpress";
 
 // const myJSON = JSON.stringify(headlineLogoObject);
-// console.log("logo url is "+headlineLogoObject[findNewsPubName(props.headline.newsURL)]);
+//console.log("logo url is "+headlineLogoObject[findNewsPubName(props.headline.newsURL)]);
 // console.log(JSON.stringify(headlineLogoObject,["indianexpress"]));
 
 
 function handleClick(){
     //window.location.href = tweetURL;
-    console.log("pushing to GA4 site_name "+headline_GA4);
+    //console.log("pushing to GA4 site_name "+headline_GA4);
     window.dataLayer.push({
         event: 'outbound',
         site_name: headline_GA4,
