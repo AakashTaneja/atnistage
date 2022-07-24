@@ -25,7 +25,8 @@ const staticdata = {
         "business-standard":"https://s3.ap-south-1.amazonaws.com/mumorgbsmedia.business-standard.com/include/_mod/site/images/no_preview.jpg",
         businessinsider:"https://i.insider.com/597a0306b50ab126008b4b46?width=300&format=jpeg&auto=webp",
         "opindia":"https://upload.wikimedia.org/wikipedia/commons/9/9a/OpIndia_logo_%28transparent%29.png",
-        "dnaindia":"https://cdn.dnaindia.com/images/2018/DNA-1200.png"
+        "dnaindia":"https://cdn.dnaindia.com/images/2018/DNA-1200.png",
+        telegraphindia:"https://yt3.ggpht.com/ytc/AKedOLRXgtphHbGgmwzwEMyLtFpdAbH-jm8qRUMYREtInac=s900-c-k-c0x00ffffff-no-rj"
 
 
         

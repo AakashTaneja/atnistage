@@ -3,6 +3,93 @@ const newsdataJSON = [
 
   {
 
+    "index": -40,
+    "headline":{
+   
+       "newsURL" : "https://www.timesnownews.com/exclusive/partha-chatterjee-arrested-what-is-the-alleged-teachers-recruitment-scam-article-93076720",
+       "headlineText" : "Partha Chatterjee arrested: What is the alleged teachers recruitment scam?",
+       "newsImage" : "https://pbs.twimg.com/media/FYRyqjRVQAEh9zZ?format=jpg&name=360x360"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.telegraphindia.com/west-bengal/who-is-arpita-mukherjee-from-whose-house-the-ed-recovered-rs-21-crore/cid/1876119",
+        "newsInlineText" : "Who is Arpita Mukherjee from whose house the ED recovered Rs 21 crore?",
+        "newsInlineImage" : "https://assets.telegraphindia.com/telegraph/2022/Jul/1658569171_new-project-39.jpg"
+        
+      },
+
+     
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/abhijitmajumder/status/1550773685719511040",
+        "tweetText" : "After Arpita Mukherjee, another ‘close associate’ of TMC minister Partha Chatterjee is on ED radar in SSC scam. Monalisa Das teaches Bengali in Kazi Nazrul University, Asansol. Apparently has more than 10 properties just in Shantiniketan, several in Kolkata. Sonar Bangla indeed.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1549016964357844993/mPRhAtta_400x400.jpg",
+        "name" : "Abhijit Majumder",
+        "handle" : "@abhijitmajumder",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/subhsays/status/1550554386048307200",
+        "tweetText" : "After Arpita mukherjee, Monalisa das comes into light . It is being she has properties of land , flat worth crores in Bolpur, Birbhum. ED will send one  team to Bolpur within tmrw mrng",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1512653497959092226/nahpGUYJ_400x400.jpg",
+        "name" : "Subham.",
+        "handle" : "@subhsays",
+        "tweetImage" : "https://pbs.twimg.com/media/FYSs_i-aQAAmMti?format=jpg&name=small"
+      },
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550811168976953344",
+        "tweetText" : "Partha Chatterjee (West Bengal cabinet minister and former Education Minister of the state) is not feeling well. He has developed heartache. We demanded that proper medical facilities should be given to him if ED's custody is granted: Somnath Mukherjee, Partha Chatterjee's lawyer",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "KooWithImage",
+        "key":5,
+        "kooURL":"https://www.kooapp.com/koo/rameshwararya/6f79297f-b347-42e5-b81f-879de7abf656",
+        "name" : "Rameshwar Arya",
+        "handle": "@ameshwararya",
+        "profilePic" : "https://images.kooapp.com/transcode_input/1740306/eb304625-42d8-481f-9de6-d3541564a4efvoke.jpg",
+        "kooText" : "#parthachatterjee",
+        "kooImage": "https://images.kooapp.com/transcode_input/1740306/2fb950d3-0f6d-4f72-bac0-c01acb809f8b.jpg",
+      },
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/jUf3PS6Vk6I"
+      }
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
+  {
+
     "index": -30,
     "headline":{
    
@@ -232,6 +319,78 @@ const newsdataJSON = [
         "handle" : "@manujosephsan",
         "tweetImage": "https://pbs.twimg.com/media/FYBZzYHaQAAXOYK?format=jpg&name=small"
       }
+      
+    ]
+   },
+
+   {
+
+    "index": -5,
+    "headline":{
+   
+       "newsURL" : "https://www.news18.com/news/politics/l-g-dismisses-arvind-kejriwals-plea-to-attend-singapore-summit-says-conference-only-for-mayors-5599507.html",
+       "headlineText" : "L-G Dismisses Arvind Kejriwal’s Plea to Attend Singapore Summit, CM Says Will Go Ahead",
+       "newsImage" : "https://images.news18.com/ibnlive/uploads/2022/07/arvind-kejriwal-16584086383x2.jpg?impolicy=website&width=510&height=356"
+       
+       },
+     "social": [ 
+
+      
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://www.opindia.com/2022/07/delhi-lg-vinai-kumar-saxena-cm-arvind-kejriwal-singapore-mayors-summit/",
+         "newsInlineText" : "Delhi: LG Vinai Kumar Saxena tells Arvind Kejriwal the Singapore conference is for mayors, ‘not advisable’ for a CM to attend it",
+         "newsInlineImage" : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2022/07/Vinai-Kumar-Saxena-Kejriwal.jpg?resize=696%2C398&ssl=1"
+         
+       },
+
+       {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/DaaruBaazMehta/status/1550067142602530816",
+        "tweetText" : "BIG DECISION BY DELHI GOV Delhi CM @ArvindKejriwal writes back to LG of Delhi expressing disagreement on LG's advice on not visiting Singapore for the World Summit CM Kejriwal decides to apply at Ministry of External Affairs to get this approval to Travel to  Singapore.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1331229339354943491/d9Siq9VT_400x400.jpg",
+        "name" : "DaaruBaaz Mehta 🇮🇳",
+        "handle" : "@DaaruBaazMehta",
+        "tweetImage": "https://pbs.twimg.com/media/FWPRQNVaAAAA6XL?format=jpg&name=medium"
+      },
+
+       {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/AamAadmiParty/status/1550080689281781760",
+        "tweetText" : "Singapore Visit: CM @ArvindKejriwal's reply to Delhi LG- 'If the visit of each Constitutional authority were to be decided on the basis of what subjects fall within their jurisdiction, it would create a funny situation.. Then the Prime Minister would not be able to go anywhere'",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1501139193153478662/I-Ch190c_400x400.jpg",
+        "name" : "AAP",
+        "handle" : "@AamAadmiParty",
+        "tweetImage": "https://pbs.twimg.com/media/FWPRQNVaAAAA6XL?format=jpg&name=medium"
+      },
+
+  
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550094883628945411",
+        "tweetText" : "#WATCH | The ministry has an online portal for political clearances where an entry was made today: MEA spokesperson Arindam Bagchi on Delhi CM Arvind Kejriwal's visit to Singapore",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage": "https://pbs.twimg.com/media/FYBZzYHaQAAXOYK?format=jpg&name=small"
+      },
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/ar1sGiF3By8"
+      }
+      
+      
+      
+
+       
+      
       
     ]
    },
