@@ -162,6 +162,86 @@ const newsdataJSON = [
      ]
    },
 
+   {
+
+    "index": -33,
+    "headline":{
+   
+       "newsURL" : "https://economictimes.indiatimes.com/news/newsblogs/latest-daily-news-and-updates-july-24/liveblog/93082041.cms",
+       "headlineText" : "Delhi Monkeypox Case Live Updates: Man from Delhi without any history of foreign travel tests positive for Monkeypox virus",
+       "newsImage" : "https://img.etimg.com/thumb/msid-93082041,width-294,resizemode-4,imgsize-76770/latest-daily-news-and-updates-july-24.jpg"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.thehindu.com/news/national/delhi-reports-its-first-case-of-monkeypox-fourth-case-in-india/article65677465.ece",
+        "newsInlineText" : "Delhi reports its first case of monkeypox; fourth case in India.",
+        "newsInlineImage" : "https://th-i.thgim.com/public/news/national/6wca6x/article65640607.ece/alternates/FREE_1200/2022-06-24T143735Z_773593487_RC2DYU9BDIY7_RTRMADP_3_HEALTH-MONKEYPOX-COLOMBIA.JPG"
+        
+      },
+
+     
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/kadak_chai_/status/1550862256681799683",
+        "tweetText" : "WHO declares #monkeypox a global health emergency. Covid 19 showing Monkey pox around the workplace",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1550860859622100992/JTu50dJ7_400x400.jpg",
+        "name" : "Shruti",
+        "handle" : "@kadak_chai",
+        "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
+      },
+
+      {
+        "type": "KooMuchText",
+        "key":5,
+        "kooURL":"https://www.kooapp.com/koo/httpswww.facebook.comWkMewatnews102105202344027/1b273bf5-d162-4c56-9c73-c1016f25b704",
+        "name" : "Anuradha Tanwar",
+        "handle": "@anuradhatanwar",
+        "profilePic" : "https://images.kooapp.com/transcode_input/2716670/230DEB6B-E38F-4789-A5B2-3AE7EA863F6E-profile.jpeg",
+        "kooText" : "The first case of Monkeypox was detected in Delhi. The patient is stable and recovering. There’s no need to panic. The situation is under control. We have made a separate isolation ward at LNJP. Our best team is on the case to prevent the spread and protect Delhiites. - CM Arvind Kejriwal ",
+        "kooImage": "https://images.kooapp.com/transcode_input/8549577/e4a677d7-aba5-4c4e-91c9-8547587b3fdc.jpg",
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/kadak_chai_/status/1550862256681799683",
+        "tweetText" : "BREAKING: at last— @WHO has finally declared the #monkeypox global outbreak a PUBLIC HEALTH EMERGENCY OF INTERNATIONAL CONCERN. The WHO leadership has overruled the committee that had voted 6-8. Thank you @DrTedros!",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1516900105613422592/VflZHQ1Y_400x400.jpg",
+        "name" : "Eric Feigl-Ding",
+        "handle" : "@DrEricDing",
+        "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
+      },
+
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/z6eqwZKo8G0"
+      }
+
+      
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
   {
 
     "index": -30,

@@ -26,7 +26,9 @@ const staticdata = {
         businessinsider:"https://i.insider.com/597a0306b50ab126008b4b46?width=300&format=jpeg&auto=webp",
         "opindia":"https://upload.wikimedia.org/wikipedia/commons/9/9a/OpIndia_logo_%28transparent%29.png",
         "dnaindia":"https://cdn.dnaindia.com/images/2018/DNA-1200.png",
-        telegraphindia:"https://yt3.ggpht.com/ytc/AKedOLRXgtphHbGgmwzwEMyLtFpdAbH-jm8qRUMYREtInac=s900-c-k-c0x00ffffff-no-rj"
+        telegraphindia:"https://yt3.ggpht.com/ytc/AKedOLRXgtphHbGgmwzwEMyLtFpdAbH-jm8qRUMYREtInac=s900-c-k-c0x00ffffff-no-rj",
+        "economictimes.indiatimes":"https://pbs.twimg.com/profile_images/1285571205966073857/rE3KyZFW_400x400.jpg",
+        thehindu:"https://png.pngitem.com/pimgs/s/504-5047781_political-biased-to-hindu-newspaper-5-september-2019.png",
 
 
         
