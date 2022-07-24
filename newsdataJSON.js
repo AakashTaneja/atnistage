@@ -88,6 +88,80 @@ const newsdataJSON = [
      ]
    },
 
+   {
+
+    "index": -35,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/india/congress-attacks-smriti-irani-goa-bar-rahul-gandhi-8047976/",
+       "headlineText" : "Congress attacks Smriti Irani over Goa bar; she hits back, dares Rahul Gandhi",
+       "newsImage" : "https://images.indianexpress.com/2022/07/smritiirani.jpg?resize=718,405"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/smriti-irani-denies-18-year-old-daughter-runs-goa-bar-says-her-fault-is-her-mother-exposed-rs-5-000-core-loot-by-gandhis-3186592",
+        "newsInlineText" : "See You In Court, Smriti Irani To Gandhis For Alleging Daughter Runs Bar",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/9gl9q8uo_smriti-irani_650x400_23_July_22.jpg"
+        
+      },
+
+     
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
+        "tweetText" : "BJP spokes person Tajinder bagga tweet that Smriti irani daughter is not the owner of the restaurant,congress is trying to defame her😁😁😁 see the video here she proudly said yes im the owner😁",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1551107421191385088/xJCoKvSq_400x400.jpg",
+        "name" : "Elizabeth",
+        "handle" : "@Thapa4INC",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550808013539119106",
+        "tweetText" : "Jairam Ramesh said, he is taking a position based on RTI application. Where did it mention my daughter's name? The allegation that my daughter runs an illegal bar is malicious, with the intent not only to assassinate her character, but also to politically malign me: Smriti Irani",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/rnryivngWVw"
+      },
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/q1pF9irC64o"
+      }
+
+      
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
   {
 
     "index": -30,
