@@ -3,12 +3,104 @@ const newsdataJSON = [
 
   {
 
+    "index": -45,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/india/droupadi-murmu-swearing-in-live-updates-8049577/",
+       "headlineText" : "Droupadi Murmu Swearing-in Live: Murmu pays tribute at Rajghat, to take oath as President of India shortly",
+       "newsImage" : "https://images.indianexpress.com/2022/07/murmu-rajghat.png"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://timesofindia.indiatimes.com/india/99-turnout-in-presidential-poll-result-on-july-21/articleshow/92966498.cms",
+        "newsInlineText" : "President Election 2022: 99% turnout in presidential poll, result on July 21",
+        "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92960187,imgsize-67152,width-400,resizemode-4/92960187.jpg"
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.dnaindia.com/india/report-what-will-be-droupadi-murmu-s-monthly-salary-as-president-president-of-india-s-car-pension-allowances-2970297",
+        "newsInlineText" : "Droupadi Murmu news: What will be her monthly salary? President of India's car, pension, allowances explained",
+        "newsInlineImage" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523995-untitled-design-90.png"
+        
+      },
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/PiyushGoyal/status/1549637537144406016",
+        "tweetText" : "More power to you, Droupadi Murmu ji.  🙏 Tribals praying ahead of result declaration of Presidential elections",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1409373770716905477/DmfWfsij_400x400.jpg",
+        "name" : "Piyush Goyal ",
+        "handle" : "@PiyushGoyal",
+        "tweetImage" : "https://pbs.twimg.com/media/FYFrE9YagAE4BSF?format=jpg&name=small"
+      },
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/droupadi-murmu-vs-yashwant-sinha-counting-of-votes-for-presidential-election-today-10-facts-3178557",
+        "newsInlineText" : "India's New President To Be Declared Today: 10 Facts",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/tdbmi8b8_droupadi-murmu-yashwant-sinha-droupadi-murmu-pti_625x300_21_July_22.jpg"
+        
+      },
+   
+      
+
+       {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/draupadimurmupr/status/1549060251407695872",
+        "tweetText" : "Grateful to all Minister's, MP, MLA'S  who voted for me today (NDA nominated Presidential Candidate); An immense pleasure for me to get your support! Let's hope for the best in upcoming days. Jay Mahaprabhu Jagannath.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1546879350212947968/0Mm9GCaB_400x400.jpg",
+        "name" : "Draupadi Murmu",
+        "handle" : "@draupadimurmupr"
+      },
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/3TXRxKz7pwY"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/sudarsansand/status/1548926052562452482",
+        "tweetText" : "Best wishes to Presidential candidate and very simple soul respected Smt #DraupadiMurmu Ji.🙏",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1547778116172386305/7gRSIAkk_400x400.jpg",
+        "name" : "Sudarsan Pattnaik",
+        "handle" : "@sudarsansand",
+        "tweetImage" : "https://pbs.twimg.com/media/FX7kB1oUIAIeUke?format=jpg&name=small"
+      }
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
+  {
+
     "index": -40,
     "headline":{
    
-       "newsURL" : "https://www.timesnownews.com/exclusive/partha-chatterjee-arrested-what-is-the-alleged-teachers-recruitment-scam-article-93076720",
-       "headlineText" : "Partha Chatterjee arrested: What is the alleged teachers recruitment scam?",
-       "newsImage" : "https://pbs.twimg.com/media/FYRyqjRVQAEh9zZ?format=jpg&name=360x360"
+       "newsURL" : "https://www.hindustantimes.com/india-news/ed-officials-reach-sskm-to-shift-partha-chatterjee-to-aiims-bhubaneswar-101658711939331.html",
+       "headlineText" : "Jailed Bengal minister Partha Chatterjee leaves SSKM hospital for AIIMS Bhubaneswar",
+       "newsImage" : "https://images.hindustantimes.com/img/2022/07/25/550x309/partha_1658715636255_1658715655268_1658715655268.PNG"
        
        },
      "social": [ 
@@ -164,12 +256,86 @@ const newsdataJSON = [
 
    {
 
+    "index": -34,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/sports/cricket/ind-vs-wi-2nd-odi-live-score-updates-trinidad-odi-8048849/",
+       "headlineText" : "IND vs WI 2nd ODI Highlights: Axar Patel stars as India defeat West Indies by 2 wickets, seal series 2-0",
+       "newsImage" : "https://images.indianexpress.com/2022/07/WI-IND-3.jpg"
+       
+       },
+     "social": [ 
+
+     
+
+     
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ESPNcricinfo/status/1551415336003575809",
+        "tweetText" : "Axar Patel hits the second fastest ODI fifty for India against the Windies 🔥",
+        "profilePic" : "https://pbs.twimg.com/profile_images/888015358958940165/SmaHw6Rj_400x400.jpg",
+        "name" : "ESPNcricinfo",
+        "handle" : "@ESPNcricinfo",
+        "tweetImage" : "https://pbs.twimg.com/media/FYe8BJbXoAEH3-M?format=jpg&name=small"
+      },
+
+       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://cricketaddictor.com/india-tour-of-west-indies-2022/ind-vs-wi-parthiv-patel-hails-indias-top-order-for-scoring-runs-in-1st-odi/",
+        "newsInlineText" : "IND vs WI: Parthiv Patel Hails India’s Top Order For Scoring Runs In 1st ODI",
+        "newsInlineImage" : "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/05/Parthiv-Patel.jpg?w=640&ssl=1"
+        
+      },
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/SDhawan25/status/1551381972219416576",
+        "tweetText" : "Talent wins game but teamwork and intelligence wins championship! 🙌 Kudos to team for the amazing face-off! 😍👏 #IndvsWI",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1347217650397532160/5HDINcGB_400x400.jpg",
+        "name" : "Shikhar Dhawan",
+        "handle" : "@SDhawan25",
+        "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
+      },
+
+      
+
+     
+
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/idNDqcyeAAU"
+      }
+
+      
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
+   {
+
     "index": -33,
     "headline":{
    
-       "newsURL" : "https://economictimes.indiatimes.com/news/newsblogs/latest-daily-news-and-updates-july-24/liveblog/93082041.cms",
-       "headlineText" : "Delhi Monkeypox Case Live Updates: Man from Delhi without any history of foreign travel tests positive for Monkeypox virus",
-       "newsImage" : "https://img.etimg.com/thumb/msid-93082041,width-294,resizemode-4,imgsize-76770/latest-daily-news-and-updates-july-24.jpg"
+       "newsURL" : "https://www.indiatoday.in/india/story/monkeypox-in-india-precautions-prevention-1979506-2022-07-25",
+       "headlineText" : "Is it an STD? How does it spread? All about monkeypox symptoms, prevention as India logs 4th case",
+       "newsImage" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/monkeypox-test-reuters_1200x768.jpeg?uAmgm5m7USCjY2Rg.vubyICDvlsLn.m0&size=770:433"
        
        },
      "social": [ 
@@ -242,97 +408,7 @@ const newsdataJSON = [
      ]
    },
 
-  {
-
-    "index": -30,
-    "headline":{
-   
-       "newsURL" : "https://indianexpress.com/article/india/presidential-election-2022-results-counting-votes-live-updates-yashwant-sinha-droupadi-murmu-8042430/",
-       "headlineText" : "Presidential Election 2022 Result Live Updates: Droupadi Murmu makes history, becomes India’s first tribal woman President",
-       "newsImage" : "https://images.indianexpress.com/2022/07/modi-13.jpg"
-       
-       },
-     "social": [ 
-
-      {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://timesofindia.indiatimes.com/india/99-turnout-in-presidential-poll-result-on-july-21/articleshow/92966498.cms",
-        "newsInlineText" : "President Election 2022: 99% turnout in presidential poll, result on July 21",
-        "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92960187,imgsize-67152,width-400,resizemode-4/92960187.jpg"
-        
-      },
-
-      {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://www.dnaindia.com/india/report-what-will-be-droupadi-murmu-s-monthly-salary-as-president-president-of-india-s-car-pension-allowances-2970297",
-        "newsInlineText" : "Droupadi Murmu news: What will be her monthly salary? President of India's car, pension, allowances explained",
-        "newsInlineImage" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523995-untitled-design-90.png"
-        
-      },
-      {
-        "type": "TweetWithImage",
-        "key":2,
-        "tweetURL" : "https://twitter.com/PiyushGoyal/status/1549637537144406016",
-        "tweetText" : "More power to you, Droupadi Murmu ji.  🙏 Tribals praying ahead of result declaration of Presidential elections",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1409373770716905477/DmfWfsij_400x400.jpg",
-        "name" : "Piyush Goyal ",
-        "handle" : "@PiyushGoyal",
-        "tweetImage" : "https://pbs.twimg.com/media/FYFrE9YagAE4BSF?format=jpg&name=small"
-      },
-      {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://www.ndtv.com/india-news/droupadi-murmu-vs-yashwant-sinha-counting-of-votes-for-presidential-election-today-10-facts-3178557",
-        "newsInlineText" : "India's New President To Be Declared Today: 10 Facts",
-        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/tdbmi8b8_droupadi-murmu-yashwant-sinha-droupadi-murmu-pti_625x300_21_July_22.jpg"
-        
-      },
-   
-      
-
-       {
-        "type": "TweetMuchText",
-        "key":2,
-        "tweetURL" : "https://twitter.com/draupadimurmupr/status/1549060251407695872",
-        "tweetText" : "Grateful to all Minister's, MP, MLA'S  who voted for me today (NDA nominated Presidential Candidate); An immense pleasure for me to get your support! Let's hope for the best in upcoming days. Jay Mahaprabhu Jagannath.",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1546879350212947968/0Mm9GCaB_400x400.jpg",
-        "name" : "Draupadi Murmu",
-        "handle" : "@draupadimurmupr"
-      },
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/3TXRxKz7pwY"
-      },
-
-      {
-        "type": "TweetWithImage",
-        "key":2,
-        "tweetURL" : "https://twitter.com/sudarsansand/status/1548926052562452482",
-        "tweetText" : "Best wishes to Presidential candidate and very simple soul respected Smt #DraupadiMurmu Ji.🙏",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1547778116172386305/7gRSIAkk_400x400.jpg",
-        "name" : "Sudarsan Pattnaik",
-        "handle" : "@sudarsansand",
-        "tweetImage" : "https://pbs.twimg.com/media/FX7kB1oUIAIeUke?format=jpg&name=small"
-      }
-
-     
-       
-      
-      
-   
-      
-
-      
   
-      
-        
-       
-     ]
-   },
 
   {
 

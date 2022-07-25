@@ -29,6 +29,7 @@ const staticdata = {
         telegraphindia:"https://yt3.ggpht.com/ytc/AKedOLRXgtphHbGgmwzwEMyLtFpdAbH-jm8qRUMYREtInac=s900-c-k-c0x00ffffff-no-rj",
         "economictimes.indiatimes":"https://pbs.twimg.com/profile_images/1285571205966073857/rE3KyZFW_400x400.jpg",
         thehindu:"https://png.pngitem.com/pimgs/s/504-5047781_political-biased-to-hindu-newspaper-5-september-2019.png",
+        cricketaddictor: "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/02/ca-logo.png?fit=241%2C40&ssl=1"
 
 
         
