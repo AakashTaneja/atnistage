@@ -358,7 +358,7 @@ const newsdataJSON = [
 
    {
 
-    "index": -33,
+    "index": -34,
     "headline":{
    
        "newsURL" : "https://www.indiatoday.in/india/story/monkeypox-in-india-precautions-prevention-1979506-2022-07-25",
@@ -367,6 +367,24 @@ const newsdataJSON = [
        
        },
      "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.india.com/explainer/explained-will-monkeypox-spread-like-covid-in-india-5533508/",
+        "newsInlineText" : "EXPLAINED: Will Monkeypox Spread Like COVID in India?",
+        "newsInlineImage" : "https://static.india.com/wp-content/uploads/2022/07/monkey-pox-xollage.jpg?impolicy=Medium_Widthonly&w=700&h=467%20widht="
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://slate.com/technology/2022/07/monkeypox-spread-sex-men-vaccines-worry.html",
+        "newsInlineText" : "Monkeypox spreads via sex, mostly. It's ok to say that.",
+        "newsInlineImage" : "https://compote.slate.com/images/bfd8a41f-7a97-432d-bca5-caf5de19f6dd.jpeg?width=840&rect=8192x5461&offset=0x0"
+        
+      },
 
       {
         "type": "NewsInline",
