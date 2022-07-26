@@ -3,15 +3,32 @@ const newsdataJSON = [
 
   {
 
-    "index": -45,
+    "index": -44,
     "headline":{
    
-       "newsURL" : "https://indianexpress.com/article/india/droupadi-murmu-swearing-in-live-updates-8049577/",
-       "headlineText" : "Droupadi Murmu Swearing-in Live: Murmu pays tribute at Rajghat, to take oath as President of India shortly",
-       "newsImage" : "https://images.indianexpress.com/2022/07/murmu-rajghat.png"
+       "newsURL" : "https://www.ndtv.com/india-news/president-droupadi-murmu-takes-oath-top-5-quotes-3190384",
+       "headlineText" : "President Droupadi Murmu's Top 5 Quotes In Historic Address",
+       "newsImage" : "https://c.ndtvimg.com/2022-07/0dlp1nco_president-droupadi-murmu-speech-pti-pic_650x400_25_July_22.jpg"
        
        },
      "social": [ 
+
+        {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/anandmahindra/status/1551435190517374976",
+        "tweetText" : "Look no further for your #MondayMotivation Above all else, she is a person of extraordinary courage and a commitment to serve. Her inner strength has enabled her to withstand all the challenges life has thrown at her. I join in saluting her. A moment of intense pride for India.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1469566916356235278/0ZNq-mmf_400x400.jpg",
+        "name" : "anand mahindra",
+        "handle" : "@anandmahindra",
+        "tweetImage" : "https://pbs.twimg.com/media/FYFrE9YagAE4BSF?format=jpg&name=small"
+      },
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/dYBgkoMciOE"
+      },
+      
 
       {
         "type": "NewsInline",
@@ -21,6 +38,8 @@ const newsdataJSON = [
         "newsInlineImage" : "https://static.toiimg.com/thumb/msid-92960187,imgsize-67152,width-400,resizemode-4/92960187.jpg"
         
       },
+
+     
 
       {
         "type": "NewsInline",
@@ -95,15 +114,24 @@ const newsdataJSON = [
 
   {
 
-    "index": -40,
+    "index": -41,
     "headline":{
    
-       "newsURL" : "https://www.hindustantimes.com/india-news/ed-officials-reach-sskm-to-shift-partha-chatterjee-to-aiims-bhubaneswar-101658711939331.html",
-       "headlineText" : "Jailed Bengal minister Partha Chatterjee leaves SSKM hospital for AIIMS Bhubaneswar",
-       "newsImage" : "https://images.hindustantimes.com/img/2022/07/25/550x309/partha_1658715636255_1658715655268_1658715655268.PNG"
+       "newsURL" : "https://www.news18.com/news/india/ssc-scam-live-updates-ssc-teacher-recruitment-scam-west-bengal-minister-partha-chatterjee-aide-arpita-mukherjee-arrest-ed-enforcement-directorate-probe-bjp-tmc-mamata-banerjee-livenews-5624851.html",
+       "headlineText" : "Bengal SSC Scam LIVE: Partha Chatterjee's Medical Reports Are Fine, Says Kolkata Hospital; Congress Asks CM Mamata to Sack Minister",
+       "newsImage" : "https://images.news18.com/ibnlive/uploads/2022/07/collage-maker-26-jul-2022-07.44-am-16588021853x2.jpg?impolicy=website&width=210&height=140"
        
        },
      "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/crocodiles-will-bite-you-mamata-banerjee-to-bjp-after-ministers-arrest-3192710",
+        "newsInlineText" : "'Crocodiles Will Bite You If...': Mamata Banerjee's Warning For BJP",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/726sj90o_mamata-banerjee-ani-650_650x400_21_July_22.jpg"
+        
+      },
 
       {
         "type": "NewsInline",
