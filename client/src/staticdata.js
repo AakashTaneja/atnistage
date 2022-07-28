@@ -30,7 +30,8 @@ const staticdata = {
         "economictimes.indiatimes":"https://pbs.twimg.com/profile_images/1285571205966073857/rE3KyZFW_400x400.jpg",
         thehindu:"https://png.pngitem.com/pimgs/s/504-5047781_political-biased-to-hindu-newspaper-5-september-2019.png",
         cricketaddictor: "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/02/ca-logo.png?fit=241%2C40&ssl=1",
-        slate:"https://logos-download.com/wp-content/uploads/2021/01/Slate_Logo-700x218.png"
+        slate:"https://logos-download.com/wp-content/uploads/2021/01/Slate_Logo-700x218.png",
+        thenewsminute:"https://media.glassdoor.com/sqll/4402561/the-news-minute-squarelogo-1627044608667.png"
 
 
         

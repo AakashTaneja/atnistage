@@ -3,6 +3,266 @@ const newsdataJSON = [
 
   {
 
+    "index": -61,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/cities/kolkata/huge-cash-found-again-another-flat-arrested-wb-ministers-aide-8055634/",
+       "headlineText" : "Bengal school jobs scam: Cash worth Rs 20 crore, gold bars found in another house owned by Arpita Mukherjee",
+       "newsImage" : "https://images.indianexpress.com/2022/07/Arpita-Mukherjee.jpg"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/navikakumar/status/1552335827492950017",
+        "tweetText" : "21.90 cr found 3 days ago by @dir_ed in Kolkatta now 15 cr estimated more & 3 kg of gold bars found in another flat of accused #ArpitaMukherjee. Silly or over confident?? ",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1295231628558688256/ep9zb0H5_400x400.jpg",
+        "name" : "Navika Kumar",
+        "handle" : "@navikakumar",
+        "tweetImage" : "https://pbs.twimg.com/media/FYsBMwuUYAIOGw4?format=jpg&name=small"
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/crocodiles-will-bite-you-mamata-banerjee-to-bjp-after-ministers-arrest-3192710",
+        "newsInlineText" : "'Crocodiles Will Bite You If...': Mamata Banerjee's Warning For BJP",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/726sj90o_mamata-banerjee-ani-650_650x400_21_July_22.jpg"
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.telegraphindia.com/west-bengal/who-is-arpita-mukherjee-from-whose-house-the-ed-recovered-rs-21-crore/cid/1876119",
+        "newsInlineText" : "Who is Arpita Mukherjee from whose house the ED recovered Rs 21 crore?",
+        "newsInlineImage" : "https://assets.telegraphindia.com/telegraph/2022/Jul/1658569171_new-project-39.jpg"
+        
+      },
+
+     
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/abhijitmajumder/status/1550773685719511040",
+        "tweetText" : "After Arpita Mukherjee, another ‘close associate’ of TMC minister Partha Chatterjee is on ED radar in SSC scam. Monalisa Das teaches Bengali in Kazi Nazrul University, Asansol. Apparently has more than 10 properties just in Shantiniketan, several in Kolkata. Sonar Bangla indeed.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1549016964357844993/mPRhAtta_400x400.jpg",
+        "name" : "Abhijit Majumder",
+        "handle" : "@abhijitmajumder",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/subhsays/status/1550554386048307200",
+        "tweetText" : "After Arpita mukherjee, Monalisa das comes into light . It is being she has properties of land , flat worth crores in Bolpur, Birbhum. ED will send one  team to Bolpur within tmrw mrng",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1512653497959092226/nahpGUYJ_400x400.jpg",
+        "name" : "Subham.",
+        "handle" : "@subhsays",
+        "tweetImage" : "https://pbs.twimg.com/media/FYSs_i-aQAAmMti?format=jpg&name=small"
+      },
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550811168976953344",
+        "tweetText" : "Partha Chatterjee (West Bengal cabinet minister and former Education Minister of the state) is not feeling well. He has developed heartache. We demanded that proper medical facilities should be given to him if ED's custody is granted: Somnath Mukherjee, Partha Chatterjee's lawyer",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "KooWithImage",
+        "key":5,
+        "kooURL":"https://www.kooapp.com/koo/rameshwararya/6f79297f-b347-42e5-b81f-879de7abf656",
+        "name" : "Rameshwar Arya",
+        "handle": "@ameshwararya",
+        "profilePic" : "https://images.kooapp.com/transcode_input/1740306/eb304625-42d8-481f-9de6-d3541564a4efvoke.jpg",
+        "kooText" : "#parthachatterjee",
+        "kooImage": "https://images.kooapp.com/transcode_input/1740306/2fb950d3-0f6d-4f72-bac0-c01acb809f8b.jpg",
+      },
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/jUf3PS6Vk6I"
+      }
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
+  {
+
+    "index": -52,
+    "headline":{
+   
+       "newsURL" : "https://www.ndtv.com/india-news/monsoon-session-opposition-relay-protest-suspended-mps-20-suspended-opposition-mps-begin-50-hour-relay-protest-in-parliament-3200259",
+       "headlineText" : "Overnight Protest In Parliament By 20 Suspended Opposition MPs",
+       "newsImage" : "https://c.ndtvimg.com/2022-07/lu5n8uq8_opposition-relay-protestani_625x300_27_July_22.jpg"
+       
+       },
+     "social": [ 
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://indianexpress.com/article/india/sonia-gandhi-ed-summons-congress-protest-live-updates-8051505/",
+         "newsInlineText" : "Live Updates: Sonia Gandhi to appear before ED for third day; security ramped up outside party office",
+         "newsInlineImage" : "https://images.indianexpress.com/2022/07/sonia-3.jpg"
+         
+       },
+
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/auj902xS0HE"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/timesofindia/status/1551875518881968130",
+        "tweetText" : "#INPICS | #RahulGandhi detained during #Congress protest against #EnforcementDirectorate questioning of #SoniaGandhi",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1129666669054324736/1W_E72cn_400x400.png",
+        "name" : "The Times Of India",
+        "handle" : "@timesofindia",
+        "tweetImage": "https://pbs.twimg.com/media/FYlPOItacAAm5PN?format=jpg&name=360x360"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1551828732088041473",
+        "tweetText" : "Delhi | Congress leader Mallikarjun Kharge detained by police during protest against ED questioning of Sonia Gandhi in National Herald case",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage": "https://pbs.twimg.com/media/FYkz3mtaAAIWbbR?format=jpg&name=900x900"
+      },
+
+
+      
+
+       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550067660410732544",
+        "tweetText" : "Karnataka | A car was set on fire allegedly by Youth Congress workers, in front of ED office at Shantinagar in Bengaluru earlier today. Congress is holding nationwide protests today against the party's interim president Sonia Gandhi's questioning by the agency, in Delhi.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage": "https://pbs.twimg.com/media/FYLw-0XagAET2p6?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550060725217148928",
+        "tweetText" : "Telangana | Congress workers torched a two-wheeler near the ED office in Hyderabad today as they protested over the questioning of the party's interim president Sonia Gandhi by the agency in Delhi.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage": "https://pbs.twimg.com/media/FYLr6jeakAAQHQt?format=jpg&name=small"
+      },
+
+       {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/rsprasad/status/1550078698791272448",
+        "tweetText" : "It is unfortunate that when law enforcement agencies have asked Sonia Gandhi to appear before them for an investigation, Congress party is protesting in the streets. Is Sonia Gandhi above laws of India?",
+        "profilePic" : "https://pbs.twimg.com/profile_images/727848709518675968/xebahww0_400x400.jpg",
+        "name" : "Ravi Shankar Prasad",
+        "handle" : "@rsprasad",
+        "tweetImage": "https://pbs.twimg.com/media/FVc301BacAAzm9W?format=jpg&name=small"
+      },
+
+       
+   
+      {
+        "type": "KooWithImage",
+        "key":5,
+        "kooURL":"https://www.kooapp.com/koo/httpswww.facebook.comWkMewatnews102105202344027/1b273bf5-d162-4c56-9c73-c1016f25b704",
+        "name" : "WAHID KHAN",
+        "handle": "@httpswww.facebook.com...",
+        "profilePic" : "https://images.kooapp.com/transcode_input/8549577/b94e11dc-6db3-4b7a-868c-8e3aaced5336voke.jpg",
+        "kooText" : "Congress workers stop trains, torch vehicles, launch violent protests across the country as ED questions Sonia Gandhi...This is democracy for Congress party.",
+        "kooImage": "https://images.kooapp.com/transcode_input/8549577/e4a677d7-aba5-4c4e-91c9-8547587b3fdc.jpg",
+      }
+       
+     ]
+   },
+
+   {
+
+    "index": -50,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/cities/bangalore/bjp-youth-wing-worker-hacked-to-death-in-karnatakas-dakshina-kannada-district-8053851/",
+       "headlineText" : "BJP youth wing worker hacked to death in Karnataka’s Dakshina Kannada district",
+       "newsImage" : "https://images.indianexpress.com/2022/07/Karnataka-3.jpg"
+       
+       },
+     "social": [ 
+   
+       {
+         "type": "NewsInline",
+         "key":5,
+         "newsInlineURL" : "https://www.news18.com/news/india/ktaka-bjp-youth-leader-killing-cm-bommai-cancels-govt-anniversary-event-victims-mother-demands-hanging-of-culprits-5638735.html",
+         "newsInlineText" : "Karnataka BJP Worker's Murder: Won't Spare Culprits, Says CM Bommai, Cancels Govt Anniversary Event; Yediyurappa's Son Vijayendra to Meet Family",
+         "newsInlineImage" : "https://images.news18.com/ibnlive/uploads/2022/07/karnataka-cm-bommai-and-praven-nettaru-16589760953x2.jpg?impolicy=website&width=510&height=356"
+         
+       },
+
+       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.thenewsminute.com/article/section-144-imposed-across-dakshina-kannada-over-bjp-yuva-morcha-member-s-murder-166274",
+        "newsInlineText" : "Section 144 imposed across Dakshina Kannada over BJP Yuva Morcha member’s murder",
+        "newsInlineImage" : "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/PraveenNettaru_BJPYuvaMorcha_1200x800_270722.jpg"
+        
+      },
+
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/IPfgYB6th1s"
+      },
+
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/EdgedAndGone/status/1552503150359171078",
+        "tweetText" : "BJP workers have realised party won't do shit for them so they have decided to take things in their own hands. #PraveenNettaru #KarnatakaBJPWorkerDeath",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1521788980156506112/4JHJYNfG_400x400.jpg",
+        "name" : "Bharat Jain",
+        "handle" : "@EdgedAndGone",
+        "tweetImage": "https://pbs.twimg.com/media/FYlPOItacAAm5PN?format=jpg&name=360x360"
+      }
+       
+     ]
+   },
+
+  {
+
     "index": -44,
     "headline":{
    
@@ -112,14 +372,16 @@ const newsdataJSON = [
      ]
    },
 
-  {
+  
 
-    "index": -41,
+   {
+
+    "index": -38,
     "headline":{
    
-       "newsURL" : "https://www.news18.com/news/india/ssc-scam-live-updates-ssc-teacher-recruitment-scam-west-bengal-minister-partha-chatterjee-aide-arpita-mukherjee-arrest-ed-enforcement-directorate-probe-bjp-tmc-mamata-banerjee-livenews-5624851.html",
-       "headlineText" : "Bengal SSC Scam LIVE: Partha Chatterjee's Medical Reports Are Fine, Says Kolkata Hospital; Congress Asks CM Mamata to Sack Minister",
-       "newsImage" : "https://images.news18.com/ibnlive/uploads/2022/07/collage-maker-26-jul-2022-07.44-am-16588021853x2.jpg?impolicy=website&width=210&height=140"
+       "newsURL" : "https://www.timesnownews.com/entertainment-news/police-case-filed-against-ranveer-singh-for-nude-photoshoot-ngo-claims-such-actors-try-to-get-cheap-publicity-bollywood-news-entertainment-news-article-93112216",
+       "headlineText" : "Police case filed against Ranveer Singh for nude photoshoot, NGO says it hurts sentiments",
+       "newsImage" : "https://static.tnn.in/photo/msid-93112185,imgsize-20970,updatedat-1658749208714,width-200,height-200,resizemode-75/93112185.jpg"
        
        },
      "social": [ 
@@ -127,18 +389,18 @@ const newsdataJSON = [
       {
         "type": "NewsInline",
         "key":5,
-        "newsInlineURL" : "https://www.ndtv.com/india-news/crocodiles-will-bite-you-mamata-banerjee-to-bjp-after-ministers-arrest-3192710",
-        "newsInlineText" : "'Crocodiles Will Bite You If...': Mamata Banerjee's Warning For BJP",
-        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/726sj90o_mamata-banerjee-ani-650_650x400_21_July_22.jpg"
+        "newsInlineURL" : "https://indianexpress.com/article/explained/explained-what-indias-laws-against-obscenity-ranveer-singh-allegedly-violated-8052620/",
+        "newsInlineText" : "Explained: What are India’s laws against obscenity that Ranveer Singh has allegedly violated?",
+        "newsInlineImage" : "https://images.indianexpress.com/2022/07/ranveerexp.jpg"
         
       },
 
       {
         "type": "NewsInline",
         "key":5,
-        "newsInlineURL" : "https://www.telegraphindia.com/west-bengal/who-is-arpita-mukherjee-from-whose-house-the-ed-recovered-rs-21-crore/cid/1876119",
-        "newsInlineText" : "Who is Arpita Mukherjee from whose house the ED recovered Rs 21 crore?",
-        "newsInlineImage" : "https://assets.telegraphindia.com/telegraph/2022/Jul/1658569171_new-project-39.jpg"
+        "newsInlineURL" : "https://timesofindia.indiatimes.com/life-style/fashion/buzz/from-ranveer-singh-to-lady-gaga-celebs-who-went-all-nude-for-photoshoots/photostory/93057498.cms",
+        "newsInlineText" : "From Ranveer Singh to Lady Gaga: Celebs who went all nude for photoshoots",
+        "newsInlineImage" : "https://static.toiimg.com/thumb/93057553.cms?width=680&height=512&imgsize=87652"
         
       },
 
@@ -146,51 +408,34 @@ const newsdataJSON = [
       {
         "type": "TweetWithImage",
         "key":2,
-        "tweetURL" : "https://twitter.com/abhijitmajumder/status/1550773685719511040",
-        "tweetText" : "After Arpita Mukherjee, another ‘close associate’ of TMC minister Partha Chatterjee is on ED radar in SSC scam. Monalisa Das teaches Bengali in Kazi Nazrul University, Asansol. Apparently has more than 10 properties just in Shantiniketan, several in Kolkata. Sonar Bangla indeed.",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1549016964357844993/mPRhAtta_400x400.jpg",
-        "name" : "Abhijit Majumder",
-        "handle" : "@abhijitmajumder",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+        "tweetURL" : "https://twitter.com/htTweets/status/1550596547313803265",
+        "tweetText" : "5 year old me waiting for my mom to apply soap",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1300145337617661952/Z6rMaX5R_400x400.jpg",
+        "name" : "Hindustan Times",
+        "handle" : "@htTweets",
+        "tweetImage" : "https://pbs.twimg.com/card_img/1550401484336074754/BQsshQ68?format=jpg&name=small"
       },
 
       {
         "type": "TweetWithImage",
         "key":2,
-        "tweetURL" : "https://twitter.com/subhsays/status/1550554386048307200",
-        "tweetText" : "After Arpita mukherjee, Monalisa das comes into light . It is being she has properties of land , flat worth crores in Bolpur, Birbhum. ED will send one  team to Bolpur within tmrw mrng",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1512653497959092226/nahpGUYJ_400x400.jpg",
-        "name" : "Subham.",
-        "handle" : "@subhsays",
-        "tweetImage" : "https://pbs.twimg.com/media/FYSs_i-aQAAmMti?format=jpg&name=small"
+        "tweetURL" : "https://twitter.com/FfYkdon/status/1551753439264223234",
+        "tweetText" : "Up coming iifa awards 2022",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1531361938424205312/tOdSbC9K_400x400.jpg",
+        "name" : "yash kamble",
+        "handle" : "@FfYkdon",
+        "tweetImage" : "https://pbs.twimg.com/media/FYjvhfnaAAAz1Zr?format=jpg&name=small"
       },
+
       {
-        "type": "TweetMuchText",
+        "type": "TweetWithImage",
         "key":2,
-        "tweetURL" : "https://twitter.com/ANI/status/1550811168976953344",
-        "tweetText" : "Partha Chatterjee (West Bengal cabinet minister and former Education Minister of the state) is not feeling well. He has developed heartache. We demanded that proper medical facilities should be given to him if ED's custody is granted: Somnath Mukherjee, Partha Chatterjee's lawyer",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
-        "name" : "ANI",
-        "handle" : "@ANI",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-      {
-        "type": "KooWithImage",
-        "key":5,
-        "kooURL":"https://www.kooapp.com/koo/rameshwararya/6f79297f-b347-42e5-b81f-879de7abf656",
-        "name" : "Rameshwar Arya",
-        "handle": "@ameshwararya",
-        "profilePic" : "https://images.kooapp.com/transcode_input/1740306/eb304625-42d8-481f-9de6-d3541564a4efvoke.jpg",
-        "kooText" : "#parthachatterjee",
-        "kooImage": "https://images.kooapp.com/transcode_input/1740306/2fb950d3-0f6d-4f72-bac0-c01acb809f8b.jpg",
-      },
-     
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/jUf3PS6Vk6I"
+        "tweetURL" : "https://twitter.com/Aryatepes_i/status/1551870390846181376",
+        "tweetText" : "🤣😂",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1551140733171941377/_vqtfm7n_400x400.jpg",
+        "name" : "Arya Marishka Tepes",
+        "handle" : "@Aryatepes_i",
+        "tweetImage" : "https://pbs.twimg.com/media/FYlZ4BmaMAIOYrM?format=jpg&name=small"
       }
 
      
@@ -263,80 +508,6 @@ const newsdataJSON = [
         "type": "Youtube",
         "key":4,
         "youtubeURL":"https://www.youtube.com/embed/q1pF9irC64o"
-      }
-
-      
-
-     
-       
-      
-      
-   
-      
-
-      
-  
-      
-        
-       
-     ]
-   },
-
-   {
-
-    "index": -34,
-    "headline":{
-   
-       "newsURL" : "https://indianexpress.com/article/sports/cricket/ind-vs-wi-2nd-odi-live-score-updates-trinidad-odi-8048849/",
-       "headlineText" : "IND vs WI 2nd ODI Highlights: Axar Patel stars as India defeat West Indies by 2 wickets, seal series 2-0",
-       "newsImage" : "https://images.indianexpress.com/2022/07/WI-IND-3.jpg"
-       
-       },
-     "social": [ 
-
-     
-
-     
-      {
-        "type": "TweetWithImage",
-        "key":2,
-        "tweetURL" : "https://twitter.com/ESPNcricinfo/status/1551415336003575809",
-        "tweetText" : "Axar Patel hits the second fastest ODI fifty for India against the Windies 🔥",
-        "profilePic" : "https://pbs.twimg.com/profile_images/888015358958940165/SmaHw6Rj_400x400.jpg",
-        "name" : "ESPNcricinfo",
-        "handle" : "@ESPNcricinfo",
-        "tweetImage" : "https://pbs.twimg.com/media/FYe8BJbXoAEH3-M?format=jpg&name=small"
-      },
-
-       {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://cricketaddictor.com/india-tour-of-west-indies-2022/ind-vs-wi-parthiv-patel-hails-indias-top-order-for-scoring-runs-in-1st-odi/",
-        "newsInlineText" : "IND vs WI: Parthiv Patel Hails India’s Top Order For Scoring Runs In 1st ODI",
-        "newsInlineImage" : "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/05/Parthiv-Patel.jpg?w=640&ssl=1"
-        
-      },
-      {
-        "type": "Tweet",
-        "key":2,
-        "tweetURL" : "https://twitter.com/SDhawan25/status/1551381972219416576",
-        "tweetText" : "Talent wins game but teamwork and intelligence wins championship! 🙌 Kudos to team for the amazing face-off! 😍👏 #IndvsWI",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1347217650397532160/5HDINcGB_400x400.jpg",
-        "name" : "Shikhar Dhawan",
-        "handle" : "@SDhawan25",
-        "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
-      },
-
-      
-
-     
-
-     
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/idNDqcyeAAU"
       }
 
       
@@ -454,6 +625,82 @@ const newsdataJSON = [
      ]
    },
 
+   {
+
+    "index": -33,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/sports/cricket/ind-vs-wi-2nd-odi-live-score-updates-trinidad-odi-8048849/",
+       "headlineText" : "IND vs WI 2nd ODI Highlights: Axar Patel stars as India defeat West Indies by 2 wickets, seal series 2-0",
+       "newsImage" : "https://images.indianexpress.com/2022/07/WI-IND-3.jpg"
+       
+       },
+     "social": [ 
+
+     
+
+     
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ESPNcricinfo/status/1551415336003575809",
+        "tweetText" : "Axar Patel hits the second fastest ODI fifty for India against the Windies 🔥",
+        "profilePic" : "https://pbs.twimg.com/profile_images/888015358958940165/SmaHw6Rj_400x400.jpg",
+        "name" : "ESPNcricinfo",
+        "handle" : "@ESPNcricinfo",
+        "tweetImage" : "https://pbs.twimg.com/media/FYe8BJbXoAEH3-M?format=jpg&name=small"
+      },
+
+       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://cricketaddictor.com/india-tour-of-west-indies-2022/ind-vs-wi-parthiv-patel-hails-indias-top-order-for-scoring-runs-in-1st-odi/",
+        "newsInlineText" : "IND vs WI: Parthiv Patel Hails India’s Top Order For Scoring Runs In 1st ODI",
+        "newsInlineImage" : "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/05/Parthiv-Patel.jpg?w=640&ssl=1"
+        
+      },
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/SDhawan25/status/1551381972219416576",
+        "tweetText" : "Talent wins game but teamwork and intelligence wins championship! 🙌 Kudos to team for the amazing face-off! 😍👏 #IndvsWI",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1347217650397532160/5HDINcGB_400x400.jpg",
+        "name" : "Shikhar Dhawan",
+        "handle" : "@SDhawan25",
+        "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
+      },
+
+      
+
+     
+
+     
+
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeURL":"https://www.youtube.com/embed/idNDqcyeAAU"
+      }
+
+      
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
+       
+     ]
+   },
+
+   
+
   
 
   {
@@ -461,9 +708,9 @@ const newsdataJSON = [
     "index": -20,
     "headline":{
    
-       "newsURL" : "https://www.hindustantimes.com/india-news/national-herald-case-sonia-gandhi-leaves-ed-office-after-2-hours-of-questioning-reports-101658396399128.html",
-       "headlineText" : "Sonia Gandhi leaves ED office after 2 hours of questioning in National Herald case",
-       "newsImage" : "https://images.hindustantimes.com/img/2022/07/21/550x309/PTI07-21-2022-000067A-0_1658396678944_1658396678944_1658396698591_1658396698591.jpg"
+       "newsURL" : "https://www.hindustantimes.com/india-news/11-mps-suspended-from-rajya-sabha-after-protests-by-opposition-101658826508852.html",
+       "headlineText" : "In new record, 19 Rajya Sabha MPs suspended amid opposition protests",
+       "newsImage" : "https://images.hindustantimes.com/img/2022/07/26/550x309/Rajya_sabha_1658826593298_1658826599767_1658826599767.png"
        
        },
      "social": [ 
@@ -471,9 +718,9 @@ const newsdataJSON = [
        {
          "type": "NewsInline",
          "key":5,
-         "newsInlineURL" : "https://www.ndtv.com/india-news/priyanka-gandhi-visits-mother-sonia-gandhi-ahead-of-enforcement-directorate-questioning-3178874",
-         "newsInlineText" : "Sonia Gandhi Questioned, Congress Stops Trains, Burns Car: 10 Points",
-         "newsInlineImage" : "https://c.ndtvimg.com/2022-07/umfad5ho_sonia-gandhi-with-priyanka-gandhi-leaves-for-ed-office-pti-650_650x400_21_July_22.jpg"
+         "newsInlineURL" : "https://www.moneycontrol.com/news/india/latest-news-today-live-26-july-2022-headlines-8887531.html",
+         "newsInlineText" : "Live News:Delhi| Sonia Gandhi arrives at the ED office for second round of questioning",
+         "newsInlineImage" : "https://images.moneycontrol.com/static-mcnews/2022/07/LIVE-NEWS-BLOG-1-770x433.jpg"
          
        },
 
