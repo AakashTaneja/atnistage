@@ -90,7 +90,7 @@ function Capsule(){
     {/* {alert(JSON.stringify(newsitem.headline))} */}
     <Container className="mastercarousel">
             <Row>
-                <Col>
+                <Col className="p-0">
                 <HeadLine headline={newsitem.headline}/>
                 </Col>
             </Row> 
