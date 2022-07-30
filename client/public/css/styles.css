@@ -70,6 +70,8 @@ h2 {
     -webkit-border-radius:10px;
     padding-bottom: 25px;
     max-width: 89.4%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
    
     
 }
@@ -214,6 +216,8 @@ h2 {
 .headline-box{  
     display: flex;
     justify-content: space-between;
+    border-radius:1px;
+    -webkit-border-radius:10px;
     align-items: center;
     background-color: #fafafa ; 
     padding: 5px;
@@ -309,17 +313,38 @@ h2 {
 
 .youtube-box{
     
-    border-radius:1px;
-    -webkit-border-radius:10px;
-    cursor: pointer;   
-    border-style: groove;
-    border-width: 2px;
-    border-color:#f7bebe;
+   
     margin-top: 3px;
     height: 250px;
     width: 250px;
+    position: relative;   
 
 }
+
+
+
+.youtube-image{
+    border-radius:1px;
+    -webkit-border-radius:10px;
+    border-style: groove;
+    border-width: 2px;
+    border-color:#f7bebe;
+    
+}
+
+.youtube-play{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+
+a:active, a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
+
+
 
 
 
@@ -359,12 +384,11 @@ h2 {
 
 .margin-filler{
     height: 10px;
-    background-color: #f5e5c4;
-    max-width: 90%;
    
-    border-style: groove;
-    border-width: 0px;
-    border-radius:0px;
+   
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
     
    
 

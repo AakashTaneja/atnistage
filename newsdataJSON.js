@@ -13,6 +13,8 @@ const newsdataJSON = [
        },
      "social": [ 
 
+     
+
       {
         "type": "TweetWithImage",
         "key":2,
@@ -23,7 +25,11 @@ const newsdataJSON = [
         "handle" : "@navikakumar",
         "tweetImage" : "https://pbs.twimg.com/media/FYsBMwuUYAIOGw4?format=jpg&name=small"
       },
-
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeID":"yNq4nwfkWcY",
+      },
      
 
       {
