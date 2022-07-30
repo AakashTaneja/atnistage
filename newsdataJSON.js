@@ -107,21 +107,40 @@ const newsdataJSON = [
     "index": -52,
     "headline":{
    
-       "newsURL" : "https://www.ndtv.com/india-news/monsoon-session-opposition-relay-protest-suspended-mps-20-suspended-opposition-mps-begin-50-hour-relay-protest-in-parliament-3200259",
-       "headlineText" : "Overnight Protest In Parliament By 20 Suspended Opposition MPs",
-       "newsImage" : "https://c.ndtvimg.com/2022-07/lu5n8uq8_opposition-relay-protestani_625x300_27_July_22.jpg"
+       "newsURL" : "https://www.onmanorama.com/news/india/2022/07/28/explained-national-herald-case-sonia-gandhi-rahul-timeline.html",
+       "headlineText" : "Explained | What's the National Herald case haunting Gandhis...",
+       "newsImage" : "https://img.onmanorama.com/content/dam/mm/en/news/india/images/2022/7/28/sonia-gandhi-rahul-national-herald.jpg"
        
        },
      "social": [ 
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.opindia.com/2022/07/sonia-gandhi-blames-lt-motilal-vora-for-irregularities-in-ajl-acquisition/",
+        "newsInlineText" : "Sonia Gandhi follows Rahul Gandhi, blames late Motilal Vora for financial irregularities in AJL acquisition during ED questioning",
+        "newsInlineImage" : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2022/07/Sonia-Gandhi-Motilal-Vora-AJL-ED-3.jpg?resize=696%2C390&ssl=1"
+        
+      },
    
        {
          "type": "NewsInline",
          "key":5,
-         "newsInlineURL" : "https://indianexpress.com/article/india/sonia-gandhi-ed-summons-congress-protest-live-updates-8051505/",
-         "newsInlineText" : "Live Updates: Sonia Gandhi to appear before ED for third day; security ramped up outside party office",
-         "newsInlineImage" : "https://images.indianexpress.com/2022/07/sonia-3.jpg"
+         "newsInlineURL" : "https://www.ndtv.com/india-news/monsoon-session-opposition-relay-protest-suspended-mps-20-suspended-opposition-mps-begin-50-hour-relay-protest-in-parliament-3200259",
+         "newsInlineText" : "Overnight Protest In Parliament By 20 Suspended Opposition MPs",
+         "newsInlineImage" : "https://c.ndtvimg.com/2022-07/lu5n8uq8_opposition-relay-protestani_625x300_27_July_22.jpg"
          
        },
+
+       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.news18.com/news/politics/motilal-vora-sonia-gandhi-rahul-gandhi-ed-national-herald-5632819.html",
+        "newsInlineText" : "Quintessential Congressman, Treasurer & Gandhi Family Confidant: Here's Why Motilal Vora's Name Has Sprung in Sonia Gandhi's ED Questioning",
+        "newsInlineImage" : "https://images.news18.com/ibnlive/uploads/2022/07/untitled-design-47-1-16588971073x2.jpg?impolicy=website&width=510&height=356"
+        
+      },
+
+      
 
       {
         "type": "TweetWithImage",
