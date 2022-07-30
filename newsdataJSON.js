@@ -24,14 +24,7 @@ const newsdataJSON = [
         "tweetImage" : "https://pbs.twimg.com/media/FYsBMwuUYAIOGw4?format=jpg&name=small"
       },
 
-      {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://www.ndtv.com/india-news/crocodiles-will-bite-you-mamata-banerjee-to-bjp-after-ministers-arrest-3192710",
-        "newsInlineText" : "'Crocodiles Will Bite You If...': Mamata Banerjee's Warning For BJP",
-        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/726sj90o_mamata-banerjee-ani-650_650x400_21_July_22.jpg"
-        
-      },
+     
 
       {
         "type": "NewsInline",
@@ -43,16 +36,7 @@ const newsdataJSON = [
       },
 
      
-      {
-        "type": "TweetWithImage",
-        "key":2,
-        "tweetURL" : "https://twitter.com/abhijitmajumder/status/1550773685719511040",
-        "tweetText" : "After Arpita Mukherjee, another ‘close associate’ of TMC minister Partha Chatterjee is on ED radar in SSC scam. Monalisa Das teaches Bengali in Kazi Nazrul University, Asansol. Apparently has more than 10 properties just in Shantiniketan, several in Kolkata. Sonar Bangla indeed.",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1549016964357844993/mPRhAtta_400x400.jpg",
-        "name" : "Abhijit Majumder",
-        "handle" : "@abhijitmajumder",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
+     
 
       {
         "type": "TweetWithImage",
@@ -65,33 +49,43 @@ const newsdataJSON = [
         "tweetImage" : "https://pbs.twimg.com/media/FYSs_i-aQAAmMti?format=jpg&name=small"
       },
       {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/crocodiles-will-bite-you-mamata-banerjee-to-bjp-after-ministers-arrest-3192710",
+        "newsInlineText" : "'Crocodiles Will Bite You If...': Mamata Banerjee's Warning For BJP",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/726sj90o_mamata-banerjee-ani-650_650x400_21_July_22.jpg"
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/after-rs-50-crore-cash-hunt-for-4-cars-of-sacked-bengal-minister-partha-chatterjees-aide-arpita-mukherjee-sources-3204625",
+        "newsInlineText" : "Hunt For 4 Cash-Filled Cars Of Sacked Bengal Minister's Aide: Sources",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/53hu9tng_arpita-mukherjee-pti-650_625x300_28_July_22.jpg"
+        
+      },
+
+      {
         "type": "TweetMuchText",
         "key":2,
-        "tweetURL" : "https://twitter.com/ANI/status/1550811168976953344",
-        "tweetText" : "Partha Chatterjee (West Bengal cabinet minister and former Education Minister of the state) is not feeling well. He has developed heartache. We demanded that proper medical facilities should be given to him if ED's custody is granted: Somnath Mukherjee, Partha Chatterjee's lawyer",
+        "tweetURL" : "https://twitter.com/ANI/status/1552641406346244097",
+        "tweetText" : "TMC is the only party that intervened within 7 days in the matter. I agree huge sums of money were recovered. But, everyday bank frauds are happening what action did BJP take? Nirav Modi flew away, did BJP sack Nirmala Sitharaman, it's TMC who walk the talk: Abhishek Banerjee,TMC",
         "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
         "name" : "ANI",
         "handle" : "@ANI",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+        "tweetImage" : "https://pbs.twimg.com/media/FYSs_i-aQAAmMti?format=jpg&name=small"
       },
 
       {
-        "type": "KooWithImage",
+        "type": "NewsInline",
         "key":5,
-        "kooURL":"https://www.kooapp.com/koo/rameshwararya/6f79297f-b347-42e5-b81f-879de7abf656",
-        "name" : "Rameshwar Arya",
-        "handle": "@ameshwararya",
-        "profilePic" : "https://images.kooapp.com/transcode_input/1740306/eb304625-42d8-481f-9de6-d3541564a4efvoke.jpg",
-        "kooText" : "#parthachatterjee",
-        "kooImage": "https://images.kooapp.com/transcode_input/1740306/2fb950d3-0f6d-4f72-bac0-c01acb809f8b.jpg",
-      },
-     
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/jUf3PS6Vk6I"
+        "newsInlineURL" : "https://indianexpress.com/article/political-pulse/in-partha-chatterjee-eclipse-rising-sun-of-abhishek-banerjee-8059742/",
+        "newsInlineText" : "In Partha Chatterjee’s eclipse, the rising sun of Abhishek Banerjee",
+        "newsInlineImage" : "https://images.indianexpress.com/2022/07/Abhishek-2.jpg"
+        
       }
+
 
      
        
@@ -128,13 +122,6 @@ const newsdataJSON = [
          "newsInlineImage" : "https://images.indianexpress.com/2022/07/sonia-3.jpg"
          
        },
-
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/auj902xS0HE"
-      },
 
       {
         "type": "TweetWithImage",
@@ -222,14 +209,7 @@ const newsdataJSON = [
        },
      "social": [ 
    
-       {
-         "type": "NewsInline",
-         "key":5,
-         "newsInlineURL" : "https://www.news18.com/news/india/ktaka-bjp-youth-leader-killing-cm-bommai-cancels-govt-anniversary-event-victims-mother-demands-hanging-of-culprits-5638735.html",
-         "newsInlineText" : "Karnataka BJP Worker's Murder: Won't Spare Culprits, Says CM Bommai, Cancels Govt Anniversary Event; Yediyurappa's Son Vijayendra to Meet Family",
-         "newsInlineImage" : "https://images.news18.com/ibnlive/uploads/2022/07/karnataka-cm-bommai-and-praven-nettaru-16589760953x2.jpg?impolicy=website&width=510&height=356"
-         
-       },
+       
 
        {
         "type": "NewsInline",
@@ -238,13 +218,6 @@ const newsdataJSON = [
         "newsInlineText" : "Section 144 imposed across Dakshina Kannada over BJP Yuva Morcha member’s murder",
         "newsInlineImage" : "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/PraveenNettaru_BJPYuvaMorcha_1200x800_270722.jpg"
         
-      },
-
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/IPfgYB6th1s"
       },
 
       {
@@ -256,7 +229,137 @@ const newsdataJSON = [
         "name" : "Bharat Jain",
         "handle" : "@EdgedAndGone",
         "tweetImage": "https://pbs.twimg.com/media/FYlPOItacAAm5PN?format=jpg&name=360x360"
-      }
+      },
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://timesofindia.indiatimes.com/city/mangaluru/2-held-for-karnataka-bjp-mans-killing-cm-says-will-follow-yogi-model-if-needed/articleshow/93196607.cms",
+        "newsInlineText" : "2 held for Karnataka BJP man's killing, CM Basavaraj Bommai says will follow Yogi model if needed.",
+        "newsInlineImage" : "https://static.toiimg.com/thumb/msid-93203004,imgsize-2552245,width-400,resizemode-4/93203004.jpg"
+        
+      },
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.indiatoday.in/india/story/karnataka-naveen-nettaru-bjp-worker-murder-accused-pfi-member-wife-reveals-1981080-2022-07-28",
+        "newsInlineText" : "He was PFI member, says wife of accused arrested in Karnataka BJP worker's murder",
+        "newsInlineImage" : "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202207/praveen_1-sixteen_nine.jpg?iF6r692EO00fy1zRChvyg_h5IGZBdPeN&size=770:433"
+        
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/vikramaditya205/status/1552722256333119489",
+        "tweetText" : "Apparently, private audio conversation of Tejasvi Surya talking to another BJYM official who resigned after the murder has gone viral. 'if Congress was in power, we could've pelted stones but we can't do that now to our own govt' 'We can't protect everyone bro'",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1517610971807698944/NULU7hxQ_400x400.jpg",
+        "name" : "Girish",
+        "handle" : "@vikramaditya205",
+        "tweetImage": "https://pbs.twimg.com/media/FYlPOItacAAm5PN?format=jpg&name=360x360"
+      },
+       
+     ]
+   },
+
+   {
+
+    "index": -48,
+    "headline":{
+   
+       "newsURL" : "https://indianexpress.com/article/india/congress-attacks-smriti-irani-goa-bar-rahul-gandhi-8047976/",
+       "headlineText" : "Congress attacks Smriti Irani over Goa bar; she hits back, dares Rahul Gandhi",
+       "newsImage" : "https://images.indianexpress.com/2022/07/smritiirani.jpg?resize=718,405"
+       
+       },
+     "social": [ 
+
+     
+
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
+        "tweetText" : "BJP spokes person Tajinder bagga tweet that Smriti irani daughter is not the owner of the restaurant,congress is trying to defame her😁😁😁 see the video here she proudly said yes im the owner😁",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1551107421191385088/xJCoKvSq_400x400.jpg",
+        "name" : "Elizabeth",
+        "handle" : "@Thapa4INC",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+     
+     
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550808013539119106",
+        "tweetText" : "Jairam Ramesh said, he is taking a position based on RTI application. Where did it mention my daughter's name? The allegation that my daughter runs an illegal bar is malicious, with the intent not only to assassinate her character, but also to politically malign me: Smriti Irani",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/smriti-irani-denies-18-year-old-daughter-runs-goa-bar-says-her-fault-is-her-mother-exposed-rs-5-000-core-loot-by-gandhis-3186592",
+        "newsInlineText" : "See You In Court, Smriti Irani To Gandhis For Alleging Daughter Runs Bar",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/9gl9q8uo_smriti-irani_650x400_23_July_22.jpg"
+        
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
+        "tweetText" : "In Smriti Irani's case,slanderous allegations made against her regarding some bar in Goa&linking her &her family's name,&morphing pics,posting them etc. This is counter blast to National Herald case:Sr Adv Pinki Anand,representing Irani in a defamation suit against 3 Cong leaders",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Jairam_Ramesh/status/1552915866827649026",
+        "tweetText" : "The Delhi High Court has issued notice asking us to formally reply to the case filed by Smriti Irani. We look forward to presenting the facts before the court. We will challenge and disprove the spin being put out by Ms. Irani.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/479185033039605760/lqCQS6ff_400x400.jpeg",
+        "name" : "Jairam Ramesh",
+        "handle" : "@Jairam_Ramesh",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/JijiThattil/status/1553013110188941314",
+        "tweetText" : "Defamation law in India has exceptions. It remains to be seen how @SmritiIrani convinces Delhi High Court that the bar license was legal and her family had nothing to do with the construction of #Silly_Soul_Bar. IMHO case will drag on so respondents never get to submit evidence.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1498313442553655296/8mv1Ls5z_400x400.jpg",
+        "name" : "Roshni",
+        "handle" : "@JijiThattil",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+
+     
+
+     
+
+      
+
+     
+       
+      
+      
+   
+      
+
+      
+  
+      
+        
        
      ]
    },
@@ -282,11 +385,6 @@ const newsdataJSON = [
         "name" : "anand mahindra",
         "handle" : "@anandmahindra",
         "tweetImage" : "https://pbs.twimg.com/media/FYFrE9YagAE4BSF?format=jpg&name=small"
-      },
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/dYBgkoMciOE"
       },
       
 
@@ -340,11 +438,7 @@ const newsdataJSON = [
         "handle" : "@draupadimurmupr"
       },
 
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/3TXRxKz7pwY"
-      },
+     
 
       {
         "type": "TweetWithImage",
@@ -499,16 +593,7 @@ const newsdataJSON = [
 
      
 
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/rnryivngWVw"
-      },
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/q1pF9irC64o"
-      }
+     
 
       
 
@@ -598,17 +683,7 @@ const newsdataJSON = [
         "name" : "Eric Feigl-Ding",
         "handle" : "@DrEricDing",
         "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
-      },
-
-     
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/z6eqwZKo8G0"
       }
-
-      
 
      
        
@@ -668,18 +743,6 @@ const newsdataJSON = [
         "name" : "Shikhar Dhawan",
         "handle" : "@SDhawan25",
         "tweetImage" : "https://pbs.twimg.com/media/FYXE42jVEAAW5NK?format=jpg&name=240x240"
-      },
-
-      
-
-     
-
-     
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/idNDqcyeAAU"
       }
 
       
@@ -768,12 +831,6 @@ const newsdataJSON = [
         "profilePic" : "https://images.kooapp.com/transcode_input/8549577/b94e11dc-6db3-4b7a-868c-8e3aaced5336voke.jpg",
         "kooText" : "Congress workers stop trains, torch vehicles, launch violent protests across the country as ED questions Sonia Gandhi...This is democracy for Congress party.",
         "kooImage": "https://images.kooapp.com/transcode_input/8549577/e4a677d7-aba5-4c4e-91c9-8547587b3fdc.jpg",
-      },
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/2i4AAxnrABE"
       }
        
      ]
@@ -901,12 +958,6 @@ const newsdataJSON = [
         "name" : "ANI",
         "handle" : "@ANI",
         "tweetImage": "https://pbs.twimg.com/media/FYBZzYHaQAAXOYK?format=jpg&name=small"
-      },
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/ar1sGiF3By8"
       }
       
       
@@ -960,16 +1011,7 @@ const newsdataJSON = [
         "name" : "Pargat Singh",
         "handle" : "@PargatSOfficial",
         "tweetImage": "https://pbs.twimg.com/media/FYLIRg3acAAH9Vb?format=jpg&name=small"
-      },
-   
-      
-
-      {
-        "type": "Youtube",
-        "key":4,
-        "youtubeURL":"https://www.youtube.com/embed/J3d09W4maAk"
       }
-   
        
      ]
    }

@@ -220,7 +220,7 @@ h2 {
 .site-logo{   
     width: 75px;
     height: 50px; 
-    object-fit: fill;
+    object-fit: contain;
    
 }
 
