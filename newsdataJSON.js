@@ -553,7 +553,7 @@ const newsdataJSON = [
       },
 
       {
-        "type": "TweetWithImage",
+        "type": "TweetAllImage",
         "key":2,
         "tweetURL" : "https://twitter.com/FfYkdon/status/1551753439264223234",
         "tweetText" : "Up coming iifa awards 2022",
@@ -564,7 +564,7 @@ const newsdataJSON = [
       },
 
       {
-        "type": "TweetWithImage",
+        "type": "TweetAllImage",
         "key":2,
         "tweetURL" : "https://twitter.com/Aryatepes_i/status/1551870390846181376",
         "tweetText" : "🤣😂",
