@@ -6,6 +6,7 @@ import NextArrow from "./NextArrow";
 import PrevArrow from "./PrevArrow";
 import Tweet from "./Tweet";
 import TweetWithImage from "./TweetWithImage";
+import TweetAllImage from "./TweetAllImage"
 import TweetMuchText from "./TweetMuchText";
 import Koo from "./Koo";
 import KooWithImage from "./KooWithImage";
@@ -46,6 +47,8 @@ function SocialSlider(props){
         (<div style={{ width: 220 }}> <Tweet  socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetWithImage") ?
         (<div style={{ width: 275 }}> <TweetWithImage socialdata={socialitem}/> </div> )
+        : lowerCase(socialitem.type) === lowerCase("TweetAllImage") ?
+        (<div style={{ width: 275 }}> <TweetAllImage socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetMuchText") ?
         (<div style={{ width: 300 }}> <TweetMuchText socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Koo") ?

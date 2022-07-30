@@ -198,6 +198,18 @@ h2 {
     -webkit-border-radius:10px;
 }
 
+.tweet-koo-inline-all-image{
+    height: 180px;
+    width: 95%;
+    object-fit: fit;
+    margin: auto;
+    display: block;
+    border-radius:1px;
+    -webkit-border-radius:10px;
+}
+
+
+
 /***************************Headline and Inline****************/
 .headline-box{  
     display: flex;

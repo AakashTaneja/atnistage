@@ -58,6 +58,17 @@ const newsdataJSON = [
       },
 
       {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/YearOfRat/status/1552511515697090562",
+        "tweetText" : "TMC: Tera Mera Cash. Tum Mujhe Cash do, main tumhe 'secularism' dungi.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1207737007033602048/DwsOKZ6o_400x400.jpg",
+        "name" : "AgniveeRatty",
+        "handle" : "@YearOfRat",
+        "tweetImage" : "https://pbs.twimg.com/media/FYug_uWVQAE4Uru?format=jpg&name=900x900"
+      },
+
+      {
         "type": "NewsInline",
         "key":5,
         "newsInlineURL" : "https://www.ndtv.com/india-news/after-rs-50-crore-cash-hunt-for-4-cars-of-sacked-bengal-minister-partha-chatterjees-aide-arpita-mukherjee-sources-3204625",
@@ -360,6 +371,18 @@ const newsdataJSON = [
         "handle" : "@JijiThattil",
         "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
       },
+
+      {
+        "type": "TweetAllImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/mahesh_cholleti/status/1551945429800984576",
+        "tweetText" : "MEMES",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1442823758146801675/63BHzMbF_400x400.jpg",
+        "name" : "𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
+        "handle" : "@𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
+        "tweetImage" : "https://pbs.twimg.com/media/FYmeIu6VsAAzfvX?format=jpg&name=small"
+      }
+
 
 
      
