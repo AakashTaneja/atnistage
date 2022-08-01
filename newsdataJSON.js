@@ -47,7 +47,7 @@ const newsdataJSON = [
       {
         "type": "Youtube",
         "key":4,
-        "youtubeID":"14GtdnXsA6M",
+        "youtubeID":"14GtdnXsA6M"
       },
 
       {
@@ -57,6 +57,65 @@ const newsdataJSON = [
         "newsInlineText" : "Sa*li, m*darch*d, bh*nch*d: Leaked audio clip of Shiv Sena MP Sanjay Raut abusing, threatening Swapna Patker goes viral, police complaint filed",
         "newsInlineImage" : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2021/06/IMG_8846.jpg?resize=696%2C392&ssl=1"
         
+      }
+       
+     ]
+   },
+
+   {
+
+    "index": -65,
+    "headline":{
+   
+       "newsURL" : "https://www.news18.com/news/sports/cwg-2022-live-updates-day-3-india-live-score-online-results-watch-streaming-cricket-medal-tally-birmingham-badminton-hockey-weightlifting-boxing-july-31-livenews-5659267.html",
+       "headlineText" : "CWG 2022, Day 3 Highlights: Achinta Sheuli, Jeremy Lalrinnunga Win Gold Medals in Weightlifting; Cricket, Hockey and Tennis Teams Shine",
+       "newsImage" : "https://images.news18.com/ibnlive/uploads/2022/07/cwg-games-day_3-16592473493x2.jpg?impolicy=website&width=210&height=140"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/priyankac19/status/1553707420576206848",
+        "tweetText" : "#CWG2022: Weightlifter Sanket Sargar wins silver, opens India's account in Birmingham",
+        "profilePic" : "https://pbs.twimg.com/profile_images/826320015024672768/Fm3wsT1s_400x400.jpg",
+        "name" : "TOI Sports",
+        "handle" : "@toisports",
+        "tweetImage" : "https://pbs.twimg.com/media/FY6Iht3akAEkqnC?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/adgpi/status/1553906399142240256",
+        "tweetText" : "#IndianArmy congratulates Havildar Achinta Sheuli on winning #GoldMedal in #Weightlifting by lifting a total of 313 kg (GR) in Men's 73 kg Finals at #CommonwealthGames2022.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/3460469575/585e49a18c126bf5bb2f49ecfe117526_400x400.jpeg",
+        "name" : "ADG PI - INDIAN ARMY",
+        "handle" : "@adgpi",
+        "tweetImage" : "https://pbs.twimg.com/media/FZCVoLqWAAI_nr5?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/sachin_rt/status/1553702956448497665",
+        "tweetText" : "The laurels keep coming for India in weightlifting! 🏋🏻 Many congratulations to Jeremy Lalrinnunga & Bindyarani Devi for the Gold 🥇 & Silver 🥈 respectively.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1410819014255730689/u76ZqFWN_400x400.jpg",
+        "name" : "Sachin Tendulkar",
+        "handle" : "@adsachin_rtgpi",
+        "tweetImage" : "https://pbs.twimg.com/media/FY_cjysXgAEEBSo?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/WasimJaffer14/status/1552929914436800514",
+        "tweetText" : "My best wishes to @WeAreTeamIndia for the Commonwealth Games 👊🏽 रच दो इतिहास! 🇮🇳 #CommonwealthGames2022",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1240617174584020995/Bdo721ub_400x400.jpg",
+        "name" : "Wasim Jaffer",
+        "handle" : "@WasimJaffer14",
+        "tweetImage" : "https://pbs.twimg.com/media/FY0dhNZUcAAX3Ia?format=jpg&name=small"
       }
        
      ]
