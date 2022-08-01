@@ -1,6 +1,67 @@
 
 const newsdataJSON = [
 
+
+  {
+
+    "index": -70,
+    "headline":{
+   
+       "newsURL" : "https://www.livemint.com/news/india/land-scam-case-arrested-sanjay-raut-to-be-produced-in-mumbai-court-today-11659315286781.html",
+       "headlineText" : "Land scam case: Arrested Sanjay Raut to be produced in Mumbai court today",
+       "newsImage" : "https://images.livemint.com/img/2022/08/01/600x338/Sanjay_Raut_1659316272402_1659316272645_1659316272645.jpg"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://theprint.in/india/whats-the-patra-chawl-redevelopment-case-thats-got-sena-mp-sanjay-raut-in-eds-crosshairs/1063237/",
+        "newsInlineText" : "What’s the Patra Chawl redevelopment case that’s got Sena MP Sanjay Raut in ED’s crosshairs",
+        "newsInlineImage" : "https://static.theprint.in/wp-content/uploads/2022/07/RAUT.jpg?compress=true&quality=80&w=800&dpr=1.0"
+        
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/priyankac19/status/1553707420576206848",
+        "tweetText" : "The attempt to silence one of the most vocal opponent of the central/ state BJP and their wrongdoings — Sh @rautsanjay61 ji —is on. It is a shameful attempt to use central agencies to harass the opposition leaders. Condemn this harassment and we will all fight this out unitedly.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1553819999688540160/3XJju2O-_400x400.jpg",
+        "name" : "Priyanka Chaturvedi",
+        "handle" : "@priyankac19",
+        "tweetImage" : "https://pbs.twimg.com/media/FYsBMwuUYAIOGw4?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/priyankac19/status/1553707420576206848",
+        "tweetText" : "The investigation is underway. If he hasn't done anything wrong, why is he scared? He was a big MVA leader. Just because one's scared of the ED, one shouldn't come to our party: Maha CM Eknath Shinde on raids on Sanjay Raut",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FY-wu3tUcAAZLA8?format=jpg&name=small"
+      },
+      {
+        "type": "Youtube",
+        "key":4,
+        "youtubeID":"14GtdnXsA6M",
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.opindia.com/2022/07/leaked-audio-clip-shiv-sena-mp-sanjay-raut-abusing-threatening-swapna-patker-viral-police-complaint/",
+        "newsInlineText" : "Sa*li, m*darch*d, bh*nch*d: Leaked audio clip of Shiv Sena MP Sanjay Raut abusing, threatening Swapna Patker goes viral, police complaint filed",
+        "newsInlineImage" : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2021/06/IMG_8846.jpg?resize=696%2C392&ssl=1"
+        
+      }
+       
+     ]
+   },
+
   {
 
     "index": -61,

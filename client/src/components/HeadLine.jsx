@@ -16,7 +16,7 @@ var headline_GA4 = "Headline_"+newsLogo;
 
 function handleClick(){
     //window.location.href = tweetURL;
-    //console.log("pushing to GA4 site_name "+headline_GA4);
+    //console.log("pushing to GA4 site_name"+headline_GA4);
     window.dataLayer.push({
         event: 'outbound',
         site_name: headline_GA4,

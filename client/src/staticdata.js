@@ -31,7 +31,8 @@ const staticdata = {
         thehindu:"https://png.pngitem.com/pimgs/s/504-5047781_political-biased-to-hindu-newspaper-5-september-2019.png",
         cricketaddictor: "https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2021/02/ca-logo.png?fit=241%2C40&ssl=1",
         slate:"https://logos-download.com/wp-content/uploads/2021/01/Slate_Logo-700x218.png",
-        thenewsminute:"https://media.glassdoor.com/sqll/4402561/the-news-minute-squarelogo-1627044608667.png"
+        thenewsminute:"https://media.glassdoor.com/sqll/4402561/the-news-minute-squarelogo-1627044608667.png",
+        theprint:"https://bharatshakti.in/wp-content/uploads/2022/04/the_print_logo-1.png"
 
 
         
