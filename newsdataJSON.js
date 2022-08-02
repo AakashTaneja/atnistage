@@ -6,10 +6,11 @@ const newsdataJSON = [
 
     "index": -70,
     "headline":{
-   
-       "newsURL" : "https://www.livemint.com/news/india/land-scam-case-arrested-sanjay-raut-to-be-produced-in-mumbai-court-today-11659315286781.html",
-       "headlineText" : "Land scam case: Arrested Sanjay Raut to be produced in Mumbai court today",
-       "newsImage" : "https://images.livemint.com/img/2022/08/01/600x338/Sanjay_Raut_1659316272402_1659316272645_1659316272645.jpg"
+
+      
+       "newsURL" : "https://timesofindia.indiatimes.com/india/sanjay-raut-sent-to-ed-custody-till-august-4-support-pours-in-from-sena-cong-protest-staged-key-developments/articleshow/93272423.cms",
+       "headlineText" : "Sanjay Raut sent to ED custody till August 4: Key developments",
+       "newsImage" : "https://static.toiimg.com/thumb/msid-93273850,imgsize-88240,width-400,resizemode-4/93273850.jpg"
        
        },
      "social": [ 
@@ -50,6 +51,8 @@ const newsdataJSON = [
         "youtubeID":"14GtdnXsA6M"
       },
 
+      
+
       {
         "type": "NewsInline",
         "key":5,
@@ -57,14 +60,26 @@ const newsdataJSON = [
         "newsInlineText" : "Sa*li, m*darch*d, bh*nch*d: Leaked audio clip of Shiv Sena MP Sanjay Raut abusing, threatening Swapna Patker goes viral, police complaint filed",
         "newsInlineImage" : "https://i0.wp.com/www.opindia.com/wp-content/uploads/2021/06/IMG_8846.jpg?resize=696%2C392&ssl=1"
         
+      },
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/SMES_RKS/status/1553817818046791680",
+        "tweetText" : "Vakola Police Station registered FIR on complaint of Swapna Patker. Threat & Audio Clip CR No-794/22. U/s 509,506,504 IPC",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1526124388218990592/Y3w9Ty0V_400x400.jpg",
+        "name" : "SMES",
+        "handle" : "@SMES_RKS",
+        "tweetImage" : "https://pbs.twimg.com/media/FYsBMwuUYAIOGw4?format=jpg&name=small"
       }
        
      ]
    },
 
+   
+
    {
 
-    "index": -65,
+    "index": -66,
     "headline":{
    
        "newsURL" : "https://www.news18.com/news/sports/cwg-2022-live-updates-day-3-india-live-score-online-results-watch-streaming-cricket-medal-tally-birmingham-badminton-hockey-weightlifting-boxing-july-31-livenews-5659267.html",
@@ -73,6 +88,38 @@ const newsdataJSON = [
        
        },
      "social": [ 
+
+      {
+        "type": "TweetAllImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/WeAreTeamIndia/status/1553981324477640705",
+        "tweetText" : "MEDAL TALLY",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1425400412476039168/RbGYXOja_400x400.jpg",
+        "name" : "Team India",
+        "handle" : "@WeAreTeamIndia",
+        "tweetImage" : "https://pbs.twimg.com/media/FZDZwcnUsAAIvTQ?format=jpg&name=small"
+      },
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/WeAreTeamIndia/status/1554206838068875264",
+        "tweetText" : "#HarjinderKaur wins Team India's 3rd medal of the day and the 7th medal in weighlifting in the Women's 71KG with a total lift of 212 KG.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1425400412476039168/RbGYXOja_400x400.jpg",
+        "name" : "Team India",
+        "handle" : "@WeAreTeamIndia",
+        "tweetImage" : "https://pbs.twimg.com/media/FZGm231UEAEpw3a?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/WeAreTeamIndia/status/1554154938447667200",
+        "tweetText" : "#TeamIndia judoka Sushila Devi Likmabam wins 🥈  in the women's 48kg event at @birminghamcg22",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1425400412476039168/RbGYXOja_400x400.jpg",
+        "name" : "Team India",
+        "handle" : "@WeAreTeamIndia",
+        "tweetImage" : "https://pbs.twimg.com/media/FZF234cX0AAgKI8?format=jpg&name=small"
+      },
 
       {
         "type": "TweetWithImage",
@@ -106,6 +153,8 @@ const newsdataJSON = [
         "handle" : "@adsachin_rtgpi",
         "tweetImage" : "https://pbs.twimg.com/media/FY_cjysXgAEEBSo?format=jpg&name=small"
       },
+
+      
 
       {
         "type": "TweetWithImage",
@@ -238,6 +287,160 @@ const newsdataJSON = [
        
      ]
    },
+
+   {
+
+    "index": -60,
+    "headline":{
+   
+       "newsURL" : "https://www.deccanherald.com/national/congress-leaders-conspired-to-defame-irani-her-daughter-delhi-hc-on-goa-bar-row-1132088.html",
+       "headlineText" : "Congress leaders conspired to defame Irani, her daughter: Delhi HC on Goa bar row",
+       "newsImage" : "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/08/01/smriti-irani-pti-1132088-1659371482.jpg?itok=O5L3dhLu"
+       
+       },
+     "social": [ 
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://indianexpress.com/article/india/congress-attacks-smriti-irani-goa-bar-rahul-gandhi-8047976/",
+        "newsInlineText" : "Congress attacks Smriti Irani over Goa bar; she hits back, dares Rahul Gandhi",
+        "newsInlineImage" : "https://images.indianexpress.com/2022/07/smritiirani.jpg?resize=718,405"
+        
+      },
+
+     
+
+      {
+        "type": "Tweet",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
+        "tweetText" : "BJP spokes person Tajinder bagga tweet that Smriti irani daughter is not the owner of the restaurant,congress is trying to defame her😁😁😁 see the video here she proudly said yes im the owner😁",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1551107421191385088/xJCoKvSq_400x400.jpg",
+        "name" : "Elizabeth",
+        "handle" : "@Thapa4INC",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+     
+     
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ANI/status/1550808013539119106",
+        "tweetText" : "Jairam Ramesh said, he is taking a position based on RTI application. Where did it mention my daughter's name? The allegation that my daughter runs an illegal bar is malicious, with the intent not only to assassinate her character, but also to politically malign me: Smriti Irani",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/india-news/smriti-irani-denies-18-year-old-daughter-runs-goa-bar-says-her-fault-is-her-mother-exposed-rs-5-000-core-loot-by-gandhis-3186592",
+        "newsInlineText" : "See You In Court, Smriti Irani To Gandhis For Alleging Daughter Runs Bar",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/9gl9q8uo_smriti-irani_650x400_23_July_22.jpg"
+        
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
+        "tweetText" : "In Smriti Irani's case,slanderous allegations made against her regarding some bar in Goa&linking her &her family's name,&morphing pics,posting them etc. This is counter blast to National Herald case:Sr Adv Pinki Anand,representing Irani in a defamation suit against 3 Cong leaders",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/Jairam_Ramesh/status/1552915866827649026",
+        "tweetText" : "The Delhi High Court has issued notice asking us to formally reply to the case filed by Smriti Irani. We look forward to presenting the facts before the court. We will challenge and disprove the spin being put out by Ms. Irani.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/479185033039605760/lqCQS6ff_400x400.jpeg",
+        "name" : "Jairam Ramesh",
+        "handle" : "@Jairam_Ramesh",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/JijiThattil/status/1553013110188941314",
+        "tweetText" : "Defamation law in India has exceptions. It remains to be seen how @SmritiIrani convinces Delhi High Court that the bar license was legal and her family had nothing to do with the construction of #Silly_Soul_Bar. IMHO case will drag on so respondents never get to submit evidence.",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1498313442553655296/8mv1Ls5z_400x400.jpg",
+        "name" : "Roshni",
+        "handle" : "@JijiThattil",
+        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
+      },
+
+      {
+        "type": "TweetAllImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/mahesh_cholleti/status/1551945429800984576",
+        "tweetText" : "MEMES",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1442823758146801675/63BHzMbF_400x400.jpg",
+        "name" : "𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
+        "handle" : "@𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
+        "tweetImage" : "https://pbs.twimg.com/media/FYmeIu6VsAAzfvX?format=jpg&name=small"
+      }
+     ]
+   },
+   {
+
+    "index": -55,
+    "headline":{
+
+      "type": "section",
+       "headlineText" : "entertainment bytes",
+       "newsURL":""
+       
+       },
+     "social": [ 
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.dnaindia.com/bollywood/report-kartik-aaryan-drops-first-look-from-their-romantic-film-satyaprem-ki-katha-on-kiara-advani-birthday-2972978",
+        "newsInlineText" : "Kartik Aaryan drops first look from their romantic film Satyaprem Ki Katha on Kiara Advani's birthday",
+        "newsInlineImage" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/08/01/2526703-kartik-aaryan.jpg"
+        
+      },
+      {
+        "type": "TweetMuchText",
+        "key":2,
+        "tweetURL" : "https://twitter.com/karanjohar/status/1553997943031889921",
+        "tweetText" : "Behind the camera, it was nothing short of magic either with my A-team, my pillars of strength. Thank you to everyone who worked tirelessly and passionately towards this kahani...I am forever grateful. #RockyAurRaniKiPremKahani coming soon in cinemas in 2023...",
+        "profilePic" : "https://pbs.twimg.com/profile_images/1368797276907302913/ZdE0r0Zu_400x400.jpg",
+        "name" : "Karan Johar",
+        "handle" : "@karanjohar",
+        "tweetImage" : "https://pbs.twimg.com/media/FY-wu3tUcAAZLA8?format=jpg&name=small"
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.dnaindia.com/automobile/report-salman-khan-upgrades-to-bulletproof-toyota-land-cruiser-gets-gun-licence-after-receiving-death-threat-2973020",
+        "newsInlineText" : "Salman Khan upgrades to bulletproof Toyota Land Cruiser SUV, gets gun licence after receiving death threat",
+        "newsInlineImage" : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/08/01/2526747-salman-khan-toyota-land-cruiser.png"
+        
+      },
+
+      {
+        "type": "NewsInline",
+        "key":5,
+        "newsInlineURL" : "https://www.ndtv.com/entertainment/aamir-khan-on-boycott-laal-singh-chaddha-twitter-trend-they-think-i-dont-like-india-but-its-untrue-3212930",
+        "newsInlineText" : "Aamir Khan On 'Boycott Laal Singh Chaddha' Twitter Trend: They Think I Don't Like India But It's Untrue",
+        "newsInlineImage" : "https://c.ndtvimg.com/2022-08/8vrfv4r8_aamir-khan_625x300_01_August_22.jpg"
+        
+      }
+       
+     ]
+   },
+   
 
   {
 
@@ -417,120 +620,7 @@ const newsdataJSON = [
      ]
    },
 
-   {
-
-    "index": -48,
-    "headline":{
-   
-       "newsURL" : "https://indianexpress.com/article/india/congress-attacks-smriti-irani-goa-bar-rahul-gandhi-8047976/",
-       "headlineText" : "Congress attacks Smriti Irani over Goa bar; she hits back, dares Rahul Gandhi",
-       "newsImage" : "https://images.indianexpress.com/2022/07/smritiirani.jpg?resize=718,405"
-       
-       },
-     "social": [ 
-
-     
-
-      {
-        "type": "Tweet",
-        "key":2,
-        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
-        "tweetText" : "BJP spokes person Tajinder bagga tweet that Smriti irani daughter is not the owner of the restaurant,congress is trying to defame her😁😁😁 see the video here she proudly said yes im the owner😁",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1551107421191385088/xJCoKvSq_400x400.jpg",
-        "name" : "Elizabeth",
-        "handle" : "@Thapa4INC",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-     
-     
-
-      {
-        "type": "TweetMuchText",
-        "key":2,
-        "tweetURL" : "https://twitter.com/ANI/status/1550808013539119106",
-        "tweetText" : "Jairam Ramesh said, he is taking a position based on RTI application. Where did it mention my daughter's name? The allegation that my daughter runs an illegal bar is malicious, with the intent not only to assassinate her character, but also to politically malign me: Smriti Irani",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
-        "name" : "ANI",
-        "handle" : "@ANI",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-      {
-        "type": "NewsInline",
-        "key":5,
-        "newsInlineURL" : "https://www.ndtv.com/india-news/smriti-irani-denies-18-year-old-daughter-runs-goa-bar-says-her-fault-is-her-mother-exposed-rs-5-000-core-loot-by-gandhis-3186592",
-        "newsInlineText" : "See You In Court, Smriti Irani To Gandhis For Alleging Daughter Runs Bar",
-        "newsInlineImage" : "https://c.ndtvimg.com/2022-07/9gl9q8uo_smriti-irani_650x400_23_July_22.jpg"
-        
-      },
-
-      {
-        "type": "TweetMuchText",
-        "key":2,
-        "tweetURL" : "https://twitter.com/Thapa4INC/status/1550725601362776064",
-        "tweetText" : "In Smriti Irani's case,slanderous allegations made against her regarding some bar in Goa&linking her &her family's name,&morphing pics,posting them etc. This is counter blast to National Herald case:Sr Adv Pinki Anand,representing Irani in a defamation suit against 3 Cong leaders",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1497864299/ani_mic_logo_400x400.jpg",
-        "name" : "ANI",
-        "handle" : "@ANI",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-      {
-        "type": "TweetMuchText",
-        "key":2,
-        "tweetURL" : "https://twitter.com/Jairam_Ramesh/status/1552915866827649026",
-        "tweetText" : "The Delhi High Court has issued notice asking us to formally reply to the case filed by Smriti Irani. We look forward to presenting the facts before the court. We will challenge and disprove the spin being put out by Ms. Irani.",
-        "profilePic" : "https://pbs.twimg.com/profile_images/479185033039605760/lqCQS6ff_400x400.jpeg",
-        "name" : "Jairam Ramesh",
-        "handle" : "@Jairam_Ramesh",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-      {
-        "type": "TweetMuchText",
-        "key":2,
-        "tweetURL" : "https://twitter.com/JijiThattil/status/1553013110188941314",
-        "tweetText" : "Defamation law in India has exceptions. It remains to be seen how @SmritiIrani convinces Delhi High Court that the bar license was legal and her family had nothing to do with the construction of #Silly_Soul_Bar. IMHO case will drag on so respondents never get to submit evidence.",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1498313442553655296/8mv1Ls5z_400x400.jpg",
-        "name" : "Roshni",
-        "handle" : "@JijiThattil",
-        "tweetImage" : "https://pbs.twimg.com/media/FYV0cZyaMAIa7fB?format=jpg&name=small"
-      },
-
-      {
-        "type": "TweetAllImage",
-        "key":2,
-        "tweetURL" : "https://twitter.com/mahesh_cholleti/status/1551945429800984576",
-        "tweetText" : "MEMES",
-        "profilePic" : "https://pbs.twimg.com/profile_images/1442823758146801675/63BHzMbF_400x400.jpg",
-        "name" : "𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
-        "handle" : "@𝕸𝖆𝖍𝖊𝖘𝖍 𝕸𝖆𝖍𝖎",
-        "tweetImage" : "https://pbs.twimg.com/media/FYmeIu6VsAAzfvX?format=jpg&name=small"
-      }
-
-
-
-     
-
-     
-
-      
-
-     
-       
-      
-      
-   
-      
-
-      
   
-      
-        
-       
-     ]
-   },
 
   {
 
@@ -791,6 +881,16 @@ const newsdataJSON = [
        
        },
      "social": [ 
+      {
+        "type": "TweetWithImage",
+        "key":2,
+        "tweetURL" : "https://twitter.com/ani_digital/status/1554097840002961408",
+        "tweetText" : "Kerala Health Minister confirms India's first monkeypox death. Read @ANI Story | https://aninews.in/news/national/general-news/kerala-health-minister-confirms-indias-first-monkeypox-death20220801185326/#KeralaHealthMinister #monkeypoxdeath #monkeypox #VeenaGeorge #monkeypoxinIndia",
+        "profilePic" : "https://pbs.twimg.com/profile_images/817977303242133505/jSSyMKvf_400x400.jpg",
+        "name" : "ANI",
+        "handle" : "@ANI",
+        "tweetImage" : "https://pbs.twimg.com/media/FZFDZEgVQAA2Xl7?format=png&name=small"
+      },
 
       {
         "type": "NewsInline",
@@ -839,7 +939,7 @@ const newsdataJSON = [
         "handle": "@anuradhatanwar",
         "profilePic" : "https://images.kooapp.com/transcode_input/2716670/230DEB6B-E38F-4789-A5B2-3AE7EA863F6E-profile.jpeg",
         "kooText" : "The first case of Monkeypox was detected in Delhi. The patient is stable and recovering. There’s no need to panic. The situation is under control. We have made a separate isolation ward at LNJP. Our best team is on the case to prevent the spread and protect Delhiites. - CM Arvind Kejriwal ",
-        "kooImage": "https://images.kooapp.com/transcode_input/8549577/e4a677d7-aba5-4c4e-91c9-8547587b3fdc.jpg",
+        "kooImage": "https://images.kooapp.com/transcode_input/8549577/e4a677d7-aba5-4c4e-91c9-8547587b3fdc.jpg"
       },
 
       {

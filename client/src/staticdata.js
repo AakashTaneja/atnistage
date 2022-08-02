@@ -33,7 +33,8 @@ const staticdata = {
         slate:"https://logos-download.com/wp-content/uploads/2021/01/Slate_Logo-700x218.png",
         thenewsminute:"https://media.glassdoor.com/sqll/4402561/the-news-minute-squarelogo-1627044608667.png",
         theprint:"https://bharatshakti.in/wp-content/uploads/2022/04/the_print_logo-1.png",
-        livemint:"https://getlogo.net/wp-content/uploads/2020/07/livemint-logo-vector.png"
+        livemint:"https://getlogo.net/wp-content/uploads/2020/07/livemint-logo-vector.png",
+        deccanherald:"https://www.hersecondinnings.com/wp-content/uploads/2019/03/dh-new-logo.png"
 
 
         
