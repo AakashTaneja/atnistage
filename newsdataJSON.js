@@ -396,7 +396,7 @@ const newsdataJSON = [
     "headline":{
 
       "type": "section",
-       "headlineText" : "entertainment bytes",
+       "headlineText" : "entertainment...",
        "newsURL":""
        
        },
