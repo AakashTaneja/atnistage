@@ -21,7 +21,7 @@ function SocialSlider(props){
     const settings = {
         className: "slider variable-width",
         adaptiveHeight:false,
-        dots: true,
+        dots: false,
         infinite: true,
         variableWidth: true,
         speed: 500,

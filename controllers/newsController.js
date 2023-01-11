@@ -1,9 +1,11 @@
 const asyncHandler = require('express-async-handler');
 
-const newsModel = require('../models/newsModel');
+const {newsModel, logosModel} = require('../models/newsModel');
+
 
 const dotenv = require("dotenv").config();
 const newsdataJSON = require('../newsdataJSON');
+const newsSiteLogo = require('../newsSiteLogos');
 
 //GET all news,
 //route, GET api/news
@@ -22,9 +24,27 @@ const getAllNews = asyncHandler(async (req, res) => {
         res.json(newsdataJSON); 
     }
     else{ // for else assume prod and send back from database.
-        //console.log("Environent is prod, responding from database");
+        console.log("Environent is prod, responding from news database");
         const news = await newsModel.find().sort({'index':1}).skip(page * resPerPage).limit(resPerPage);
         res.json(news);
+    }
+    
+})
+
+const getAllNewsLogos = asyncHandler(async (req, res) => {
+    const page = req.query.page || 0;
+    const resPerPage = req.query.limit;
+    if(process.env.ENV === "STAGE"){
+        console.log("Environent is stage, responding with file for news site logos")
+        res.json(newsSiteLogo); 
+    }
+    else{ // for else assume prod and send back from database.
+        console.log("Environent is prod, responding from logos database");
+        const logos = await logosModel.find();
+        //console.log("logos are "+logos[0])
+        res.json(logos[0]);
+        //res.json(newsSiteLogo);
+        //Code the production database here, along with model
     }
     
 })
@@ -61,5 +81,6 @@ module.exports = {
     getAllNews, 
     setNews,
     updateNews,
-    deleteNews
+    deleteNews,
+    getAllNewsLogos
 }

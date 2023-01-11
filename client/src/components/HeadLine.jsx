@@ -4,11 +4,12 @@ import {headlineLogoObject} from "../staticdata";
 import {findNewsPubName} from "./StringFunctions";
 import {lowerCase} from 'lodash';
 
-function HeadLine(props){
+function HeadLine({headlineObj, headlineLogoMap}){
 
-var newsLogo = findNewsPubName(props.headline.newsURL);
+var newsLogo = findNewsPubName(headlineObj.newsURL);
 
 var headline_GA4 = "Headline_"+newsLogo;
+let newsImageUri = headlineObj.newsImage;
 
 function handleClick(){
     //window.location.href = tweetURL;
@@ -18,7 +19,7 @@ function handleClick(){
         site_name: headline_GA4,
     });
     window.open( 
-        props.headline.newsURL, "_blank");
+        headlineObj.newsURL, "_blank");
 }
 
 // var logo = "indianexpress";
@@ -27,10 +28,10 @@ function handleClick(){
 //console.log("logo url is "+headlineLogoObject[findNewsPubName(props.headline.newsURL)]);
 // console.log(JSON.stringify(headlineLogoObject,["indianexpress"]));
 
-const headLineDiv =() => lowerCase(props.headline.type) === lowerCase("section")?
+const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 ( <div className="site-logo-section">
     <div className="section-text">
-        {props.headline.headlineText}
+        {headlineObj.headlineText}
     </div>
    
 </div>
@@ -42,11 +43,11 @@ const headLineDiv =() => lowerCase(props.headline.type) === lowerCase("section")
                 <img className ="site-logo" src={headlineLogoObject[newsLogo]} alt="site_logo"></img>
             </div>
             <div className="headline-text">
-                {props.headline.headlineText}
+                {headlineObj.headlineText}
             </div>
         </div>
-        <div>
-                    <img className ="headline-image" src={props.headline.newsImage} alt="headline_logo"></img>
+        <div className="headlineNewslogoContainer">
+                    <img className ="headline-image" src={newsImageUri} alt="headline_logo"></img>
         </div>  
 
     </div>

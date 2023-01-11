@@ -1,8 +1,8 @@
 import React from "react";
 
 function Youtube(props){
-    const watchNowOff = "watchnow_off.png";
-    const watchNow = "watchnow.png";
+    const watchNowOff = "youtubePlay.png";
+    const watchNow = "youtubePlay.png";
     const youttubeURL =  "https://www.youtube.com/watch?v="+props.socialdata.youtubeID;
       
     function handleClick(){
@@ -23,7 +23,7 @@ function Youtube(props){
         <div className="youtube-box" onClick={handleClick} >
         <a href={youttubeURL} target="_blank">
         <img className="youtube-image" src={"https://i.ytimg.com/vi/"+props.socialdata.youtubeID+"/hqdefault.jpg"} width="245" height="245"/>
-        <img className="youtube-play" src={watchNow} width="50" />
+        <img className="youtube-play" src={watchNow} width="75" />
         </a>
         
  

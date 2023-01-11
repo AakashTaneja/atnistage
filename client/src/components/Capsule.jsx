@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 // import newsdata from "../newsdata";
 // import newsdataJSON from "../newsdataJSON";
 //import resultsFromDB from "../Database";
@@ -25,9 +25,10 @@ function Capsule(){
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
+    const [newsLogoData, setNewsLogoDate] = useState(new Map());
 
     React.useEffect(() => {
-        fetch("http://192.168.1.5:3002/api/news?page="+page+"&limit=3")
+        fetch("http://192.168.1.2:3002/api/news?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
@@ -40,8 +41,18 @@ function Capsule(){
         })
     }, []);
 
+    useEffect(() => {
+        fetch('http://192.168.1.2:3002/api/news/logos')
+          .then((response) => response.json())
+          .then((json) => setNewsLogoDate(json))
+          .catch((error) => console.error(error))
+          .finally(() => console.log('logo data loaded'));
+      }, []);
+
+    
+
     const fetchMoreCapsues = async()=>{
-        const res =  await fetch("http://192.168.1.5:3002/api/news?page="+page+"&limit=3");
+        const res =  await fetch("http://192.168.1.2:3002/api/news?page="+page+"&limit=3");
         window.dataLayer.push({
             event: 'capsule_fetch'
         });
@@ -91,12 +102,12 @@ function Capsule(){
     <Container className="mastercarousel">
             <Row>
                 <Col className="p-0">
-                <HeadLine headline={newsitem.headline}/>
+                <HeadLine headlineObj={newsitem.headline} headlineLogoMap={newsLogoData}/>
                 </Col>
             </Row> 
             <Row>
                 <Col>
-                    <SocialSlider socaildata={newsitem.social}/>
+                    <SocialSlider socaildata={newsitem.social} headlineLogoMap={newsLogoData}/>
                 </Col>
             </Row>
             
