@@ -26,9 +26,18 @@ function Capsule(){
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
     const [newsLogoData, setNewsLogoDate] = useState(new Map());
+    const fetchAPIURL_Stage = 'http://192.168.1.12:3002/api/news'
+    const fetchAPIURL_Prod = 'https://atnilive.herokuapp.com/api/news'
+    var fetchAPIURL = '';
+    const env = 'STAGE';
+    if (env === 'STAGE'){
+        fetchAPIURL = 'http://192.168.1.12:3002/api/news'
+    } else if (env === 'PROD'){
+        fetchAPIURL = 'https://atnilive.herokuapp.com/api/news'
+    }
 
     React.useEffect(() => {
-        fetch("http://192.168.1.12:3002/api/news?page="+page+"&limit=3")
+        fetch(fetchAPIURL + "?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
@@ -42,7 +51,7 @@ function Capsule(){
     }, []);
 
     useEffect(() => {
-        fetch('http://192.168.1.12:3002/api/news/logos')
+        fetch(fetchAPIURL + '/logos')
           .then((response) => response.json())
           .then((json) => setNewsLogoDate(json))
           .catch((error) => console.error(error))
@@ -52,7 +61,7 @@ function Capsule(){
     
 
     const fetchMoreCapsues = async()=>{
-        const res =  await fetch("http://192.168.1.12:3002/api/news?page="+page+"&limit=3");
+        const res =  await fetch(fetchAPIURL+"?page="+page+"&limit=3");
         window.dataLayer.push({
             event: 'capsule_fetch'
         });
