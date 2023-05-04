@@ -1,8 +1,8 @@
 import React from "react";
-import {headlineLogoObject} from "../staticdata";
+
 import _ from "lodash";
 
-function KooMuchText(props){
+function KooMuchText({socialdata, headlineLogoMap}){
     
 
 
@@ -14,13 +14,13 @@ function KooMuchText(props){
             site_name: 'Koo_muchtext',
         });
         window.open( 
-            props.socialdata.kooURL, "_blank");
+            socialdata.kooURL, "_blank");
     }
 
     function maxString(){
-        if(props.socialdata.kooText.length > 275){
+        if(socialdata.kooText.length > 275){
             //console.log("cutting it");
-            props.socialdata.kooText = _.truncate(props.socialdata.kooText, {
+            socialdata.kooText = _.truncate(socialdata.kooText, {
                 'length': 275
               })
         }
@@ -36,18 +36,18 @@ function KooMuchText(props){
             <div onClick={handleClick} >
             <div className="twitter-koo-biosection">
                 <div className="twitter-koo-biopic-with-image">
-                    <img className="twitter-koo-img-profile" src={props.socialdata.profilePic} />
+                    <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
                 </div>
                 <div className="twitter-koo-biotext">
-                     {props.socialdata.name} 
+                     {socialdata.name} 
                      <br></br>
-                     {props.socialdata.handle} 
+                     {socialdata.handle} 
                 </div>
                 <div className="filler-div-tweet">
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoObject["koo"]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap["koo"]} />
                 </div>
                 
                 
@@ -56,7 +56,7 @@ function KooMuchText(props){
             
                 
                 <div className="twitter-koo-text">
-                    {props.socialdata.kooText}
+                    {socialdata.kooText}
                 </div>
                    
             </div>

@@ -1,6 +1,6 @@
-body{
+body {
     -webkit-font-smoothing: antialiased;
-   
+
 }
 
 
@@ -14,36 +14,36 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto , sans-serif; 
+    font-family: Roboto, sans-serif;
     font-size: 12px;
 }
 
-.heading-main{
+.heading-main {
     text-decoration: none;
 }
 
-.master-div{
+.master-div {
     width: 100%;
-    
+
 }
 
 /***************************SECTION Selectors****************/
 
 #sidebar-left {
-    
+
     float: left;
     width: 10%;
     background-color: red;
     height: 100vh;
-    
+
 }
 
 #sidebar-right {
     float: right;
     width: 10%;
     background-color: red;
-    
-    
+
+
 }
 
 
@@ -53,47 +53,47 @@ h2 {
 /***************************Capsule****************/
 
 
-.carousel{
+.carousel {
     margin-left: 3px;
     margin-right: 3px;
     width: 100%;
     margin: auto;
-    
+
 }
 
-.mastercarousel{
- 
+.mastercarousel {
+
     border-style: groove;
     border-width: 0px;
     border-color: lightgray;
-    border-radius:2px;
-    -webkit-border-radius:10px;
+    border-radius: 2px;
+    -webkit-border-radius: 10px;
     padding-bottom: 25px;
     max-width: 95%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   
-   
-    
+
+
+
 }
 
 
-.loader-custom{
+.loader-custom {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-     
+
 }
 
 /***************************Twitter and Koo****************/
 
-.twitter-koo-box{
-  
-    padding:2px 5px;
-    border-radius:1px;
-    -webkit-border-radius:10px;
-    cursor: pointer;   
+.twitter-koo-box {
+
+    padding: 2px 5px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
     border-style: groove;
     border-width: 0px;
     margin-top: 3px;
@@ -110,77 +110,86 @@ h2 {
     background-color: #d6e2ea;
 }
 
-.koo-box{
+.koo-box {
     border-color: #f7f7e7;
     background-color: #f7f7e7;
 }
 
-.koo-box:hover{
+.koo-box:hover {
     background-color: #f4f0d8;
 }
 
-.twitter-koo-biosection{
+.insta-box {
+    border-color: #ebf1f5;
+    background-color: #ebf1f5;
+}
+
+.insta-box:hover {
+    background-color: #d6e2ea;
+}
+
+.twitter-koo-biosection {
     display: flex;
 }
 
-.twitter-koo-biopic{
+.twitter-koo-biopic {
     width: 25%;
 }
 
-.twitter-koo-biopic-with-image{
+.twitter-koo-biopic-with-image {
     width: 20%;
 }
 
-.twitter-koo-img-profile{
-    width : 40px;
-    height: 40px; 
+.twitter-koo-img-profile {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
-.twitter-koo-biotext{
+.twitter-koo-biotext {
     width: 50%;
-    font-family: Roboto , sans-serif; 
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     display: block;
-   
+
 }
 
-.twitter-koo-logo-div{
+.twitter-koo-logo-div {
     width: 25%;
     text-align: right;
 }
 
-.twitter-koo-logo{
-    width : 40px;
-    height: 40px; 
+.twitter-koo-logo {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin: auto;
     display: block;
 }
 
-.filler-div{
+.filler-div {
     width: 25%;
 }
 
-.filler-div-tweet{
+.filler-div-tweet {
     width: 15%;
 }
 
 
 
-.twitter-logo-with-media{
+.twitter-logo-with-media {
     margin-left: 10px;
 }
 
 
-.twitter-koo-text{
+.twitter-koo-text {
     font-size: 16px;
     line-height: 25px;
-    font-family: Roboto , sans-serif; 
-    
+    font-family: Roboto, sans-serif;
+
 }
 
-.twitter-koo-image-div{
+.twitter-koo-image-div {
     width: 100%;
     position: absolute;
     bottom: 5px;
@@ -192,115 +201,124 @@ h2 {
 
 
 
-.tweet-koo-inline-image{
+.tweet-koo-inline-image {
     height: 120px;
     width: 95%;
     object-fit: fit;
     margin: auto;
     display: block;
-    border-radius:1px;
-    -webkit-border-radius:10px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
 }
 
-.tweet-koo-inline-all-image{
+.tweet-koo-inline-all-image {
     height: 175px;
     width: 95%;
     object-fit: fit;
     margin: auto;
     display: block;
-    border-radius:1px;
-    -webkit-border-radius:10px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+}
+
+.insta-all-image {
+    height: 245px;
+    width: 100%;
+    object-fit: fit;
+    display: block;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
 }
 
 
 
 /***************************Headline and Inline****************/
-.headline-box{  
+.headline-box {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    border-radius:1px;
-    -webkit-border-radius:10px;
-    
-    background-color: #ffffff ; 
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+
+    background-color: #ffffff;
     padding: 5px;
-    cursor: pointer;    
-    width: auto;  
+    cursor: pointer;
+    width: auto;
 }
 
-.headline-box:hover{
+.headline-box:hover {
     background-color: #fafafa;
 }
 
-.site-logo-headline{
-   flex: 3;
-   align-self: left;
-   margin-left: 8px;
-   margin-top: 0px;
-   
+.site-logo-headline {
+    flex: 3;
+    align-self: left;
+    margin-left: 8px;
+    margin-top: 0px;
+
 }
 
 
 
-.site-logo-section{
+.site-logo-section {
     width: 100%;
     background-color: #5091c3;
-    border-radius:1px;
-    -webkit-border-radius:10px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
 }
 
-.site-logo{   
+.site-logo {
     width: 112px;
-  
+
     object-fit: contain;
-   
-    
-   
+
+
+
 }
 
-.headline-text{
-    font-family: 'Roboto' , sans-serif; 
+.headline-text {
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 95%;
-  
+
 }
 
-.section-text{
-    font-family: 'titan one' , sans-serif; 
+.section-text {
+    font-family: 'titan one', sans-serif;
     font-weight: 700;
     font-size: 25px;
     color: rgb(247, 183, 110);
     margin-left: 15px;
-  
+
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.headlineNewslogoContainer{
+.headlineNewslogoContainer {
     flex: 1;
-   
 
-   
+
+
 }
 
-.headline-image{ 
+.headline-image {
     width: 112px;
     height: 80px;
-    
+
     float: right;
-    border-radius:1px;
-    -webkit-border-radius:10px;    
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
     object-fit: fill;
 }
 
-.news-inline-box{
+.news-inline-box {
     flex: 1;
-    padding:2px 5px;
-    border-radius:1px;
-    -webkit-border-radius:10px;
-    cursor: pointer;   
+    padding: 2px 5px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
     border-style: groove;
     border-color: #eeeff3;
     background-color: #eeeff3;
@@ -311,77 +329,78 @@ h2 {
 
 }
 
-.news-inline-box:hover{
+.news-inline-box:hover {
     background-color: #e0e3ef;
 }
 
 
-.news-box:hover{
+.news-box:hover {
     background-color: #FAF9F6;
 }
 
-.news-inline-image{
+.news-inline-image {
 
 
     width: 100%;
     height: 125px;
-  margin: auto;
-  display: block;
-  border-radius:1px;
-  -webkit-border-radius:10px;
+    margin: auto;
+    display: block;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
 }
 
-.news-inline-sitelogo{
-   max-width: 120px;
-    height: 40px; 
+.news-inline-sitelogo {
+    max-width: 120px;
+    height: 40px;
     object-fit: contain;
-   
+
 }
 
-.news-inline-text{
+.news-inline-text {
     font-size: 16px;
     line-height: 25px;
-    font-family: Roboto , sans-serif; 
+    font-family: Roboto, sans-serif;
     display: inline;
 }
 
-.instaImage{
+.instaImage {
     height: 120px;
 }
 
-.youtube-box{
-    
-   
+.youtube-box {
+
+
     margin-top: 3px;
     height: 250px;
     width: 250px;
-    position: relative;   
+    position: relative;
 
 }
 
 
 
-.youtube-image{
-    border-radius:1px;
-    -webkit-border-radius:10px;
+.youtube-image {
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
     border-style: groove;
     border-width: 0px;
-    
-    
+
+
 }
 
-.youtube-play{
-    border-radius:1px;
+.youtube-play {
+    border-radius: 1px;
     position: absolute;
     top: 100px;
     left: 90px;
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
     outline: 0;
     border: none;
     -moz-outline-style: none;
-  }
+}
 
 
 
@@ -390,46 +409,52 @@ a:active, a:focus {
 /***************************Slider****************/
 
 
-.arrowRight{
+.arrowRight {
     width: 30px;
-    position: relative; /* Declared position allows for location changes */
-    top: -35px; /* Moves the image 2px closer to the top of the page */
+    position: relative;
+    /* Declared position allows for location changes */
+    top: -35px;
+    /* Moves the image 2px closer to the top of the page */
     right: 5px;
     background: white;
-   
-    
+
+
 }
-.arrowRight:hover{
+
+.arrowRight:hover {
     transform: scale(1.1);
 }
 
-.arrowLeft{
+.arrowLeft {
     width: 30px;
-    position: relative; /* Declared position allows for location changes */
-    top: -35px; /* Moves the image 2px closer to the top of the page */
+    position: relative;
+    /* Declared position allows for location changes */
+    top: -35px;
+    /* Moves the image 2px closer to the top of the page */
     right: 5px;
     background: white;
 }
-.arrowLeft:hover{
+
+.arrowLeft:hover {
     transform: scale(1.1);
 }
 
 .slick-slide {
     margin: 0px 4px;
-    
+
 }
 
 
 
-.margin-filler{
+.margin-filler {
     height: 10px;
-   
-   
-    
+
+
+
     margin-top: 5px;
     margin-bottom: 5px;
-    
-   
+
+
 
 }
 
@@ -441,119 +466,117 @@ a:active, a:focus {
 /* Hide slider left and right images on small devices */
 @media (max-width: 767px) {
     .hidden-mobile {
-        display:none;
+        display: none;
     }
-  }
+}
+
 /***************************Header****************/
 
 .navbar-header {
     background-color: #F16E10;
-  }
+}
 
-  .padding{
-      padding: 0px;
-  }
+.padding {
+    padding: 0px;
+}
 
-  /***************************About and Contact****************/
+/***************************About and Contact****************/
 
-  .about-container{
-      padding-left: 0px;
-      padding-right: 0px;
-      display: flex;
-      justify-content: center;
-  }
+.about-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
 
-  
-.about{
+
+.about {
     border-style: groove;
     border-width: 2px;
     border-color: lightgray;
-    border-radius:2px;
-    -webkit-border-radius:10px;
+    border-radius: 2px;
+    -webkit-border-radius: 10px;
     padding-bottom: 25px;
     padding-top: 15px;
-    
-    
 
-  }
 
-  .contactus{
-   
+
+}
+
+.contactus {
+
     text-align: center;
-    
-    
-  }
 
-  .route-heading{
-    font-family: Roboto , sans-serif; 
+
+}
+
+.route-heading {
+    font-family: Roboto, sans-serif;
     font-size: 25px;
-  }
+}
 
-  .contactus-text{
-    font-family: Roboto , sans-serif; 
+.contactus-text {
+    font-family: Roboto, sans-serif;
     font-size: 15px;
     color: grey;
-  }
+}
 
 
-  /***************************Footer****************/
+/***************************Footer****************/
 
-  .footer{
-      margin: auto;
-      text-align: center;
-      height: 50px;
-      background-color: white ; 
-      color: black;
+.footer {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    background-color: white;
+    color: black;
 
-  }
+}
 
-  .navbar { 
-      padding-bottom: 0px !important;
- }
-
-
-  .hamaralogo{
-      padding-top:0px;
-      width: 310px;
-  }
+.navbar {
+    padding-bottom: 0px !important;
+}
 
 
-  .endslide{
-    cursor: pointer; 
-    border-radius:1px;  
-    -webkit-border-radius:10px;
+.hamaralogo {
+    padding-top: 0px;
+    width: 310px;
+}
+
+
+.endslide {
+    cursor: pointer;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
     border-style: groove;
     border-width: 2px;
     height: 250px;
-    background-color: #fafafa ; 
+    background-color: #fafafa;
     border-color: #f5e5c4;
-  }
+}
 
-  .vericaltext{
+.vericaltext {
     writing-mode: vertical-lr;
     text-orientation: upright;
 }
 
-.read-again-text{
+.read-again-text {
     font-family: 'Roboto:ital';
     font-weight: normal;
     font-size: 1.0rem;
-    margin: auto;
+    margin: auto;/Users/akashtaneja/Documents/atni/atnistage/client/public/Capsule.jsx
     text-align: center;
-    
+
     line-height: 100px;
 
 }
-.vertical-filler{
+
+.vertical-filler {
     height: 30%;
     margin-bottom: 35px;
 }
 
-.read-again-image{
+.read-again-image {
     width: 50px;
     margin: auto;
 }
-
-  
-
-

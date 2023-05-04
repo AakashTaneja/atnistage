@@ -1,10 +1,9 @@
 import React from "react";
-import {headlineLogoObject} from "../staticdata";
 import {findNewsPubName, subStringToMax} from "./StringFunctions";
 import _ from "lodash";
 
-function NewsInline(props){
-    var newsLogo = findNewsPubName(props.socialdata.newsInlineURL);
+function NewsInline({socialdata, headlineLogoMap}){
+    var newsLogo = findNewsPubName(socialdata.newsInlineURL);
     var Newsinline_GA4 = "Inline_"+newsLogo;
 
     // headlineLogoObject[findNewsPubName(props.socialdata.newsInlineURL)]
@@ -18,14 +17,14 @@ function NewsInline(props){
             site_name: Newsinline_GA4,
         });
         window.open( 
-            props.socialdata.newsInlineURL, "_blank");
+            socialdata.newsInlineURL, "_blank");
     }
 
     
     function maxString(){
-        if(props.socialdata.newsInlineText.length > 100){
+        if(socialdata.newsInlineText.length > 100){
             //console.log("cutting it");
-            props.socialdata.newsInlineText = _.truncate(props.socialdata.newsInlineText, {
+            socialdata.newsInlineText = _.truncate(socialdata.newsInlineText, {
                 'length': 100 
               })
         }
@@ -39,13 +38,13 @@ function NewsInline(props){
         <div className="news-inline-box" onClick={handleClick}>
         
          <div className="news-inline-text">
-                <img className ="news-inline-sitelogo" src={headlineLogoObject[newsLogo]}></img>
+                <img className ="news-inline-sitelogo" src={headlineLogoMap[newsLogo]}></img>
         
-            {props.socialdata.newsInlineText}
+            {socialdata.newsInlineText}
         </div>
             
         <div className="twitter-koo-image-div">
-            <img className="tweet-koo-inline-image" src={props.socialdata.newsInlineImage}/>
+            <img className="tweet-koo-inline-image" src={socialdata.newsInlineImage}/>
         </div>
        
                 

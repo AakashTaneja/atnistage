@@ -1,8 +1,8 @@
 import React from "react";
-import {headlineLogoObject} from "../staticdata";
+//import {headlineLogoObject} from "../staticdata";
 import {findNewsPubName} from "./StringFunctions";
 
-function Tweet(props){
+function Tweet({socialdata, headlineLogoMap}){
     
 
 
@@ -14,7 +14,7 @@ function Tweet(props){
             site_name: 'Twitter_plain',
         });
         window.open( 
-            props.socialdata.tweetURL, "_blank");
+            socialdata.tweetURL, "_blank");
     }
 
 
@@ -25,18 +25,18 @@ function Tweet(props){
             <div onClick={handleClick} >
             <div className="twitter-koo-biosection">
                 <div className="twitter-koo-biopic-with-image">
-                    <img className="twitter-koo-img-profile" src={props.socialdata.profilePic} />
+                    <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
                 </div>
                 <div className="twitter-koo-biotext">
-                     {props.socialdata.name} 
+                     {socialdata.name} 
                      <br></br>
-                     {props.socialdata.handle} 
+                     {socialdata.handle} 
                 </div>
                 <div className="filler-div-tweet">
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoObject[findNewsPubName(props.socialdata.tweetURL)]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.tweetURL)]} />
                 </div>
                 
                 
@@ -45,7 +45,7 @@ function Tweet(props){
             
                 
                 <div className="twitter-koo-text">
-                    {props.socialdata.tweetText}
+                    {socialdata.tweetText}
                 </div>
                    
             </div>

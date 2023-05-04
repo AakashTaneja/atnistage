@@ -8,6 +8,7 @@ import Tweet from "./Tweet";
 import TweetWithImage from "./TweetWithImage";
 import TweetAllImage from "./TweetAllImage"
 import TweetMuchText from "./TweetMuchText";
+import Instagram from "./Instagram";
 import Koo from "./Koo";
 import KooWithImage from "./KooWithImage";
 import KooMuchText from "./KooMuchText";
@@ -16,7 +17,7 @@ import Youtube from "./Youtube";
 import EndSlide from "./EndSlide";
 import {lowerCase} from 'lodash';
 
-function SocialSlider(props){
+function SocialSlider({socaildata, headlineLogoMap}){
     // console.log(JSON.stringify(props.socaildata));
     const settings = {
         className: "slider variable-width",
@@ -41,26 +42,28 @@ function SocialSlider(props){
 
       const renderSlides = () =>
       
-      Array.from(props.socaildata).map(socialitem=>  
+      Array.from(socaildata).map(socialitem=>  
         
         lowerCase(socialitem.type) === lowerCase("Tweet") ?
-        (<div style={{ width: 220 }}> <Tweet  socialdata={socialitem}/> </div> )
+        (<div style={{ width: 220 }}> <Tweet  socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetWithImage") ?
-        (<div style={{ width: 275 }}> <TweetWithImage socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <TweetWithImage socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetAllImage") ?
-        (<div style={{ width: 275 }}> <TweetAllImage socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <TweetAllImage socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetMuchText") ?
-        (<div style={{ width: 300 }}> <TweetMuchText socialdata={socialitem}/> </div> )
+        (<div style={{ width: 300 }}> <TweetMuchText socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
+        : lowerCase(socialitem.type) === lowerCase("Instagram") ?
+        (<div style={{ width: 275 }}> <Instagram socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Koo") ?
-        (<div style={{ width: 220 }}> <Koo socialdata={socialitem}/> </div> )
+        (<div style={{ width: 220 }}> <Koo socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooWithImage") ?
-        (<div style={{ width: 275 }}> <KooWithImage socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <KooWithImage socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooMuchText") ?
-        (<div style={{ width: 300 }}> <KooMuchText socialdata={socialitem}/> </div> )
+        (<div style={{ width: 300 }}> <KooMuchText socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Youtube") ?
-        (<div style={{ width: 250 }}> <Youtube socialdata={socialitem}/> </div> )
+        (<div style={{ width: 250 }}> <Youtube socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("NewsInline") ?
-        (<div style={{ width: 275 }}> <NewsInline socialdata={socialitem}/> </div> )
+        (<div style={{ width: 275 }}> <NewsInline socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : (<div style={{ width: 1 }}> </div> )
         
     

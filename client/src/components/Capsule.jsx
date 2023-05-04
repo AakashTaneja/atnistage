@@ -28,7 +28,7 @@ function Capsule(){
     const [newsLogoData, setNewsLogoDate] = useState(new Map());
 
     React.useEffect(() => {
-        fetch("http://192.168.1.2:3002/api/news?page="+page+"&limit=3")
+        fetch("http://192.168.1.12:3002/api/news?page="+page+"&limit=3")
         .then(res => {
             return res.json();
         })
@@ -42,7 +42,7 @@ function Capsule(){
     }, []);
 
     useEffect(() => {
-        fetch('http://192.168.1.2:3002/api/news/logos')
+        fetch('http://192.168.1.12:3002/api/news/logos')
           .then((response) => response.json())
           .then((json) => setNewsLogoDate(json))
           .catch((error) => console.error(error))
@@ -52,7 +52,7 @@ function Capsule(){
     
 
     const fetchMoreCapsues = async()=>{
-        const res =  await fetch("http://192.168.1.2:3002/api/news?page="+page+"&limit=3");
+        const res =  await fetch("http://192.168.1.12:3002/api/news?page="+page+"&limit=3");
         window.dataLayer.push({
             event: 'capsule_fetch'
         });
