@@ -4,6 +4,10 @@ import _ from "lodash";
 
 function NewsInline({socialdata, headlineLogoMap}){
     var newsLogo = findNewsPubName(socialdata.newsInlineURL);
+    //console.log('newsinline newslogo is '+newsLogo)
+    //console.log('logo map is '+JSON.stringify(headlineLogoMap))
+    //console.log('newsLogo is '+headlineLogoMap[newsLogo])
+    
     var Newsinline_GA4 = "Inline_"+newsLogo;
 
     // headlineLogoObject[findNewsPubName(props.socialdata.newsInlineURL)]

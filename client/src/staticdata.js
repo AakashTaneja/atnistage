@@ -1,13 +1,14 @@
 const staticdata = {
     newssiteLogos:{
         indiatvnews: "https://lh3.googleusercontent.com/OVqng4wcwcfJNUJSl702U0HdHxScvqzKnYGqp_jpyjKJNPojel1HOS-5fz7GLLV0MTwjMv42yw=h28-rw" ,
+        thequint: "https://lh3.googleusercontent.com/proxy/OrsleL8OlKjLo2lHMPh2Cp_ofaxoX5_t6A6frHwPiFOPxS3-7YQcnBbupLzjNmwAbx6WX7QJCi4B8pCc-VRBpAhtkQyc4TYY-CzIPYwnbQubSuT4VdDuPZ7yP8bo8mHpyOdvcGmV9AN2irV_nb8qu_dMoA2SnA1cVYtRjLCAHtJ5Aap7VyeQwVOVPvWi=h14-rw",
         indianexpress: "https://lh3.googleusercontent.com/kkBP5GMG7WhGg_OaGvdoYp6jxPdIe5_HE4NLhmd8-80hpps2K2BcHM47_XxnxBo9ub0jbx1ZZQ=h28-rw",
         ndtv: "https://lh3.googleusercontent.com/proxy/D4m2IUc6W8DcaHIlElQ2VoX0IxOCOqdXEldiU5z8R1uJOeJ3-hjTWN5cgq1ZcXyXDOP25Z4UXfwnzwGlVFtbItnJl4pynSRqCCUFPbEr1EDM61Xq9WRIqWarEZlmm1mw5aSb2-Brx4PMy26sDII_YUyqAUdX_6zeYfnhNrGc31B3SJz9ID6_Iyo2jfhp=h28-rw",
         indiatoday: "https://lh3.googleusercontent.com/j-SksL4QtjE2r3D4GlVtvwoa_gW2mlDkePl8l2FJiC4y9o84JhDXQT9ETfsmPDDlcm4ruM4q9QA=h28-rw",
         twitter: "https://cdn-icons-png.flaticon.com/512/733/733579.png",
         koo: "https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/social-media/koo-app-logo.png",
         thehindubusinessline: "https://lh3.googleusercontent.com/yCc0ftiQHAD8zMJk…b9u8sohx1h-DN2juqVhSRh4mxozr5KWGLBVwJnLiRg=h28-rw",
-        tribuneindia: "	https://lh3.googleusercontent.com/InthoO-N7kTwYlzI…zszQZQI8B7wYABI8oebHMGOIogRK1BTiQgCxxn7uGc=h28-rw",
+        tribuneindia: "https://lh3.googleusercontent.com/InthoO-N7kTwYlzIGRKhiyr8hH7YoMFSFzszQZQI8B7wYABI8oebHMGOIogRK1BTiQgCxxn7uGc=h14-rw",
         "timesofindia.indiatimes": "https://lh3.googleusercontent.com/d9mz-OKghOQPsgxRv1BQzQAI44ifiA_6aAk-gRwo4_32mZXM-TSd5vIY1rL1P2LUH9mFQPnUSRE=h28-rw",
         news18: "https://lh3.googleusercontent.com/rkfB9ZQ-nalH3UTwCECsZX2h4aIq1ufnQm03aGOnqcI5KFhke3-DSgwMOFqmw9YNbyOOBLoVVw=h28-rw",
         theguardian: "https://lh3.googleusercontent.com/SU8FywVNtcrG-wgjvZ_0D1-3JR_pN9LNSgjULFH74N748KVyEdkF1jdbvP4Lr7_ClbPZxL-iPw=h28-rw",
@@ -37,13 +38,13 @@ const staticdata = {
         deccanherald:"https://lh3.googleusercontent.com/vx6XRVNJWUlNOJ3yf1IzadkFok5xsOVLj6KyxSazaJpeS3nMoRdtRNuZAQZh_2zBWfdBl08EpA=h28-rw",
         fitstpost: "https://lh3.googleusercontent.com/k7siJQMJMgu5AcfU4N_7C-2cg_j4eaVTGnPnICIsOALqS7pM3U2ZwsNrGrNdCGabqa6ZzPVb=h28-rw",
         outlook: "https://lh3.googleusercontent.com/wIl0x7Zn5G_lHtDakJqH_60UHFFPO8dPczHUAOuze0CUTZeYAC-azft1T8wRc-M1dQ2pTT2b=h28-rw",
-
-
-
+        "english.mathrubhumi": "https://lh3.googleusercontent.com/wSMBAxZMEXN3oRMSazcVyW4yVIzoZYc8s1IIFqYCjPmx-wEPq_h7GbDnLbu4dpMrn2kNcsaxnQ=rw-p",
+        rediff:"https://upload.wikimedia.org/wikipedia/commons/9/90/Rediff-logo.png?20190520130226",
+        barandbench: "https://images.assettype.com/barandbench/2019-12/7a743b15-5d5d-44d7-96c2-13616780ed95/brand_2x.png",
+        swarajyamag: "https://tma-live.s3.ap-south-1.amazonaws.com/medias/58b3b6790a7252339acdf10b/1565808839188/81804119eba1dd9d2378d70364c27a56.PNG",
+        inshorts: "https://assets.inshorts.com/website_assets/images/logo_inshorts.png"
         
-
     },
-
 
 }
 

@@ -25,13 +25,11 @@ function Capsule(){
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
-    const [newsLogoData, setNewsLogoDate] = useState(new Map());
-    const fetchAPIURL_Stage = 'http://192.168.1.12:3002/api/news'
-    const fetchAPIURL_Prod = 'https://atnilive.herokuapp.com/api/news'
+    const [newsLogoData, setNewsLogoData] = useState(new Map());
     var fetchAPIURL = '';
     const env = 'STAGE';
     if (env === 'STAGE'){
-        fetchAPIURL = 'http://192.168.1.12:3002/api/news'
+        fetchAPIURL = 'http://192.168.1.9:3002/api/news'
     } else if (env === 'PROD'){
         fetchAPIURL = 'https://atnilive.herokuapp.com/api/news'
     }
@@ -53,7 +51,7 @@ function Capsule(){
     useEffect(() => {
         fetch(fetchAPIURL + '/logos')
           .then((response) => response.json())
-          .then((json) => setNewsLogoDate(json))
+          .then((json) => setNewsLogoData(json))
           .catch((error) => console.error(error))
           .finally(() => console.log('logo data loaded'));
       }, []);
@@ -91,38 +89,41 @@ function Capsule(){
         <div>
             
             <div className="carousel">
-<InfiniteScroll
-    dataLength={newsDataFromDB.length} //This is important field to render the next data
-    next={fetchData}
-    hasMore={hasMoreData}
-    loader={<Loader />}
-    endMessage={
-        <p style={{ textAlign: 'center', }}>
-        <b>Yay! You have seen it all</b>
-        </p>
-    }
+            <InfiniteScroll
+                dataLength={newsDataFromDB.length} //This is important field to render the next data
+                next={fetchData}
+                hasMore={hasMoreData}
+                loader={<Loader />}
+                endMessage={
+                    <p style={{ textAlign: 'center', }}>
+                    <b>Yay! You have seen it all</b>
+                    </p>
+                }
 
->
- 
- {newsDataFromDB && newsDataFromDB.map(newsitem =>
-
-<div>
-    {/* {alert(JSON.stringify(newsitem.headline))} */}
-    <Container className="mastercarousel">
-            <Row>
-                <Col className="p-0">
-                <HeadLine headlineObj={newsitem.headline} headlineLogoMap={newsLogoData}/>
-                </Col>
-            </Row> 
-            <Row>
-                <Col>
-                    <SocialSlider socaildata={newsitem.social} headlineLogoMap={newsLogoData}/>
-                </Col>
-            </Row>
+            >
             
-        </Container> 
-        <Margin />
-</div>
+            {  
+                newsLogoData !== {} && newsDataFromDB && newsDataFromDB.map(newsitem =>
+
+            <div>
+                {/* {alert(JSON.stringify(newsitem.headline))} */
+                console.log('newsinline NEWSLOGO is '+JSON.stringify(newsLogoData))
+                }
+                <Container className="mastercarousel">
+                        <Row>
+                            <Col className="p-0">
+                            <HeadLine headlineObj={newsitem.headline} headlineLogoMap={newsLogoData}/>
+                            </Col>
+                        </Row> 
+                        <Row>
+                            <Col>
+                                <SocialSlider socaildata={newsitem.social} headlineLogoMap={newsLogoData}/>
+                            </Col>
+                        </Row>
+                        
+                    </Container> 
+                    <Margin />
+            </div>
 )}
  
    

@@ -7,9 +7,11 @@ import {lowerCase} from 'lodash';
 function HeadLine({headlineObj, headlineLogoMap}){
 
 var newsLogo = findNewsPubName(headlineObj.newsURL);
+console.log('NEWS LOGO IS '+ newsLogo+' '+headlineLogoObject[newsLogo]);
 
 var headline_GA4 = "Headline_"+newsLogo;
 let newsImageUri = headlineObj.newsImage;
+//console.log('news image is '+newsImageUri);
 
 function handleClick(){
     //window.location.href = tweetURL;
