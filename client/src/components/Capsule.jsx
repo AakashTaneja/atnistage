@@ -29,7 +29,7 @@ function Capsule(){
     var fetchAPIURL = '';
     const env = 'STAGE';
     if (env === 'STAGE'){
-        fetchAPIURL = 'http://192.168.1.9:3002/api/news'
+        fetchAPIURL = 'http://192.168.1.10:3002/api/news'
     } else if (env === 'PROD'){
         fetchAPIURL = 'https://atnilive.herokuapp.com/api/news'
     }
@@ -107,7 +107,7 @@ function Capsule(){
 
             <div>
                 {/* {alert(JSON.stringify(newsitem.headline))} */
-                console.log('newsinline NEWSLOGO is '+JSON.stringify(newsLogoData))
+                //console.log('newsinline NEWSLOGO is '+JSON.stringify(newsLogoData))
                 }
                 <Container className="mastercarousel">
                         <Row>

@@ -13,13 +13,13 @@ function KooWithImage({socialdata, headlineLogoMap}){
             site_name: 'Koo_image',
         });
         window.open( 
-            socialdata.kooURL, "_blank");
+            socialdata.url, "_blank");
     }
 
     function maxString(){
-        if(socialdata.kooText.length > 100){
+        if(socialdata.text.length > 100){
            // console.log("cutting it");
-            socialdata.kooText = _.truncate(socialdata.kooText, {
+            socialdata.text = _.truncate(socialdata.text, {
                 'length': 100
               })  
         }
@@ -62,10 +62,10 @@ function KooWithImage({socialdata, headlineLogoMap}){
             
                 
                 <div className="twitter-koo-text">
-                    {socialdata.kooText}
+                    {socialdata.text}
                 </div>
                 <div className="twitter-koo-image-div">
-                    <img className="tweet-koo-inline-image" src={socialdata.kooImage} alt="koo_image"/>
+                    <img className="tweet-koo-inline-image" src={socialdata.image} alt="koo_image"/>
                 </div>
                    
             </div>

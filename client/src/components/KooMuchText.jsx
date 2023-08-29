@@ -14,13 +14,13 @@ function KooMuchText({socialdata, headlineLogoMap}){
             site_name: 'Koo_muchtext',
         });
         window.open( 
-            socialdata.kooURL, "_blank");
+            socialdata.url, "_blank");
     }
 
     function maxString(){
-        if(socialdata.kooText.length > 275){
+        if(socialdata.text.length > 275){
             //console.log("cutting it");
-            socialdata.kooText = _.truncate(socialdata.kooText, {
+            socialdata.text = _.truncate(socialdata.text, {
                 'length': 275
               })
         }
@@ -56,7 +56,7 @@ function KooMuchText({socialdata, headlineLogoMap}){
             
                 
                 <div className="twitter-koo-text">
-                    {socialdata.kooText}
+                    {socialdata.text}
                 </div>
                    
             </div>

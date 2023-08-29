@@ -10,7 +10,7 @@ function Koo({socialdata, headlineLogoMap}){
             site_name: 'Koo_plain',
         });
         window.open( 
-            socialdata.kooURL, "_blank");
+            socialdata.url, "_blank");
     }
 
     return(
@@ -33,7 +33,7 @@ function Koo({socialdata, headlineLogoMap}){
 
             </div>
             <div className="twitter-koo-text">
-                    {socialdata.kooText}
+                    {socialdata.text}
                 </div>
         
 

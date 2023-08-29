@@ -101,12 +101,12 @@ h2 {
     position: relative;
 }
 
-.twitter-box{
+.twitter-box {
     border-color: #ebf1f5;
     background-color: #ebf1f5;
 }
 
-.twitter-box:hover{
+.twitter-box:hover {
     background-color: #d6e2ea;
 }
 
@@ -291,6 +291,7 @@ h2 {
     font-size: 25px;
     color: rgb(247, 183, 110);
     margin-left: 15px;
+    margin-bottom: 4px;
 
     align-items: center;
     justify-content: center;

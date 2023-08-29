@@ -3,10 +3,10 @@ import {findNewsPubName, subStringToMax} from "./StringFunctions";
 import _ from "lodash";
 
 function NewsInline({socialdata, headlineLogoMap}){
-    var newsLogo = findNewsPubName(socialdata.newsInlineURL);
+    var newsLogo = findNewsPubName(socialdata.url);
     //console.log('newsinline newslogo is '+newsLogo)
     //console.log('logo map is '+JSON.stringify(headlineLogoMap))
-    //console.log('newsLogo is '+headlineLogoMap[newsLogo])
+    //console.log('newsLogo in NewsInline is '+' '+newsLogo+' '+headlineLogoMap[newsLogo])
     
     var Newsinline_GA4 = "Inline_"+newsLogo;
 
@@ -21,14 +21,14 @@ function NewsInline({socialdata, headlineLogoMap}){
             site_name: Newsinline_GA4,
         });
         window.open( 
-            socialdata.newsInlineURL, "_blank");
+            socialdata.url, "_blank");
     }
 
     
     function maxString(){
-        if(socialdata.newsInlineText.length > 100){
+        if(socialdata.text.length > 100){
             //console.log("cutting it");
-            socialdata.newsInlineText = _.truncate(socialdata.newsInlineText, {
+            socialdata.text = _.truncate(socialdata.text, {
                 'length': 100 
               })
         }
@@ -44,11 +44,11 @@ function NewsInline({socialdata, headlineLogoMap}){
          <div className="news-inline-text">
                 <img className ="news-inline-sitelogo" src={headlineLogoMap[newsLogo]}></img>
         
-            {socialdata.newsInlineText}
+            {socialdata.text}
         </div>
             
         <div className="twitter-koo-image-div">
-            <img className="tweet-koo-inline-image" src={socialdata.newsInlineImage}/>
+            <img className="tweet-koo-inline-image" src={socialdata.image}/>
         </div>
        
                 

@@ -14,13 +14,13 @@ function TweetWithImage({socialdata, headlineLogoMap}){
             site_name: 'Twitter_image',
         });
         window.open( 
-            socialdata.tweetURL, "_blank");
+            socialdata.url, "_blank");
     }
 
     function maxString(){
-        if(socialdata.tweetText.length > 92){
+        if(socialdata.text.length > 92){
            // console.log("cutting it");
-            socialdata.tweetText = _.truncate(socialdata.tweetText, {
+            socialdata.text = _.truncate(socialdata.text, {
                 'length': 100
               })  
         }
@@ -54,7 +54,7 @@ function TweetWithImage({socialdata, headlineLogoMap}){
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.tweetURL)]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.url)]} />
                 </div>
                 
                 
@@ -63,10 +63,10 @@ function TweetWithImage({socialdata, headlineLogoMap}){
             
                 
                 <div className="twitter-koo-text">
-                    {socialdata.tweetText}
+                    {socialdata.text}
                 </div>
                 <div className="twitter-koo-image-div">
-                    <img className="tweet-koo-inline-image" src={socialdata.tweetImage}/>
+                    <img className="tweet-koo-inline-image" src={socialdata.image}/>
                 </div>
                    
             </div>

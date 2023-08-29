@@ -14,7 +14,7 @@ function Tweet({socialdata, headlineLogoMap}){
             site_name: 'Twitter_plain',
         });
         window.open( 
-            socialdata.tweetURL, "_blank");
+            socialdata.url, "_blank");
     }
 
 
@@ -36,7 +36,7 @@ function Tweet({socialdata, headlineLogoMap}){
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.tweetURL)]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.url)]} />
                 </div>
                 
                 
@@ -45,7 +45,7 @@ function Tweet({socialdata, headlineLogoMap}){
             
                 
                 <div className="twitter-koo-text">
-                    {socialdata.tweetText}
+                    {socialdata.text}
                 </div>
                    
             </div>

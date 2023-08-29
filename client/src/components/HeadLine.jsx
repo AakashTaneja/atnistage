@@ -1,16 +1,15 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import {headlineLogoObject} from "../staticdata";
 import {findNewsPubName} from "./StringFunctions";
 import {lowerCase} from 'lodash';
 
 function HeadLine({headlineObj, headlineLogoMap}){
 
-var newsLogo = findNewsPubName(headlineObj.newsURL);
-console.log('NEWS LOGO IS '+ newsLogo+' '+headlineLogoObject[newsLogo]);
+var newsLogo = findNewsPubName(headlineObj.url);
+//console.log('NEWS LOGO IS '+ newsLogo+' '+headlineLogoMap[newsLogo]);
 
 var headline_GA4 = "Headline_"+newsLogo;
-let newsImageUri = headlineObj.newsImage;
+let newsImageUri = headlineObj.image;
 //console.log('news image is '+newsImageUri);
 
 function handleClick(){
@@ -21,7 +20,7 @@ function handleClick(){
         site_name: headline_GA4,
     });
     window.open( 
-        headlineObj.newsURL, "_blank");
+        headlineObj.url, "_blank");
 }
 
 // var logo = "indianexpress";
@@ -33,7 +32,7 @@ function handleClick(){
 const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 ( <div className="site-logo-section">
     <div className="section-text">
-        {headlineObj.headlineText}
+        {headlineObj.text}
     </div>
    
 </div>
@@ -42,10 +41,10 @@ const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
     <div className="headline-box" onClick={handleClick}>
         <div className="site-logo-headline">
             <div>
-                <img className ="site-logo" src={headlineLogoObject[newsLogo]} alt="site_logo"></img>
+                <img className ="site-logo" src={headlineLogoMap[newsLogo]} alt="site_logo"></img>
             </div>
             <div className="headline-text">
-                {headlineObj.headlineText}
+                {headlineObj.text}
             </div>
         </div>
         <div className="headlineNewslogoContainer">
