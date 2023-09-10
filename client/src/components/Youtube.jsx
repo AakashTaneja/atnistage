@@ -21,9 +21,9 @@ function Youtube(props){
     
     return(
         <div className="youtube-box" onClick={handleClick} >
-        <a href={youttubeURL} target="_blank">
-        <img className="youtube-image" src={"https://i.ytimg.com/vi/"+props.socialdata.youtubeID+"/hqdefault.jpg"} width="245" height="245"/>
-        <img className="youtube-play" src={watchNow} width="75" />
+            <a href={youttubeURL} target="_blank">
+            <img className="youtube-image" src={"https://i.ytimg.com/vi/"+props.socialdata.youtubeID+"/hqdefault.jpg"} width="245" height="245"/>
+            <img className="youtube-play" src={watchNow} width="75" />
         </a>
         
  

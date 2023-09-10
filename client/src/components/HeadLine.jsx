@@ -1,27 +1,27 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import {findNewsPubName} from "./StringFunctions";
 import {lowerCase} from 'lodash';
 
-function HeadLine({headlineObj, headlineLogoMap}){
+function HeadLine({headlineObj, sumamryObj}){
+    console.log('headline obj is '+JSON.stringify(headlineObj))
 
-var newsLogo = findNewsPubName(headlineObj.url);
+//var newsLogo = findNewsPubName(headlineObj.url);
 //console.log('NEWS LOGO IS '+ newsLogo+' '+headlineLogoMap[newsLogo]);
 
-var headline_GA4 = "Headline_"+newsLogo;
-let newsImageUri = headlineObj.image;
+//var headline_GA4 = "Headline_"+newsLogo;
+//let newsImageUri = headlineObj.image;
 //console.log('news image is '+newsImageUri);
 
-function handleClick(){
-    //window.location.href = tweetURL;
-    //console.log("pushing to GA4 site_name"+headline_GA4);
-    window.dataLayer.push({
-        event: 'outbound',
-        site_name: headline_GA4,
-    });
-    window.open( 
-        headlineObj.url, "_blank");
-}
+// function handleClick(){
+//     //window.location.href = tweetURL;
+//     //console.log("pushing to GA4 site_name"+headline_GA4);
+//     window.dataLayer.push({
+//         event: 'outbound',
+//         site_name: headline_GA4,
+//     });
+//     window.open( 
+//         headlineObj.url, "_blank");
+// }
 
 // var logo = "indianexpress";
 
@@ -32,24 +32,27 @@ function handleClick(){
 const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 ( <div className="site-logo-section">
     <div className="section-text">
-        {headlineObj.text}
+        {headlineObj.headlineText}
     </div>
    
 </div>
 
  ): (
-    <div className="headline-box" onClick={handleClick}>
+    <div className="headline-box">
         <div className="site-logo-headline">
-            <div>
+            {/* <div>
                 <img className ="site-logo" src={headlineLogoMap[newsLogo]} alt="site_logo"></img>
+            </div> */}
+            <div className="headline-text">
+                {headlineObj}
             </div>
             <div className="headline-text">
-                {headlineObj.text}
+                {sumamryObj}
             </div>
         </div>
-        <div className="headlineNewslogoContainer">
+        {/* <div className="headlineNewslogoContainer">
                     <img className ="headline-image" src={newsImageUri} alt="headline_logo"></img>
-        </div>  
+        </div>   */}
 
     </div>
     

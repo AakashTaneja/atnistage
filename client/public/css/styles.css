@@ -247,9 +247,7 @@ h2 {
     width: auto;
 }
 
-.headline-box:hover {
-    background-color: #fafafa;
-}
+
 
 .site-logo-headline {
     flex: 3;
@@ -370,13 +368,18 @@ h2 {
 }
 
 .youtube-box {
-
-
+    flex: 1;
+    padding: 2px 5px;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+    border-style: groove;
+    border-color: #eeeff3;
+    background-color: #000000;
+    border-width: 0px;
     margin-top: 3px;
     height: 250px;
-    width: 250px;
     position: relative;
-
 }
 
 

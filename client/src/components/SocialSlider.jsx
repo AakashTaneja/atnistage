@@ -61,7 +61,7 @@ function SocialSlider({socaildata, headlineLogoMap}){
         : lowerCase(socialitem.type) === lowerCase("KooMuchText") ?
         (<div style={{ width: 300 }}> <KooMuchText socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("Youtube") ?
-        (<div style={{ width: 250 }}> <Youtube socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
+        (<div style={{ width: 250 }}> <Youtube socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("news") ?
         (<div style={{ width: 275 }}> <NewsInline socialdata={socialitem} headlineLogoMap={headlineLogoMap}/> </div> )
         : (<div style={{ width: 1 }}> </div> )
