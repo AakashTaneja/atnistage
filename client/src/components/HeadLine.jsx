@@ -3,32 +3,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {lowerCase} from 'lodash';
 
 function HeadLine({headlineObj, sumamryObj}){
-    console.log('headline obj is '+JSON.stringify(headlineObj))
-
-//var newsLogo = findNewsPubName(headlineObj.url);
-//console.log('NEWS LOGO IS '+ newsLogo+' '+headlineLogoMap[newsLogo]);
-
-//var headline_GA4 = "Headline_"+newsLogo;
-//let newsImageUri = headlineObj.image;
-//console.log('news image is '+newsImageUri);
-
-// function handleClick(){
-//     //window.location.href = tweetURL;
-//     //console.log("pushing to GA4 site_name"+headline_GA4);
-//     window.dataLayer.push({
-//         event: 'outbound',
-//         site_name: headline_GA4,
-//     });
-//     window.open( 
-//         headlineObj.url, "_blank");
-// }
-
-// var logo = "indianexpress";
-
-// const myJSON = JSON.stringify(headlineLogoObject);
-//console.log("logo url is "+headlineLogoObject[findNewsPubName(props.headline.newsURL)]);
-// console.log(JSON.stringify(headlineLogoObject,["indianexpress"]));
-
+    console.log('sumamryObj obj is '+JSON.stringify(sumamryObj))
+    const listItems = 
+    <div>
+         { Array.isArray(sumamryObj)
+        ? sumamryObj.map(element => {
+            return <li className="summary-list_items">{element}</li>
+          })
+        : null}
+    </div>
+   
 const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 ( <div className="site-logo-section">
     <div className="section-text">
@@ -38,23 +22,22 @@ const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 </div>
 
  ): (
-    <div className="headline-box">
-        <div className="site-logo-headline">
-            {/* <div>
-                <img className ="site-logo" src={headlineLogoMap[newsLogo]} alt="site_logo"></img>
-            </div> */}
+    <div>
+        <div className="headline-box">
+        <div class="vl"></div>
             <div className="headline-text">
-                {headlineObj}
+               {headlineObj}
+                
             </div>
-            <div className="headline-text">
-                {sumamryObj}
+            <div className="summary-text">
+            <ul>
+                {listItems}
+            </ul>
+                
             </div>
         </div>
-        {/* <div className="headlineNewslogoContainer">
-                    <img className ="headline-image" src={newsImageUri} alt="headline_logo"></img>
-        </div>   */}
-
     </div>
+    
     
 )
 
@@ -65,12 +48,7 @@ const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
 
     return(
         <div>
-
-        {headLineDiv()}
-
-        {/* {alert(JSON.stringify(props))} */}
-      
-           
+            {headLineDiv()}      
         </div>
 
     );

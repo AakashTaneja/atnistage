@@ -5,12 +5,9 @@ body {
 
 
 /***************************TAG Selectors****************/
+
 h1 {
-    margin: 30px;
-    font-family: 'Lobster', cursive;
-    text-shadow: 2px 1px #232931;
-    font-size: 8rem;
-    color: #4ECCA3;
+    display: inline-block;
 }
 
 h2 {
@@ -68,11 +65,10 @@ h2 {
     border-color: lightgray;
     border-radius: 2px;
     -webkit-border-radius: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     max-width: 95%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
+    border-left: 2px solid rgb(247, 183, 110);
 
 }
 
@@ -235,16 +231,49 @@ h2 {
 
 /***************************Headline and Inline****************/
 .headline-box {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
     border-radius: 1px;
     -webkit-border-radius: 10px;
+    margin-top: 10px;
 
-    background-color: #ffffff;
-    padding: 5px;
+    /* background: #DCDCDC; */
+
     cursor: pointer;
     width: auto;
+    /* border-left: 2px solid rgb(247, 183, 110); */
+
+
+
+
+
+}
+
+.headline-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+
+.summary-text {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 150%;
+    font-size: 16px;
+    line-height: normal;
+
+}
+
+.summary-list_items {
+    list-style-type: '-  ';
+    padding: 2px;
+    margin-bottom: 10px;
 }
 
 
@@ -275,13 +304,18 @@ h2 {
 
 }
 
-.headline-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 95%;
 
-}
+
+/* .headline-center-mark {
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    background: #929191;
+    background-color: white;
+    border-radius: 1px;
+    -webkit-border-radius: 10px;
+
+} */
 
 .section-text {
     font-family: 'titan one', sans-serif;
