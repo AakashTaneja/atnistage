@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {lowerCase} from 'lodash';
 
 function HeadLine({headlineObj, sumamryObj}){
-    console.log('sumamryObj obj is '+JSON.stringify(sumamryObj))
+    //console.log('sumamryObj obj is '+JSON.stringify(sumamryObj))
     const listItems = 
     <div>
          { Array.isArray(sumamryObj)
