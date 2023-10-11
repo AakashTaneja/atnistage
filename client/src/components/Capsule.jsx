@@ -25,7 +25,6 @@ function Capsule(){
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
-    const [newsLogoData, setNewsLogoData] = useState(new Map());
     var fetchAPIURL = '';
     const env = 'STAGE';
     if (env === 'STAGE'){
@@ -48,13 +47,6 @@ function Capsule(){
         })
     }, []);
 
-    useEffect(() => {
-        fetch(fetchAPIURL + '/logos')
-          .then((response) => response.json())
-          .then((json) => setNewsLogoData(json))
-          .catch((error) => console.error(error))
-          .finally(() => console.log('logo data loaded'));
-      }, []);
 
     
 
@@ -103,12 +95,9 @@ function Capsule(){
             >
             
             {  
-                newsLogoData !== {} && newsDataFromDB && newsDataFromDB.map(newsitem =>
+                newsDataFromDB && newsDataFromDB.map(newsitem =>
 
             <div>
-                {/* {alert(JSON.stringify(newsitem.headline))} */
-                //console.log('newsinline NEWSLOGO is '+JSON.stringify(newsLogoData))
-                }
                 <Container className="mastercarousel">
                         <Row>
                             <Col className="p-0">
@@ -117,7 +106,7 @@ function Capsule(){
                         </Row> 
                         <Row>
                             <Col>
-                                <SocialSlider socaildata={newsitem.social} headlineLogoMap={newsLogoData}/>
+                                <SocialSlider socaildata={newsitem.social} />
                             </Col>
                         </Row>
                         

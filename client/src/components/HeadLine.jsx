@@ -24,7 +24,6 @@ const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
  ): (
     <div>
         <div className="headline-box">
-        <div class="vl"></div>
             <div className="headline-text">
                {headlineObj}
                 
