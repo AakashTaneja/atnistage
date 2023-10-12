@@ -36,7 +36,7 @@ function Tweet({socialdata, headlineLogoMap}){
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap[findNewsPubName(socialdata.url)]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={socialdata.sitelogo} />
                 </div>
                 
                 

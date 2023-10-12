@@ -53,7 +53,7 @@ function KooWithImage({socialdata, headlineLogoMap}){
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap["koo"]} alt="koo_logo"/>
+                <img className="twitter-koo-logo twitter-logo-with-media" src={socialdata.sitelogo} alt="koo_logo"/>
                 </div>
                 
                 

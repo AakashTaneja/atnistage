@@ -47,7 +47,7 @@ function KooMuchText({socialdata, headlineLogoMap}){
 
                 </div>
                 <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={headlineLogoMap["koo"]} />
+                <img className="twitter-koo-logo twitter-logo-with-media" src={socialdata.sitelogo} />
                 </div>
                 
                 
