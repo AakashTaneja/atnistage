@@ -164,7 +164,55 @@ const newsLogData = {
         "weatherandradar": "https://www.weatherandradar.in/assets/logos/preview-teaser/en-IN_logo-isobars_16x9.png",
         "lifestyle.livemint": "https://lifestyle.livemint.com/resources/assets/images/home-share-logo-600x330.png",
         "news-medical": "https://upload.wikimedia.org/wikipedia/commons/f/f4/News-Medical_Logo.png",
-        "cricket": "https://play-lh.googleusercontent.com/f5_w5_hXyQUd0eBgavdNY96Z7V76DcyuKSFO26Z57DPFiQDePmaRrK6ijfhNgmf3Mkc"
+        "cricket": "https://play-lh.googleusercontent.com/f5_w5_hXyQUd0eBgavdNY96Z7V76DcyuKSFO26Z57DPFiQDePmaRrK6ijfhNgmf3Mkc",
+
+        "news.un": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Logo_of_the_United_Nations.svg/1970px-Logo_of_the_United_Nations.svg.png",
+        "techcrunch": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TechCrunch_logo.svg/2560px-TechCrunch_logo.svg.png",
+        "fonearena": "https://images.fonearena.com/blog/wp-content/uploads/2016/06/fonearena-logo.jpg",
+        "gizmochina": "https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1420363342/jdatwm9zprwndptr1gmj.png",
+        "recipes.timesofindia": "https://static.toiimg.com/photo/73660730.cms",
+        "vogue": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/VOGUE_LOGO.svg/2560px-VOGUE_LOGO.svg.png",
+        "crickettimes": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/8f/c9/ad/8fc9ada3-d77f-c28a-dcb3-d1baa06a957c/AppIcon-0-1x_U007emarketing-0-0-85-220-6.png/1200x630wa.png",
+        "thecricketer": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/thecricketer.png",
+        "independent.co": "https://e7.pngegg.com/pngimages/275/239/png-clipart-the-independent-logo-newspaper-brand-alex-ferguson-company-text.png",
+        "san": "https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/0f/25/18/0f2518e0-49d6-30ed-7874-0635fc2dd5b2/AppIcon-1x_U007emarketing-0-5-0-85-220.png/200x200bb.jpg",
+        "popsci": "https://www.popsci.com/uploads/2023/03/21/PopSci_LogoStacked_Black_s.png",
+        "inverse": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Inverse_logo_2020.svg/1280px-Inverse_logo_2020.svg.png",
+        "scitechdaily": "https://scitechdaily.com/images/scitechdaily-logo-flat-100.png",
+        "bangkokpost": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/BangkokPost.svg/2560px-BangkokPost.svg.png",
+        "www3.nhk.or": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/2560px-NHK_World-Japan_TV.svg.png",
+        "kitchener.citynews": "https://kitchener.citynews.ca/wp-content/blogs.dir/sites/3/2023/04/25/CityNews-Org-Schema-Logo.jpg",
+        "medscape": "https://img.medscapestatic.com/pi/logos/mscp-logo.png",
+        "fiercepharma": "https://qtxasset.com/quartz/qcloud5/media/image/fiercepharma/1591304531/Fierce-Pharma.jpg/Fierce-Pharma.jpg",
+        "eastmojo": "https://i0.wp.com/www.eastmojo.com/wp-content/uploads/2021/02/east-mojo-logo.png",
+
+
+        "amarujala": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Amar_Ujala_Logo.png",
+        "jansatta": "https://1.bp.blogspot.com/-sBWWNN3q38w/WC1RNJ4ox5I/AAAAAAAAQnM/Tkin3U83BzkbpiajPWb92Mn-VB7JIUYRwCLcB/w1200-h630-p-k-no-nu/jansatta.jpg",
+        "livehindustan": "https://images.livehindustan.com/uploadimage/images/hh_logo.png",
+        "yourstory": "https://asset.brandfetch.io/idZ6zCbLkU/id1A_ZHX5y.png",
+        "vccircle": "https://www.schoolmitra.com/assets/site_v5/vccircle_logo-rbg.png",
+        "theverge": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_Verge_wordmark_2022.svg/1200px-The_Verge_wordmark_2022.svg.png",
+        "insidesport": "https://hindi.insidesport.in/wp-content/uploads/2021/04/InsideSport-Small-Dark-logo.png",
+        "dawn": "https://www.dawn.com/_img/logo.png",
+        "bgr": "https://bgr.com/wp-content/uploads/2021/06/BGR-logo-black.png",
+        "universetoday": "https://www.universetoday.com/wp-content/uploads/2020/10/cropped-cleanutlogo-1.png",
+        "space": "https://forums.space.com/styles/space/space/space-logo-black.png",
+        "healthshots": "https://exchange4media.gumlet.io/news-photo/104960-healthshots.jpg",
+        "kalingatv": "https://kalingatv.com/wp-content/uploads/2022/10/Ktv-Logo_.png",
+        "odishabytes": "https://odishabytes.com/wp-content/uploads/2019/11/OB-FInal-Logo1_300wNewDesign.png",
+        "deseret": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/18933316/Deseret_News_black__yellow_period.png",
+        "kxan": "https://upload.wikimedia.org/wikipedia/commons/0/0d/KXAN_Austin_News_logo.png",
+        "bronx.news12": "https://images.squarespace-cdn.com/content/v1/58bddd12e58c6278e8a670e2/1597159459277-S9PPFVNBJCSSJKB90GGF/new12bronx.png",
+        "stamfordadvocate": "https://storage.googleapis.com/hnp-subscription-app-static-files/casper_footer/CT_AD.png",
+        "bmcpublichealth.biomedcentral": "https://healthsystemsresearch.org/hsr2018/wp-content/uploads/2018/01/BMC-Logo.png",
+        "medicalxpress": "https://medx.b-cdn.net/tmpl/v6/img/logo.png"
+
+
+
+
+
+
 
 
 

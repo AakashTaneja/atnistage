@@ -39,7 +39,7 @@ function Capsule(){
             return res.json();
         })
         .then((data) =>{
-            //data.sort((a, b) => a.index - b.index);
+            data.sort((a, b) => a.index - b.index);
             setnewsDataFromDB(data);
             setPage(page+1);
             //console.log("page num is "+page);
