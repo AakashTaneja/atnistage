@@ -1,15 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const {getAllNews, setNews, updateNews, deleteNews, getAllNewsLogos} = require('../controllers/newsController');
+const { getAllNews } = require('../controllers/newsController');
 
 router.get('/', getAllNews);
 
-router.get('/logos', getAllNewsLogos);
+// router.get('/logos', getAllNewsLogos);
 
-router.post('/', setNews);
+// router.post('/', setNews);
 
-router.put('/:id', updateNews);
+// router.put('/:id', updateNews);
 
-router.delete('/:id', deleteNews);
+// router.delete('/:id', deleteNews);
 
 module.exports = router
