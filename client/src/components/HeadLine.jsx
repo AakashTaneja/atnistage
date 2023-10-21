@@ -13,15 +13,7 @@ function HeadLine({headlineObj, sumamryObj}){
         : null}
     </div>
    
-const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
-( <div className="site-logo-section">
-    <div className="section-text">
-        {headlineObj.headlineText}
-    </div>
-   
-</div>
-
- ): (
+return(
     <div>
         <div className="headline-box">
             <div className="headline-text">
@@ -38,19 +30,8 @@ const headLineDiv =() => lowerCase(headlineObj.type) === lowerCase("section")?
     </div>
     
     
-)
+);
 
-
-
-
-
-
-    return(
-        <div>
-            {headLineDiv()}      
-        </div>
-
-    );
 }
 
 export default HeadLine;

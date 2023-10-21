@@ -28,7 +28,7 @@ function Capsule(){
     var fetchAPIURL = '';
     const env = 'STAGE';
     if (env === 'STAGE'){
-        fetchAPIURL = 'http://192.168.1.8:3002/api/news'
+        fetchAPIURL = 'http://192.168.1.5:3002/api/news'
     } else if (env === 'PROD'){
         fetchAPIURL = 'https://atnilive.herokuapp.com/api/news'
     }
