@@ -579,8 +579,10 @@ a:focus {
 
 
 .hamaralogo {
-    padding-top: 0px;
-    width: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: 100px;
 }
 
 
