@@ -21,8 +21,13 @@ function Tweet({socialdata, headlineLogoMap}){
     return(
         <div className="twitter-koo-box twitter-box">
         
+
             
             <div onClick={handleClick} >
+
+            <div className="twitter-koo-text-only">
+                    {socialdata.text}
+                </div>
             <div className="twitter-koo-biosection">
                 <div className="twitter-koo-biopic-with-image">
                     <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
@@ -44,9 +49,7 @@ function Tweet({socialdata, headlineLogoMap}){
             </div>
             
                 
-                <div className="twitter-koo-text">
-                    {socialdata.text}
-                </div>
+              
                    
             </div>
             

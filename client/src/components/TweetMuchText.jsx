@@ -34,6 +34,9 @@ function TweetMuchText({socialdata, headlineLogoMap}){
         
             
             <div onClick={handleClick} >
+            <div className="twitter-koo-text-muchtext">
+                    {socialdata.text}
+                </div>
             <div className="twitter-koo-biosection">
                 <div className="twitter-koo-biopic-with-image">
                     <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
@@ -55,9 +58,7 @@ function TweetMuchText({socialdata, headlineLogoMap}){
             </div>
             
                 
-                <div className="twitter-koo-text">
-                    {socialdata.text}
-                </div>
+               
                    
             </div>
             

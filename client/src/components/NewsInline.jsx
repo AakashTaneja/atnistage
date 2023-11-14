@@ -22,10 +22,10 @@ function NewsInline({socialdata}){
 
     
     function maxString(){
-        if(socialdata.text.length > 100){
+        if(socialdata.text.length > 110){
             //console.log("cutting it");
             socialdata.text = _.truncate(socialdata.text, {
-                'length': 100 
+                'length': 109
               })
         }
         
@@ -37,15 +37,19 @@ function NewsInline({socialdata}){
         
         <div className="news-inline-box" onClick={handleClick}>
         
-         <div className="news-inline-text">
-                <img className ="news-inline-sitelogo" src={socialdata.sitelogo}></img>
-        
-            {socialdata.text}
-        </div>
+       
             
         <div className="twitter-koo-image-div">
             <img className="tweet-koo-inline-image" src={socialdata.image} onError={(e) => e.target.style.display='none' }/>
         </div>
+        <div className="news-inline-text-container">
+            <div className="news-inline-text">
+                {socialdata.text}
+            </div>
+        </div>
+        <div class="site-logo-container">
+                <img className ="news-inline-sitelogo" src={socialdata.sitelogo}></img>
+            </div>
        
                 
             

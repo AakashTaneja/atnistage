@@ -18,10 +18,10 @@ function TweetWithImage({socialdata, headlineLogoMap}){
     }
 
     function maxString(){
-        if(socialdata.text.length > 92){
+        if(socialdata.text.length > 100){
            // console.log("cutting it");
             socialdata.text = _.truncate(socialdata.text, {
-                'length': 100
+                'length': 99
               })  
         }
 
@@ -41,7 +41,17 @@ function TweetWithImage({socialdata, headlineLogoMap}){
         
             
             <div onClick={handleClick} >
-            <div className="twitter-koo-biosection">
+            
+            <div className="twitter-koo-image-div">
+                    <img className="tweet-koo-inline-image" src={socialdata.image}/>
+                </div>
+                
+                <div className="twitter-koo-text">
+                    {socialdata.text}
+                </div>
+               
+
+                <div className="twitter-koo-biosection">
                 <div className="twitter-koo-biopic-with-image">
                     <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
                 </div>
@@ -60,14 +70,6 @@ function TweetWithImage({socialdata, headlineLogoMap}){
                 
                
             </div>
-            
-                
-                <div className="twitter-koo-text">
-                    {socialdata.text}
-                </div>
-                <div className="twitter-koo-image-div">
-                    <img className="tweet-koo-inline-image" src={socialdata.image}/>
-                </div>
                    
             </div>
             

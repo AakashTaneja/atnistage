@@ -94,7 +94,6 @@ h2 {
     border-width: 0px;
     margin-top: 3px;
     height: 250px;
-    position: relative;
 }
 
 .twitter-box {
@@ -126,6 +125,7 @@ h2 {
 
 .twitter-koo-biosection {
     display: flex;
+    padding-bottom: 4px;
 }
 
 .twitter-koo-biopic {
@@ -137,15 +137,15 @@ h2 {
 }
 
 .twitter-koo-img-profile {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
 .twitter-koo-biotext {
     width: 50%;
     font-family: Roboto, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     display: block;
 
 }
@@ -156,11 +156,11 @@ h2 {
 }
 
 .twitter-koo-logo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    margin: auto;
-    display: block;
+    float: right;
+
 }
 
 .filler-div {
@@ -179,27 +179,44 @@ h2 {
 
 
 .twitter-koo-text {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 20px;
     font-family: Roboto, sans-serif;
+    height: 75px;
+    padding: 2px;
+    overflow: hidden;
+
+}
+
+.twitter-koo-text-muchtext {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    height: 215px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.twitter-koo-text-only {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    height: 215px;
+    padding: 4px;
+    overflow: hidden;
 
 }
 
 .twitter-koo-image-div {
     width: 100%;
-    position: absolute;
-    bottom: 5px;
-    right: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2px;
 }
 
 
 
 .tweet-koo-inline-image {
-    height: 120px;
-    width: 95%;
+    height: 140px;
+    width: 100%;
     object-fit: fit;
     margin: auto;
     display: block;
@@ -209,7 +226,7 @@ h2 {
 }
 
 .tweet-koo-inline-all-image {
-    height: 175px;
+    height: 140px;
     width: 95%;
     object-fit: fit;
     margin: auto;
@@ -349,7 +366,6 @@ h2 {
 }
 
 .news-inline-box {
-    flex: 1;
     padding: 2px 5px;
     border-radius: 1px;
     -webkit-border-radius: 10px;
@@ -360,7 +376,6 @@ h2 {
     border-width: 0px;
     margin-top: 3px;
     height: 250px;
-    position: relative;
 
 }
 
@@ -384,18 +399,29 @@ h2 {
     -webkit-border-radius: 10px;
 }
 
-.news-inline-sitelogo {
-    max-width: 120px;
-    height: 40px;
-    object-fit: contain;
+.site-logo-container {
+    height: 5px;
+}
 
+.news-inline-sitelogo {
+    margin-bottom: 10px;
+    max-width: 80px;
+    height: 30px;
+    object-fit: contain;
+    float: right
+}
+
+.news-inline-text-container {
+    padding: 2px;
+    height: 75px;
 }
 
 .news-inline-text {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 20px;
     font-family: Roboto, sans-serif;
     display: inline;
+
 }
 
 .instaImage {
@@ -584,7 +610,6 @@ a:focus {
     padding-bottom: 10px;
     height: 100px;
 }
-
 
 .endslide {
     cursor: pointer;

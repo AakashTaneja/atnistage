@@ -48,9 +48,9 @@ function SocialSlider({socaildata}){
         lowerCase(socialitem.type) === lowerCase("Tweet") ?
         (<div style={{ width: 220 }}> <Tweet  socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetWithImage") ?
-        (<div style={{ width: 275 }}> <TweetWithImage socialdata={socialitem} /> </div> )
+        (<div style={{ width: 250 }}> <TweetWithImage socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetAllImage") ?
-        (<div style={{ width: 275 }}> <TweetAllImage socialdata={socialitem} /> </div> )
+        (<div style={{ width: 250 }}> <TweetAllImage socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("TweetMuchText") ?
         (<div style={{ width: 300 }}> <TweetMuchText socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("Instagram") ?
@@ -58,13 +58,13 @@ function SocialSlider({socaildata}){
         : lowerCase(socialitem.type) === lowerCase("Koo") ?
         (<div style={{ width: 220 }}> <Koo socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooWithImage") ?
-        (<div style={{ width: 275 }}> <KooWithImage socialdata={socialitem} /> </div> )
+        (<div style={{ width: 250 }}> <KooWithImage socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("KooMuchText") ?
         (<div style={{ width: 300 }}> <KooMuchText socialdata={socialitem} /> </div> )
         : lowerCase(socialitem.type) === lowerCase("Youtube") ?
         (<div style={{ width: 250 }}> <Youtube socialdata={socialitem}/> </div> )
         : lowerCase(socialitem.type) === lowerCase("news") ?
-        (<div style={{ width: 275 }}> <NewsInline socialdata={socialitem} /> </div> )
+        (<div style={{ width: 250 }}> <NewsInline socialdata={socialitem} /> </div> )
         : (<div style={{ width: 1 }}> </div> )
         
     
