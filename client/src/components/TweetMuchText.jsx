@@ -18,10 +18,10 @@ function TweetMuchText({socialdata, headlineLogoMap}){
     }
 
     function maxString(){
-        if(socialdata.text.length > 275){
+        if(socialdata.text.length > 400){
             //console.log("cutting it");
             socialdata.text = _.truncate(socialdata.text, {
-                'length': 275
+                'length': 400
               })
         }
         

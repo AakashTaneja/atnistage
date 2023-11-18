@@ -61,7 +61,7 @@ h2 {
 .mastercarousel {
 
     border-style: groove;
-    border-width: 0px;
+    border-width: .125px;
     border-color: lightgray;
     border-radius: 2px;
     -webkit-border-radius: 10px;
