@@ -564,8 +564,19 @@ a:focus {
     -webkit-border-radius: 10px;
     padding-bottom: 25px;
     padding-top: 15px;
+}
 
+.banner-mobile-container {
 
+    text-align: right;
+    width: 100%;
+    position: relative;
+}
+
+.banner-message {
+    position: absolute;
+    bottom: 2px;
+    right: 100px;
 
 }
 
@@ -609,6 +620,11 @@ a:focus {
     padding-left: 10px;
     padding-bottom: 10px;
     height: 100px;
+}
+
+.google-badge {
+    padding: 5px;
+    height: 50px;
 }
 
 .endslide {

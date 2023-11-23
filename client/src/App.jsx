@@ -8,6 +8,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
+import Appbanner from "./components/Appbanner";
 //import ReactGA from 'react-ga';
 
 
@@ -26,11 +27,13 @@ function App() {
             <Router>
             
             <Navbar2 /> 
+            <Appbanner />
             <Routes>
                 <Route path="/" element={Capsule()}></Route>
                 <Route path="/about" element={About()}></Route>
                 <Route path="/contact" element={Contact()}></Route>
             </Routes>
+           
             <Footer />
         </Router>
         </div>
