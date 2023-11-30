@@ -627,9 +627,13 @@ a:focus {
     height: 50px;
 }
 
+.apple-badge-div {
+    text-align: left;
+}
+
 .apple-badge {
-    width: 100px;
-    padding-bottom: 5px;
+    width: 110px;
+    padding-bottom: 8px;
 }
 
 .endslide {
