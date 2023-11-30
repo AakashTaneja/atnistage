@@ -627,6 +627,11 @@ a:focus {
     height: 50px;
 }
 
+.apple-badge {
+    width: 100px;
+    padding-bottom: 5px;
+}
+
 .endslide {
     cursor: pointer;
     border-radius: 1px;
