@@ -20,20 +20,34 @@ import Loader from "./Loader.jsx";
 // fetchNewsDB();
 
 
-function Capsule(){
+function Capsule({dbname_capsule, fetchAPIHost}){
+
+    const [fetchAPIURL, setFetchAPIURL] = React.useState(fetchAPIHost.concat(dbname_capsule))
+    console.log('Capsule dbname_capsule is '+JSON.stringify(dbname_capsule))
+    console.log('Capsule fetchAPIURL is '+fetchAPIURL)
+   
+    
     
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
-    var fetchAPIURL = '';
-    const env = 'STAGE';
-    if (env === 'STAGE'){
-        fetchAPIURL = 'http://192.168.1.36:3002/api/news'
-    } else if (env === 'PROD'){
-        fetchAPIURL = 'https://api.andthenewsis.com/api/news'
-    }
+   
+   
+    // const env = 'STAGE';
+    // if (env === 'STAGE'){
+    //     fetchAPIHost = 'http://192.168.1.12:3002/api/'
+    //     fetchAPIURL = fetchAPIHost + 'news'
+    // } else if (env === 'PROD'){
+    //     fetchAPIHost = 'https://api.nutshellnews.in/api/'
+    //     fetchAPIURL = fetchAPIHost + 'news'
+    // }
 
     React.useEffect(() => {
+        console.log('useEffect dbname_capsule is '+dbname_capsule)
+        setFetchAPIURL(fetchAPIHost.concat(dbname_capsule))
+        
+        console.log('useEffect fetchAPIURL is '+fetchAPIURL)
+        
         fetch(fetchAPIURL + "?page="+page+"&limit=3")
         .then(res => {
             return res.json();
@@ -45,7 +59,7 @@ function Capsule(){
             //console.log("page num is "+page);
             
         })
-    }, []);
+    }, [dbname_capsule, fetchAPIURL]);
 
 
     
@@ -99,6 +113,7 @@ function Capsule(){
 
             <div>
                 <Container className="mastercarousel">
+                       
                         <Row>
                             <Col className="p-0">
                             <HeadLine headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>

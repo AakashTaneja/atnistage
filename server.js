@@ -9,7 +9,7 @@ const rateLimit = require('express-rate-limit');
 
 const limiter = rateLimit(
    {
-      limit: 10,
+      limit: 20,
       windowMs: 10000,
    }
 )
@@ -31,6 +31,12 @@ app.use(cors(corsOptions));
 connectDB();
 
 app.use('/api/news', require('./routes/newsRoute'));
+app.use('/api/entertainment', require('./routes/entertainmentRoute'));
+app.use('/api/sports', require('./routes/sportsRoute'));
+app.use('/api/markets', require('./routes/marketsRoute'));
+// app.use('/api/technology', require('./routes/technologyRoute'));
+
+app.use('/api/sections', require('./routes/sectionsRoute'));
 app.use(errorHandler);
 
 //serve static assets if in production

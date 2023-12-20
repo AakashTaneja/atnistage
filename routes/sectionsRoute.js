@@ -1,12 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const { getAllNews } = require('../controllers/newsController');
+const { getAllSections } = require('../controllers/sectionsController');
 
-router.get('/', getAllNews);
+router.get('/', getAllSections);
 
 // router.get('/logos', getAllNewsLogos);
-
-
 
 // router.post('/', setNews);
 

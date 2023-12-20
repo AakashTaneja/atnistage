@@ -7,11 +7,11 @@ const newsShema = {
     social: [Object]
 }
 
-const logosShema = {   
+const logosShema = {
     logosMap: Object,
 }
 
 const newsModel = mongoose.model("news", newsShema);
 const logosModel = mongoose.model("logos", logosShema);
 
-module.exports = {newsModel, logosModel};
+module.exports = { newsModel, logosModel };
