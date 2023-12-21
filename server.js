@@ -34,8 +34,7 @@ app.use('/api/news', require('./routes/newsRoute'));
 app.use('/api/entertainment', require('./routes/entertainmentRoute'));
 app.use('/api/sports', require('./routes/sportsRoute'));
 app.use('/api/markets', require('./routes/marketsRoute'));
-// app.use('/api/technology', require('./routes/technologyRoute'));
-
+app.use('/api/technology', require('./routes/technologyRoute'));
 app.use('/api/sections', require('./routes/sectionsRoute'));
 app.use(errorHandler);
 

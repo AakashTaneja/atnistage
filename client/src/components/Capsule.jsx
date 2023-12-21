@@ -22,15 +22,18 @@ import Loader from "./Loader.jsx";
 
 function Capsule({dbname_capsule, fetchAPIHost}){
 
+    const controller = new AbortController();
+    const { signal } = controller;
     const [fetchAPIURL, setFetchAPIURL] = React.useState(fetchAPIHost.concat(dbname_capsule))
-    console.log('Capsule dbname_capsule is '+JSON.stringify(dbname_capsule))
-    console.log('Capsule fetchAPIURL is '+fetchAPIURL)
+    //console.log('Capsule dbname_capsule is '+JSON.stringify(dbname_capsule))
+    //console.log('Capsule fetchAPIURL is '+fetchAPIURL)
    
     
     
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
     const [page, setPage] = React.useState(0);
+    //setPage(0)
    
    
     // const env = 'STAGE';
@@ -42,14 +45,11 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     //     fetchAPIURL = fetchAPIHost + 'news'
     // }
 
-    React.useEffect(() => {
-        console.log('useEffect dbname_capsule is '+dbname_capsule)
-        setFetchAPIURL(fetchAPIHost.concat(dbname_capsule))
-        
-        console.log('useEffect fetchAPIURL is '+fetchAPIURL)
-        
-        fetch(fetchAPIURL + "?page="+page+"&limit=3")
+    const fetchapi = () => {
+        fetch(fetchAPIURL + "?page="+page+"&limit=6", { signal })
         .then(res => {
+            //console.log('useEffect fetch then')
+            //console.log(res)
             return res.json();
         })
         .then((data) =>{
@@ -59,12 +59,33 @@ function Capsule({dbname_capsule, fetchAPIHost}){
             //console.log("page num is "+page);
             
         })
+
+    }
+
+
+    const setStates = () => {
+        setPage(() => 0)
+        setFetchAPIURL(() => fetchAPIHost.concat(dbname_capsule)) //using callback
+        //console.log('useEffect fetchAPIURL is '+fetchAPIURL)
+        //console.log('page is '+page)
+    }
+
+    React.useEffect(() => {
+        console.log('useEffect dbname_capsule is '+dbname_capsule)
+       //setFetchAPIURL(fetchAPIHost.concat(dbname_capsule))
+        setStates()
+        fetchapi()
+        return () => {
+            controller.abort(); // aborting any previous request still in response.
+        }
+        
     }, [dbname_capsule, fetchAPIURL]);
 
 
     
 
     const fetchMoreCapsues = async()=>{
+        //console.log("fetchMoreCapsues page num fetchMoreCapsues is "+fetchAPIURL+" "+page);
         const res =  await fetch(fetchAPIURL+"?page="+page+"&limit=3");
         window.dataLayer.push({
             event: 'capsule_fetch'

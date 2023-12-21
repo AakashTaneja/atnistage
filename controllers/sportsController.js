@@ -18,7 +18,7 @@ const getAllSportsNews = asyncHandler(async (req, res) => {
         res.json(newsdataSportsJson);
     }
     else { // for else assume prod and send back from database.
-        console.log("Environent is prod, for entertainment responding from news database");
+        console.log("Environent is prod, for sports responding from news database");
         const news = await sportsModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
         res.json(news);
     }

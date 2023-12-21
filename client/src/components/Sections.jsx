@@ -9,7 +9,7 @@ function Sections(){
     var fetchAPIURL = ''
     var fetchAPIHost = ''
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
-    const env = 'STAGE';
+    const env = 'PROD';
     if (env === 'STAGE'){
         fetchAPIHost = 'http://192.168.1.12:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
@@ -25,7 +25,7 @@ function Sections(){
 
 
     React.useEffect(() => {
-        console.log('Sections useEffect fetching sections api from '+fetchAPIURL)
+        //console.log('Sections useEffect fetching sections api from '+fetchAPIURL)
         fetch(fetchAPIURL)  
         .then(res => {
             return res.json();
@@ -33,16 +33,16 @@ function Sections(){
         .then((data) =>{
             data.sort((a, b) => a.index - b.index);
             setsectionsDataFromDB(data);
-            console.log(data)
+            //console.log(data)
             
         })
     }, [dbname_capsule]);
 
     function handleSectionClick(dbname){
         setFirstButtonStyle({})
-        console.log('Sections handleClick on '+ dbname)
-        setDbname_capsule(dbname)
-        console.log('handleSectionClick dbname_capsule is '+ dbname_capsule)
+        //console.log('Sections handleClick on '+ dbname)
+        setDbname_capsule(() => dbname)
+        //console.log('handleSectionClick dbname_capsule is '+ dbname_capsule)
         //setInitiated(true)
       }
 
@@ -68,7 +68,7 @@ function Sections(){
             </Col>
         </Row> 
         </Container> 
-       <Capsule dbname_capsule={dbname_capsule} fetchAPIHost={fetchAPIHost} />
+       <Capsule dbname_capsule={dbname_capsule} fetchAPIHost={fetchAPIHost}/>
             
 
     </div>
