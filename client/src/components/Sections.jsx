@@ -20,7 +20,7 @@ function Sections(){
     
     //console.log('in sections'+apihostObject.apihostObject)
     const [sectionsDataFromDB, setsectionsDataFromDB] = React.useState([]);
-    const [firstButtonStyle, setFirstButtonStyle] = React.useState({  "background-color": "#e3e2e2" })
+    const [firstButtonStyle, setFirstButtonStyle] = React.useState({  "background-color": "#d3d1d1" })
     
 
 

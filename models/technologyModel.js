@@ -7,6 +7,8 @@ const technologyShema = {
     social: [Object]
 }
 
+mongoose.pluralize(null);
+
 const technologyModel = mongoose.model("technology", technologyShema);
 
 

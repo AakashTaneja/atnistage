@@ -18,7 +18,7 @@ const getAllEntertainmentNews = asyncHandler(async (req, res) => {
         res.json(newsdataEntertainmentJson);
     }
     else { // for else assume prod and send back from database.
-        console.log("Environent is prod, for entertainment responding from news database");
+        console.log("Environent is prod, for entertainment responding from database");
         const entertainment = await entertainmentModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
         res.json(entertainment);
     }

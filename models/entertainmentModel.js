@@ -7,6 +7,8 @@ const entertainmentShema = {
     social: [Object]
 }
 
+mongoose.pluralize(null);
+
 const entertainmentModel = mongoose.model("entertainment", entertainmentShema);
 
 
