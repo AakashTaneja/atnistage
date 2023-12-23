@@ -57,11 +57,7 @@ function Sections(){
                 index ? 
                     <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{}}/> 
                     :
-                    <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{firstButtonStyle}}/> 
-                    
-    
-                
-                       
+                    <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{firstButtonStyle}}/>     
 
                 )
             }

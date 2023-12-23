@@ -46,7 +46,7 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     // }
 
     const fetchapi = () => {
-        fetch(fetchAPIURL + "?page="+page+"&limit=6", { signal })
+        fetch(fetchAPIURL + "?page="+page+"&limit=3", { signal })
         .then(res => {
             //console.log('useEffect fetch then')
             //console.log(res)

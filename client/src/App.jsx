@@ -2,8 +2,6 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
-import Capsule from "./components/Capsule";
 import Sections from "./components/Sections";
 import About from "./components/About";
 import Contact from "./components/Contact";
