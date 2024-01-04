@@ -12,8 +12,10 @@ Setup:
 - get atnistage/.env from admin (this will have two keys)
   a. MONGO_URI
   b. ENV (=STAGE will read from file stnistage/newsdataJSON.js, =PROD will read from mongodb)
-- go to atnistage/client/src/components/Capsule.jsx
-- change ip address in fetchAPIURL = 'http://192.168.1.36:3002/api/news' (In case you need to change port, edit atnistage/server.js "const PORT = process.env.PORT || 3002;")
+- go to atnistage/client/src/components/Sections.jsx
+- make sure 
+fetchAPIHost = http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/ 
+(In case you need to change port, edit atnistage/server.js "const PORT = process.env.PORT || 3002;")
 
 Servers (port 3002)
 - backend
