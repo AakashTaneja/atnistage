@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 // import newsdata from "../newsdata";
 // import newsdataJSON from "../newsdataJSON";
 //import resultsFromDB from "../Database";
-import HeadLine from "./HeadLine.jsx";
+import HeadLineSummary from './HeadlineSummary.jsx';
 import {Container, Row, Col} from "react-bootstrap";
 import InfiniteScroll from 'react-infinite-scroll-component';
-import SocialSlider from "./SocialSlider";
+import SocialInline from './SocialInline.jsx';
 import Margin from "./Margin";
 import Loader from "./Loader.jsx";
 // var newsDataFromDB = [{}];
@@ -135,14 +135,19 @@ function Capsule({dbname_capsule, fetchAPIHost}){
             <div>
                 <Container className="mastercarousel">
                        
-                        <Row>
+                        {/* <Row>
                             <Col className="p-0">
                             <HeadLine headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>
+                            </Col>
+                        </Row>  */}
+                        <Row>
+                            <Col className="p-0">
+                            <HeadLineSummary headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>
                             </Col>
                         </Row> 
                         <Row>
                             <Col>
-                                <SocialSlider socaildata={newsitem.social} />
+                                <SocialInline socaildata={newsitem.social} />
                             </Col>
                         </Row>
                         

@@ -11,11 +11,11 @@ function Sections(){
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
     const env = 'PROD';
     if (env === 'STAGE'){
-        fetchAPIHost = 'http://192.168.1.12:3002/api/'
+        fetchAPIHost = 'http://192.168.1.21:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     } else if (env === 'PROD'){
-        //fetchAPIHost = 'https://api.nutshellnews.in/api/'
-        fetchAPIHost = 'http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/'
+        fetchAPIHost = 'https://api.nutshellnews.in/api/'
+        //fetchAPIHost = 'http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     }
     
@@ -45,6 +45,10 @@ function Sections(){
         setDbname_capsule(() => dbname)
         //console.log('handleSectionClick dbname_capsule is '+ dbname_capsule)
         //setInitiated(true)
+        window.dataLayer.push({
+            event: 'section_click',
+            section_name: dbname,
+        });
       }
 
     
