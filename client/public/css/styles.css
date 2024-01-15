@@ -744,10 +744,11 @@ a:focus {
     -webkit-border-radius: 10px;
     cursor: pointer;
     border-style: groove;
-    background-color: #e9f0f5;
+    /* background-color: #e9f0f5; */
     border-style: groove;
     border-width: 0px;
     margin-bottom: 4px;
+    margin-top: 2px;
 
 }
 
@@ -758,13 +759,23 @@ a:focus {
 
 .summary-item {
     background-color: #e9f0f5;
-    min-width: 260px;
-    padding: 8px;
+    /* background-color: #faf9f5; */
+    min-width: 242px;
+    padding: 4px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     line-height: 150%;
     font-size: 16px;
-    line-height: normal;
+    border-width: 1px;
+    border-style: groove;
+    -webkit-border-radius: 10px;
+    margin-right: 8px;
+    margin-left: 2px;
+
+}
+
+.summary-logo {
+    height: 10px;
 }
 
 .social-inline-row {
@@ -778,7 +789,6 @@ a:focus {
     overflow: auto;
     -webkit-border-radius: 10px;
     cursor: pointer;
-    border-style: groove;
     border-style: groove;
     border-width: 0px;
     width: 100%;

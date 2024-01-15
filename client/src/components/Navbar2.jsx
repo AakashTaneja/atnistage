@@ -8,7 +8,7 @@ function Navbar2(){
         <div>
             <Navbar bg="primary" expand="md" className="p-0">
             <Container className="p-0" >
-                <Navbar.Brand href="/"> <img class="navbar-brand" className="hamaralogo" src="FullLogo_Transparent_NoBuffer.png" alt="and the NEWS is..."></img></Navbar.Brand>
+                <Navbar.Brand href="/"> <img class="navbar-brand" className="hamaralogo" src="FullLogo_Transparent_NoBuffer.png" alt="nutshell news"></img></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
