@@ -430,13 +430,13 @@ h2 {
 
 .youtube-box {
     flex: 1;
-    padding: 2px 5px;
+    padding: 4px 5px;
     border-radius: 1px;
     -webkit-border-radius: 10px;
     cursor: pointer;
     border-style: groove;
-    border-color: #eeeff3;
-    background-color: #000000;
+    border-color: #f9cecd;
+    background-color: #f5e0e0;
     border-width: 0px;
     margin-top: 3px;
     height: 260px;

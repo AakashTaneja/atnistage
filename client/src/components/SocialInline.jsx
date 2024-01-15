@@ -72,7 +72,7 @@ const [scrollPosition, setScrollPosition] = useState(0);
           : lowerCase(socialitem.type) === lowerCase("KooMuchText") ?
           (<div className="social-inline-item" style={{ "min-width": 300 }}> <KooMuchText socialdata={socialitem} /> </div> )
           : lowerCase(socialitem.type) === lowerCase("Youtube") ?
-          (<div className="social-inline-item" style={{ "min-width": 260 }}> <Youtube socialdata={socialitem}/> </div> )
+          (<div className="social-inline-item" style={{ "min-width": 315 }}> <Youtube socialdata={socialitem}/> </div> )
           : lowerCase(socialitem.type) === lowerCase("news") ?
           (<div className="social-inline-item" style={{ "min-width": 250 }}> <NewsInline socialdata={socialitem} /> </div> )
           : (<div style={{ width: 1 }}> </div> )
