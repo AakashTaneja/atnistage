@@ -14,8 +14,8 @@ function Sections(){
         fetchAPIHost = 'http://192.168.1.21:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     } else if (env === 'PROD'){
-        fetchAPIHost = 'https://api.nutshellnews.in/api/'
-        //fetchAPIHost = 'http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/'
+        //fetchAPIHost = 'https://api.nutshellnews.in/api/'
+        fetchAPIHost = 'http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     }
     
