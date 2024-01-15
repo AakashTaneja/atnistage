@@ -443,6 +443,14 @@ h2 {
     position: relative;
 }
 
+.youtube-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+    padding: 4px;
+    overflow: hidden;
+}
+
 
 
 .youtube-image {

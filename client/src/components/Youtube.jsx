@@ -2,8 +2,6 @@ import React from "react";
 import _ from "lodash";
 
 function Youtube(props){
-    const watchNowOff = "youtubePlay.png";
-    const watchNow = "youtubePlay.png";
     const youttubeURL =  "https://www.youtube.com/embed/"+props.socialdata.youtubeID;
 
     function maxString(){
@@ -33,9 +31,6 @@ function Youtube(props){
     
     return(
         <div className="youtube-box" onClick={handleClick} >
-            {/* <a href={youttubeURL} target="_blank">
-            <img className="youtube-image" src={"https://i.ytimg.com/vi/"+props.socialdata.youtubeID+"/hqdefault.jpg"} width="245" height="245"/>
-            <img className="youtube-play" src={watchNow} width="75" /> */}
             <iframe src={youttubeURL}
                 height={'80%'}
                 frameborder='0'
@@ -43,9 +38,7 @@ function Youtube(props){
                 allowfullscreen
                 title='video'
             />
-        {/* </a>
-         */}
-         <div className="twitter-koo-text-only">
+            <div className="youtube-text">
                     {props.socialdata.text}
             </div>
                     
