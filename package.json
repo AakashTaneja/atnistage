@@ -21,6 +21,7 @@
     "express-async-handler": "^1.2.0",
     "express-rate-limit": "^7.1.1",
     "mongoose": "^6.3.5",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "react-smartbanner": "^5.1.4"
   }
 }

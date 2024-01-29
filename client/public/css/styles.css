@@ -68,7 +68,8 @@ h2 {
     padding-bottom: 5px;
     max-width: 95%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-left: 2px solid rgb(247, 183, 110);
+    /* border-left: 2px solid rgb(247, 183, 110); */
+    border-left: 2px solid rgb(247, 236, 224);
 
 }
 
@@ -764,9 +765,9 @@ a:focus {
     padding: 4px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    line-height: 150%;
+    line-height: 125%;
     font-size: 16px;
-    border-width: 1px;
+    border-width: 0px;
     border-style: groove;
     -webkit-border-radius: 10px;
     margin-right: 8px;
