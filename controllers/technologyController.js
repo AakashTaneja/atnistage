@@ -12,16 +12,23 @@ const newsdataTechnologyJson = require('../newsdataSportsJSON');
 const getAllTechnologyNews = asyncHandler(async (req, res) => {
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
-    const slice = req.query.slice
+    const slice = Number(req.query.slice)
     if (process.env.ENV === "STAGE") {
         console.log("Environent is stage, for technolog responding with file newsdataEntJson")
         res.json(newsdataTechnologyJson);
     }
     else { // for else assume prod and send back from database.
         if (typeof (slice) != 'undefined') {
-            console.log('slice is ' + slice)
-            const news = await technologyModel.find().sort({ 'index': 1 }).skip(slice);
-            res.json(news);
+            if (slice === 0) {
+                //console.log('slice is ' + slice)
+                const news = await technologyModel.find().sort({ 'index': 1 }).skip(slice);
+                res.json(news);
+            }
+            else if (slice > 0) {
+                const news = await technologyModel.find().sort({ 'index': 1 }).skip(slice + 1);
+                res.json(news);
+            }
+
         }
         else {
             console.log("Environent is prod, for technolog responding from news database");
