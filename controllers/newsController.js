@@ -12,7 +12,7 @@ const newsdataJSON = require('../newsdataJSON');
 const getAllNews = asyncHandler(async (req, res) => {
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
-    const slice = Number(req.query.slice)
+    const slice = req.query.slice
 
     if (process.env.ENV === "STAGE") {
         console.log("Environent is stage, for news responding with file")
@@ -20,22 +20,23 @@ const getAllNews = asyncHandler(async (req, res) => {
     }
     else { // for else assume prod and send back from database.
         if (typeof (slice) != 'undefined') {
-            if (slice === 0) {
+            if (slice == 0) {
                 //console.log('slice is ' + slice)
-                const news = await newsModel.find().sort({ 'index': 1 }).skip(slice);
-                //console.log("Environent is prod, for news responding from news database, slice is " + slice);
+                const news = await newsModel.find().sort({ 'index': 1 });
+                //console.log("Environent is prod, for news responding from news database, slice is " + slicer);
                 res.json(news);
             }
             else if (slice > 0) {
+                var slicer = Number(slice)
                 //console.log('slice is ' + slice)
-                const news = await newsModel.find().sort({ 'index': 1 }).skip(slice + 1);
-                //console.log("Environent is prod, slice is > 0, for news responding from news database, slice is " + slice);
+                const news = await newsModel.find().sort({ 'index': 1 }).skip(slicer + 1);
+                console.log("Environent is prod, slice is > 0, for news responding from news database, slice is " + slicer);
                 res.json(news);
             }
 
         }
         else {
-            //console.log("Environent is prod, for news responding from news database");
+            console.log("Environent is prod, for news responding from news database");
             const news = await newsModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
             res.json(news);
         }
