@@ -21,18 +21,9 @@ const getAllEntertainmentNews = asyncHandler(async (req, res) => {
     }
     else { // for else assume prod and send back from database.
         if (typeof (slice) != 'undefined') {
-            if (slice == 0) {
-                //console.log('slice is ' + slice)
-                const news = await entertainmentModel.find().sort({ 'index': 1 });
-                res.json(news);
-            }
-            else if (slice > 0) {
-                var slicer = Number(slice)
-                //console.log('slice is ' + slice)
-                const news = await entertainmentModel.find().sort({ 'index': 1 }).skip(slicer + 1);
-                res.json(news);
-            }
-
+            //console.log('slice is ' + slice)
+            const news = await entertainmentModel.find().sort({ 'index': 1 }).skip(slice);
+            res.json(news);
         }
         else {
             console.log("Environent is prod, for entertainment responding from database");
