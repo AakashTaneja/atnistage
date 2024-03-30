@@ -37,6 +37,8 @@ app.use('/api/sports', require('./routes/sportsRoute'));
 app.use('/api/markets', require('./routes/marketsRoute'));
 app.use('/api/technology', require('./routes/technologyRoute'));
 app.use('/api/sections', require('./routes/sectionsRoute'));
+app.use('/api/health', require('./routes/healthRoute'));
+app.use('/api/science', require('./routes/scienceRoute'));
 app.use('/api/trending', require('./routes/trendingRoute'));
 app.use('/api/search', (req, res) => {
    const search_key = req.query.query

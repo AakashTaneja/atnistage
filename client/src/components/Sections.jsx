@@ -11,7 +11,7 @@ function Sections(){
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
     const env = 'PROD';
     if (env === 'STAGE'){
-        fetchAPIHost = 'http://192.168.1.5:3002/api/'
+        fetchAPIHost = 'http://192.168.1.19:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     } else if (env === 'PROD'){
         fetchAPIHost = 'https://api.nutshellnews.in/api/'
