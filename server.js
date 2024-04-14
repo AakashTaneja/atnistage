@@ -44,7 +44,7 @@ app.use('/api/search', (req, res) => {
    const search_key = req.query.query
    const full_key = req.query.full
    var searchRegex;
-   const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets'];
+   const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets', 'health', 'science'];
    if (typeof (full_key) == 'undefined') {
       searchRegex = new RegExp(search_key.split(/\s+/).join('|'), 'i'); //this is to serach any of the multiple words provided.
       //console.log('no full_key search regex is ' + searchRegex)
@@ -58,7 +58,7 @@ app.use('/api/search', (req, res) => {
       $or: [
          { headline: { $regex: searchRegex } },
          { summary: { $regex: searchRegex } },
-         { keywords: { $regex: searchRegex } },
+         // { keywords: { $regex: searchRegex } },
          // Add more fields as needed
       ],
    };
