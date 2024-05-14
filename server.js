@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3002;
 const app = express();
 const rateLimit = require('express-rate-limit');
 const { databaseSearch } = require('./search/searchKey')
+const { performance } = require("perf_hooks");
 
 const limiter = rateLimit(
    {
@@ -40,11 +41,14 @@ app.use('/api/sections', require('./routes/sectionsRoute'));
 app.use('/api/health', require('./routes/healthRoute'));
 app.use('/api/science', require('./routes/scienceRoute'));
 app.use('/api/trending', require('./routes/trendingRoute'));
+app.use('/api/searchrec', require('./routes/searchrecRoute'));
 app.use('/api/search', (req, res) => {
+   const t0 = performance.now();
    const search_key = req.query.query
    const full_key = req.query.full
    var searchRegex;
-   const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets', 'health', 'science'];
+   const collectionsToSearch = ['news', 'news_archive', 'sports', 'sports_archive', 'technology','technology_archive', 'entertainment', 'entertainment_archive', 'markets', 'markets_archive','health', 'health_archive', 'science', 'science_archive'];
+   //const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets', 'health', 'science',];
    if (typeof (full_key) == 'undefined') {
       searchRegex = new RegExp(search_key.split(/\s+/).join('|'), 'i'); //this is to serach any of the multiple words provided.
       //console.log('no full_key search regex is ' + searchRegex)
@@ -57,7 +61,7 @@ app.use('/api/search', (req, res) => {
    const searchCriteria = {
       $or: [
          { headline: { $regex: searchRegex } },
-         { summary: { $regex: searchRegex } },
+        // { summary: { $regex: searchRegex } }, as we move to archive, no checking summary to keep load time short, this is now essentially like /api/searchtrends
          // { keywords: { $regex: searchRegex } },
          // Add more fields as needed
       ],
@@ -84,9 +88,12 @@ app.use('/api/search', (req, res) => {
             console.error('Error:', error);
          });
    }
+   const t1 = performance.now();
+   console.log('responding /api/search in ms '+(t1 - t0))
 
 });
 app.use('/api/searchtrends', (req, res) => {
+   const t0 = performance.now();
    const search_key = req.query.query
    const full_key = req.query.full
    var searchRegex;
@@ -129,6 +136,9 @@ app.use('/api/searchtrends', (req, res) => {
             console.error('Error:', error);
          });
    }
+
+   const t1 = performance.now();
+   console.log('responding /api/searchtrends in ms '+(t1 - t0))
 
 });
 app.use(errorHandler);
