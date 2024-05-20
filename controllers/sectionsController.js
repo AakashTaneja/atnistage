@@ -29,7 +29,7 @@ const getAllSections = asyncHandler(async (req, res) => {
             var field = field_req
             var json = {};
             json[field] = 1
-            console.log('field_req is ' + field_req)
+            //console.log('field_req is ' + field_req)
             const section = await sectionsModel.find(filter).select(json);
             res.json(section);
         }

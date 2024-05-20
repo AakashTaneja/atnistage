@@ -2,6 +2,7 @@ const asyncHandler = require('express-async-handler');
 
 
 const { marketsModel } = require('../models/marketsModel');
+const { performance } = require("perf_hooks");
 
 
 const dotenv = require("dotenv").config();
@@ -11,6 +12,7 @@ const newsdataMarketsJson = require('../newsdataMarketsJSON');
 //console.log("picked up "+process.env.ENV);
 
 const getAllMarketsNews = asyncHandler(async (req, res) => {
+    const t0 = performance.now();
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
     const slice = req.query.slice
@@ -32,6 +34,8 @@ const getAllMarketsNews = asyncHandler(async (req, res) => {
         }
 
     }
+    const t1 = performance.now();
+    console.log('responding /api/markets in ms '+(t1 - t0))
 
 })
 
