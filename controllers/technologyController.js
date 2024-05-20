@@ -27,7 +27,7 @@ const getAllTechnologyNews = asyncHandler(async (req, res) => {
             res.json(news);
         }
         else {
-            console.log("Environent is prod, for technolog responding from news database");
+            //console.log("Environent is prod, for technolog responding from news database");
             const news = await technologyModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
             res.json(news);
         }

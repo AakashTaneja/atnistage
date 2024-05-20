@@ -68,7 +68,7 @@ app.use('/api/search', (req, res) => {
    };
 
    if (typeof (search_key) == 'undefined') {
-      console.log("Environent is prod, responding from sections database");
+      //console.log("Environent is prod, responding from sections database");
       //console.log('sections are ' + sections)
       res.json('please provide query');
    }
@@ -116,7 +116,7 @@ app.use('/api/searchtrends', (req, res) => {
    };
 
    if (typeof (search_key) == 'undefined') {
-      console.log("Environent is prod, responding from sections database");
+      //console.log("Environent is prod, responding from sections database");
       //console.log('sections are ' + sections)
       res.json('please provide query');
    }

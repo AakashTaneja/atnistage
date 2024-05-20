@@ -1,17 +1,19 @@
 const asyncHandler = require('express-async-handler');
 
 const { sectionsModel } = require('../models/sectionsModel');
+const { performance } = require("perf_hooks");
 
 //https://api.nutshellnews.in/api/sections?section_name=section_name
 
 
 const getAllSections = asyncHandler(async (req, res) => {
+    const t0 = performance.now();
 
     const section_name = req.query.section_name
     const field_req = req.query.field
 
     if (typeof (section_name) == 'undefined') {
-        console.log("Environent is prod, responding from sections database");
+        //console.log("Environent is prod, responding from sections database");
         const sections = await sectionsModel.find();
         //console.log('sections are ' + sections)
         res.json(sections);
@@ -35,7 +37,8 @@ const getAllSections = asyncHandler(async (req, res) => {
         }
 
     }
-
+    const t1 = performance.now();
+    console.log('responding /api/sections in ms '+(t1 - t0))
 
 
 })

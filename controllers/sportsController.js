@@ -29,7 +29,7 @@ const getAllSportsNews = asyncHandler(async (req, res) => {
         }
         else {
 
-            console.log("Environent is prod, for sports responding from sports database");
+            //console.log("Environent is prod, for sports responding from sports database");
             const news = await sportsModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
             res.json(news);
         }
