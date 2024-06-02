@@ -40,6 +40,8 @@ app.use('/api/technology', require('./routes/technologyRoute'));
 app.use('/api/sections', require('./routes/sectionsRoute'));
 app.use('/api/health', require('./routes/healthRoute'));
 app.use('/api/science', require('./routes/scienceRoute'));
+app.use('/api/vehicles', require('./routes/vehiclesRoute'));
+app.use('/api/world', require('./routes/worldRoute'));
 app.use('/api/trending', require('./routes/trendingRoute'));
 app.use('/api/searchrec', require('./routes/searchrecRoute'));
 app.use('/api/search', (req, res) => {
