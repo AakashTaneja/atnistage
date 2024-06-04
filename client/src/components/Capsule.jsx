@@ -46,10 +46,12 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     // }
 
     const fetchapi = () => {
+        console.log('in capsule fetch '+ "?page="+page+"&limit=3")
         fetch(fetchAPIURL + "?page="+page+"&limit=3", { signal })
+        //console.log('in capsule '+fetchAPIURL + '?page='+page+'&limit=3')
         .then(res => {
             //console.log('useEffect fetch then')
-            //console.log(res)
+            console.log(res)
             return res.json();
         })
         .then((data) =>{
@@ -71,7 +73,7 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     }
 
     React.useEffect(() => {
-        console.log('useEffect dbname_capsule is '+dbname_capsule)
+        //console.log('useEffect dbname_capsule is '+dbname_capsule)
        //setFetchAPIURL(fetchAPIHost.concat(dbname_capsule))
         setStates()
         fetchapi()
@@ -113,9 +115,9 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     
     return(
 
-        <div>
+
             
-            <div className="carousel">
+            <Container className="mx-mobile-2 mx-lg-6">
             <InfiniteScroll
                 dataLength={newsDataFromDB.length} //This is important field to render the next data
                 next={fetchData}
@@ -132,8 +134,8 @@ function Capsule({dbname_capsule, fetchAPIHost}){
             {  
                 newsDataFromDB && newsDataFromDB.map(newsitem =>
 
-            <div>
-                <Container className="mastercarousel">
+            <div className="responsive-carousel">
+                <Container className="mastercarousel mx-lg-6">
                        
                         {/* <Row>
                             <Col className="p-0">
@@ -158,12 +160,12 @@ function Capsule({dbname_capsule, fetchAPIHost}){
  
    
 </InfiniteScroll>
-</div>
+</Container>
  
 
 
 
-</div>
+
        
         
        

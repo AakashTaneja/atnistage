@@ -6,7 +6,7 @@ function PrevArrow(props){
   return (
     <div
         className="slick-prev"
-        style={{...style, display: 'block'}}
+        style={{...style, display: 'block', zIndex:1}}
         onClick={onClick}
     >
         <img src={ARROW_prev} className= "arrowLeft hidden-mobile"  alt="arrow_left"/>

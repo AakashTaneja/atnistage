@@ -1,5 +1,4 @@
 import React from 'react';
-import Section from './Section';
 import {Container, Row, Col} from "react-bootstrap";
 import Capsule from './Capsule';
 
@@ -9,9 +8,9 @@ function Sections(){
     var fetchAPIURL = ''
     var fetchAPIHost = ''
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
-    const env = 'PROD';
+    const env = 'STAGE';
     if (env === 'STAGE'){
-        fetchAPIHost = 'http://192.168.1.19:3002/api/'
+        fetchAPIHost = 'http://192.168.1.5:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
     } else if (env === 'PROD'){
         fetchAPIHost = 'https://api.nutshellnews.in/api/'
@@ -21,7 +20,12 @@ function Sections(){
     
     //console.log('in sections'+apihostObject.apihostObject)
     const [sectionsDataFromDB, setsectionsDataFromDB] = React.useState([]);
-    const [firstButtonStyle, setFirstButtonStyle] = React.useState({  "background-color": "#d3d1d1" })
+    const [activeIndex, setActiveIndex] = React.useState(0);
+    const buttonsRef = React.useRef([]);
+
+    const isMobile = () => {
+        return window.innerWidth <= 768;
+      };
     
 
 
@@ -37,16 +41,21 @@ function Sections(){
             //console.log(data)
             
         })
-    }, [dbname_capsule]);
+    }, []);
 
-    function handleSectionClick(dbname){
-        setFirstButtonStyle({})
-        //console.log('Sections handleClick on '+ dbname)
-        setDbname_capsule(() => dbname)
+    function handleSectionClick(index, dbname){
+        setActiveIndex(index);
+        setDbname_capsule(dbname)
+        //console.log('Sections handleClick on dbname '+ dbname)
+        //console.log('Sections handleClick dbnamecapsule is '+ dbname_capsule)
         //console.log('handleSectionClick dbname_capsule is '+ dbname_capsule)
         //setInitiated(true)
+        if (isMobile()){
+            buttonsRef.current[index].scrollIntoView({ behavior: 'smooth', inline: 'center' });
+        }
+        
         window.dataLayer.push({
-            event: 'section_click',
+            event: 'section_click_'+dbname,
             section_name: dbname,
         });
       }
@@ -54,21 +63,29 @@ function Sections(){
     
     return(
         <div>
-        <Container className="horizontal-scrollable section-header">
+        <Container className="mastercarousel mx-lg-6">
         <Row>
-            <Col className="p-0">
+            <Col className="mx-mobile-2 mx-lg-6">
             {  
                 sectionsDataFromDB && sectionsDataFromDB.map((sectionitem, index) =>
-                index ? 
-                    <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{}}/> 
-                    :
-                    <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{firstButtonStyle}}/>     
+                <button
+                    key={index}
+                    ref={(el) => (buttonsRef.current[index] = el)}
+                    className={`sectionbutton ${activeIndex === index ? 'active' : ''}`}
+                    onClick={() => handleSectionClick(index, sectionitem.db)}
+                    >{sectionitem.display}
+                </button>
+                //index ? 
+                    //<Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} activeIndex={activeIndex}/> 
+                  //  :
+                  //  <Section index={index} display={sectionitem.display} db={sectionitem.db} handleSectionClick={handleSectionClick} firstButtonStyle={{firstButtonStyle}}/>     
 
                 )
             }
             </Col>
         </Row> 
         </Container> 
+        
        <Capsule dbname_capsule={dbname_capsule} fetchAPIHost={fetchAPIHost}/>
             
 

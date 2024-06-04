@@ -86,7 +86,7 @@ const [scrollPosition, setScrollPosition] = useState(0);
             <Row>
                 
                   <Col className="fixed-width"> 
-                    <button className="scrollbar-button left-button hidden-mobile" onScroll={hanldMobileScroll} onClick={handleLeftScroll} type="button"> <img className="scrollbar-button-image mobile-hiden" src="arrow_left.png" alt="button" border="0" /> </button>
+                    <button className="scrollbar-button left-button hidden-mobile" onScroll={hanldMobileScroll} onClick={handleLeftScroll} type="button"> {'<'} </button>
                   </Col>
                   <Col>
 

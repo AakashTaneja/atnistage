@@ -99,7 +99,7 @@ app.use('/api/searchtrends', (req, res) => {
    const search_key = req.query.query
    const full_key = req.query.full
    var searchRegex;
-   const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets', 'health', 'science', 'vehilces', 'world'];
+   const collectionsToSearch = ['news', 'sports', 'technology', 'entertainment', 'markets', 'health', 'science', 'vehicles', 'world'];
    if (typeof (full_key) == 'undefined') {
       searchRegex = new RegExp(search_key.split(/\s+/).join('|'), 'i'); //this is to serach any of the multiple words provided.
       //console.log('no full_key search regex is ' + searchRegex)
