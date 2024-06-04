@@ -63,7 +63,7 @@ function Sections(){
     
     return(
         <div>
-        <Container className="sectionscarousel mx-lg-6">
+        <Container className="horizontal-scrollable section-header">
         <Row>
             <Col className="mx-mobile-2 mx-lg-6">
             {  

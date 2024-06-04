@@ -13,10 +13,10 @@ function Navbar2(){
                 {/* <Navbar.Collapse id="basic-navbar-nav"> */}
                 <div className="navbarcontainer">
                 <div className="hidden-desktop">
-                <Nav className="ms-auto">
+                {/* <Nav className="ms-auto">
                         <Nav.Link href="/contact" style=
                         {{color:"black", "font-family": 'Roboto' , "font-weight": "bold","font-size": "14px","line-height": "150%", "text-align": "left", "margin-top": "2px", "margin-left": "2px", "margin-bottom": "4px", "margin-right": "4px",}}>Trending</Nav.Link>
-                    </Nav>
+                    </Nav> */}
                 </div>
                    
                     {/* <Nav className="ms-auto">
@@ -37,9 +37,9 @@ function Navbar2(){
             <div className="hidden-mobile left-div">
                 News for you
             </div>
-            <div className="hidden-mobile right-div padding-right-div">
+            {/* <div className="hidden-mobile right-div padding-right-div">
                 Trending
-            </div>
+            </div> */}
                 
             </Container>
             
