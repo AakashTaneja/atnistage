@@ -8,7 +8,7 @@ function Sections(){
     var fetchAPIURL = ''
     var fetchAPIHost = ''
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
-    const env = 'STAGE';
+    const env = 'PROD';
     if (env === 'STAGE'){
         fetchAPIHost = 'http://192.168.1.5:3002/api/'
         fetchAPIURL = fetchAPIHost + 'sections'
@@ -63,7 +63,7 @@ function Sections(){
     
     return(
         <div>
-        <Container className="mastercarousel mx-lg-6">
+        <Container className="sectionscarousel mx-lg-6">
         <Row>
             <Col className="mx-mobile-2 mx-lg-6">
             {  

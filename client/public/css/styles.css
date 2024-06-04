@@ -73,7 +73,7 @@ h2 {
 /* Media query for desktop screens */
 @media (min-width: 768px) {
     .responsive-carousel {
-        width: 70%;
+        width: 100%;
     }
 }
 
@@ -93,6 +93,14 @@ h2 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* border-left: 2px solid rgb(247, 183, 110); */
     border-left: 2px solid rgb(247, 236, 224);
+
+}
+
+.sectionscarousel {
+
+
+    padding-bottom: 12px;
+    width: 100%;
 
 }
 

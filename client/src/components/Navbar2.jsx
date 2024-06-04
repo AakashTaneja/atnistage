@@ -19,11 +19,11 @@ function Navbar2(){
                     </Nav>
                 </div>
                    
-                    <Nav className="ms-auto">
+                    {/* <Nav className="ms-auto">
                         <Nav.Link href="/contact" style=
                         {{color:"black", "font-family": 'Roboto', "font-weight": "bold", "font-size": "14px","line-height": "150%", "text-align": "left", "margin-top": "2px", "margin-left": "2px", "margin-bottom": "4px", "margin-right": "2px",}}>Search</Nav.Link>
                         
-                    </Nav>
+                    </Nav> */}
                 </div>
                  
                 {/* </Navbar.Collapse> */}
