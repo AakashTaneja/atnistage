@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Section({index, display, db, handleSectionClick, activeIndex}){
   //console.log('section index is '+ JSON.stringify(index))
-  console.log('index is '+index)
+  //console.log('index is '+index)
   //console.log('firstButtonStyle is '+ JSON.stringify(firstButtonStyle))
     //const [initiated, setInitiated] = React.useState(false);
     //var section_db = JSON.stringify(sectionObject.sectiondb)

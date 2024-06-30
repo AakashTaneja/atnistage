@@ -6,8 +6,9 @@ function Margin(){
         // <div className="margin-filler">
 
         // </div>
+        
 
-        <Container  className="margin-filler" fluid="lg">
+        <Container  className="margin-filler">
   <Row>
    
   </Row>

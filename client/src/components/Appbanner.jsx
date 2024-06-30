@@ -1,6 +1,5 @@
 import React from "react";
-import {Container} from "react-bootstrap";
-import {MobileView} from 'react-device-detect';
+
 
 
 function getOS() {
@@ -18,48 +17,63 @@ var os = getOS()
 function osMessage(){
     
     if (os === 'Android')
+    {
     return(
-        <>
-            <MobileView>
+        <div>
+            
                 <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
                 <img  className="google-badge" src="google-play-badge.png" alt="google play badge"></img>              
                 </a>
-            </MobileView>
            
-        </>
+        </div>
     )
+    }
     else if (os === 'iOS')
+    {
     return(
-        <>
-            <MobileView>
-                <div className="apple-badge-div">
+        <div>
+           
+                
                     <a href="https://apps.apple.com/app/id6471580745">
                         <img  className="apple-badge" src="app-store-apple-iphone.png" alt="apple app store"></img>               
                     </a>
-                </div>
+             
                
-            </MobileView>
-        </>
+
+        </div>
     )
+    }
+    // case when this is opened from Desktop and reduced in width to match tablet or mobile
+    else {
+        return(
+            <div className="footer-desktop-mobile">
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
+                    <img  className="google-badge-desktop-mobile" src="google-play-badge.png" alt="google play badge"></img>              
+                    </a>
+                </div>
+                <div>
+                <a href="https://apps.apple.com/app/id6471580745">
+                        <img  className="apple-badge-desktop-mobile" src="app-store-apple-iphone.png" alt="apple app store"></img>               
+                    </a>
+                </div>
+           
+        </div>
+        )
+    }
 }
 
 function Appbanner(){
 
-    return(
-        <div>
-         <MobileView>
-            <Container className="banner-mobile-container" fluid="lg">
+    return(   
+          
                 <div className="banner-message">
                     {
                      osMessage()
 
                     }
                 </div>                   
-            </Container> 
-         </MobileView>
-            
-               
-        </div>
+    
     );
 }
 

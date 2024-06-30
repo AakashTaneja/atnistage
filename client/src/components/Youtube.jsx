@@ -32,16 +32,24 @@ function Youtube(props){
     return(
         <div className="youtube-box" onClick={handleClick} >
             <iframe src={youttubeURL}
-                height={'80%'}
+                height={'75%'}
+                width={'290px'}
                 frameborder='0'
                 allow='autoplay; encrypted-media'
                 allowfullscreen
                 title='video'
             />
-            <div className="youtube-text">
-                    {props.socialdata.text}
-            </div>
+             <div className="youtube-text-container">
+                <div className="youtube-text">
+                        {props.socialdata.text}
+                </div>
+                <div className="twitter-koo-logo-div">
+                    <img className="youtube-sitelogo" src="/youtubePlay.png" />
+                </div>
                     
+
+             </div>
+            
           
        </div> 
         

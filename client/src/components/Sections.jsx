@@ -1,22 +1,14 @@
-import React from 'react';
-import {Container, Row, Col} from "react-bootstrap";
+import React, { useState, useEffect, useRef } from 'react';
+import APIAddress from './RestApi';
 import Capsule from './Capsule';
 
 
 function Sections(){
 
-    var fetchAPIURL = ''
-    var fetchAPIHost = ''
     const [dbname_capsule, setDbname_capsule] = React.useState('news') 
-    const env = 'PROD';
-    if (env === 'STAGE'){
-        fetchAPIHost = 'http://192.168.1.5:3002/api/'
-        fetchAPIURL = fetchAPIHost + 'sections'
-    } else if (env === 'PROD'){
-        fetchAPIHost = 'https://api.nutshellnews.in/api/'
-        //fetchAPIHost = 'http://nutshellbackend-621736138.ap-south-1.elb.amazonaws.com/api/'
-        fetchAPIURL = fetchAPIHost + 'sections'
-    }
+    const fetchAPIHost = APIAddress.serverAddress
+    const fetchAPIURL = fetchAPIHost + 'sections'
+   
     
     //console.log('in sections'+apihostObject.apihostObject)
     const [sectionsDataFromDB, setsectionsDataFromDB] = React.useState([]);
@@ -26,6 +18,26 @@ function Sections(){
     const isMobile = () => {
         return window.innerWidth <= 768;
       };
+
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(true);
+    const scrollContainerRef = useRef(null);
+
+    const checkScrollPosition = () => {
+        const container = scrollContainerRef.current;
+        setCanScrollLeft(container.scrollLeft > 0);
+        setCanScrollRight(container.scrollWidth > container.clientWidth + container.scrollLeft);
+    };
+
+    const scrollLeft = () => {
+        const container = scrollContainerRef.current;
+        container.scrollBy({ left: -200, behavior: 'smooth' });
+    };
+
+    const scrollRight = () => {
+        const container = scrollContainerRef.current;
+        container.scrollBy({ left: 200, behavior: 'smooth' });
+    };
     
 
 
@@ -41,17 +53,38 @@ function Sections(){
             //console.log(data)
             
         })
+        const container = scrollContainerRef.current;
+        container.addEventListener('scroll', checkScrollPosition);
+        checkScrollPosition(); // Initial check
+
+        return () => {
+            container.removeEventListener('scroll', checkScrollPosition);
+        };
     }, []);
+
 
     function handleSectionClick(index, dbname){
         setActiveIndex(index);
         setDbname_capsule(dbname)
+        const button = buttonsRef.current[index];
+        const container = scrollContainerRef.current;
+        
+        const buttonOffsetLeft = button.offsetLeft;
+        const containerWidth = container.offsetWidth;
+        const buttonWidth = button.offsetWidth;
+        
+        const scrollPosition = buttonOffsetLeft - (containerWidth / 2) + (buttonWidth / 2);
         //console.log('Sections handleClick on dbname '+ dbname)
         //console.log('Sections handleClick dbnamecapsule is '+ dbname_capsule)
         //console.log('handleSectionClick dbname_capsule is '+ dbname_capsule)
         //setInitiated(true)
         if (isMobile()){
-            buttonsRef.current[index].scrollIntoView({ behavior: 'smooth', inline: 'center' });
+            //buttonsRef.current[index].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            //window.scrollTo(0, 0);
+            container.scrollTo({
+                left: scrollPosition,
+                behavior: 'smooth'
+            });
         }
         
         window.dataLayer.push({
@@ -62,11 +95,23 @@ function Sections(){
 
     
     return(
-        <div>
-        <Container className="horizontal-scrollable section-header">
-        <Row>
-            <Col className="mx-mobile-2 mx-lg-6">
-            {  
+        <>
+
+{/* <Container className="desktopcontainer mx-lg-6" >
+            <div className="hidden-mobile left-div">
+                News for you
+            </div>
+            <div className="hidden-mobile right-div padding-right-div">
+                Trending
+            </div>
+                
+            </Container> */}
+
+<div className="sections">
+        <div className="scroll-wrapper">
+        <button className="scroll-button left hidden-mobile" onClick={scrollLeft} disabled={!canScrollLeft}>&lt;</button>
+        <div className="all-sections" ref={scrollContainerRef}>
+             {  
                 sectionsDataFromDB && sectionsDataFromDB.map((sectionitem, index) =>
                 <button
                     key={index}
@@ -82,14 +127,25 @@ function Sections(){
 
                 )
             }
-            </Col>
-        </Row> 
-        </Container> 
+        </div>
+        <button className="scroll-button right hidden-mobile" onClick={scrollRight}>&gt;</button>
+       
+
+        </div>
+       
+           
+    </div>
+    <div className="capsule-container">
+         <Capsule dbname_capsule={dbname_capsule} fetchAPIHost={fetchAPIHost}/>
+    </div>
         
-       <Capsule dbname_capsule={dbname_capsule} fetchAPIHost={fetchAPIHost}/>
+       
+
+        </>
+        
             
 
-    </div>
+    
 
        
         

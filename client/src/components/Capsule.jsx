@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 // import newsdataJSON from "../newsdataJSON";
 //import resultsFromDB from "../Database";
 import HeadLineSummary from './HeadlineSummary.jsx';
+import { useMediaQuery } from 'react-responsive';
 import {Container, Row, Col} from "react-bootstrap";
 import InfiniteScroll from 'react-infinite-scroll-component';
 import SocialInline from './SocialInline.jsx';
@@ -21,6 +22,10 @@ import Loader from "./Loader.jsx";
 
 
 function Capsule({dbname_capsule, fetchAPIHost}){
+    // Define a single condition for desktop and tablet
+    const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
+    // Define a condition for mobile
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
 
     const controller = new AbortController();
     const { signal } = controller;
@@ -46,8 +51,8 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     // }
 
     const fetchapi = () => {
-        console.log('in capsule fetch '+ "?page="+page+"&limit=3")
-        fetch(fetchAPIURL + "?page="+page+"&limit=3", { signal })
+        //console.log('in capsule fetch '+ "?page="+page+"&limit=3")
+        fetch(fetchAPIURL, { signal })
         //console.log('in capsule '+fetchAPIURL + '?page='+page+'&limit=3')
         .then(res => {
             //console.log('useEffect fetch then')
@@ -115,52 +120,64 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     
     return(
 
+        <>
 
+        
             
-            <Container className="mx-mobile-2 mx-lg-6">
-            <InfiniteScroll
-                dataLength={newsDataFromDB.length} //This is important field to render the next data
-                next={fetchData}
-                hasMore={hasMoreData}
-                loader={<Loader />}
-                endMessage={
-                    <p style={{ textAlign: 'center', }}>
-                    <b>Yay! You have seen it all</b>
-                    </p>
-                }
-
-            >
             
             {  
                 newsDataFromDB && newsDataFromDB.map(newsitem =>
+                <>
+                                {/* <hr className="horizontalline-partial"/> */}
 
-            <div className="responsive-carousel">
-                <Container className="mastercarousel mx-lg-6">
-                       
-                        {/* <Row>
-                            <Col className="p-0">
-                            <HeadLine headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>
-                            </Col>
-                        </Row>  */}
-                        <Row>
-                            <Col className="p-0">
-                            <HeadLineSummary headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>
-                            </Col>
-                        </Row> 
-                        <Row>
-                            <Col>
-                                <SocialInline socaildata={newsitem.social} />
-                            </Col>
-                        </Row>
-                        
-                    </Container> 
-                    <Margin />
-            </div>
+                        <div className="capsule-master">
+                            
+                                    
+                            {/* <Row>
+                                <Col className="p-0">
+                                <HeadLine headlineObj={newsitem.headline} sumamryObj={newsitem.summary}/>
+                                </Col>
+                            </Row>  */}
+                           
+
+                            {/* <div className="in-a-nutshell hidden-mobile">
+                                {'Sources'}          
+                            </div> */}
+
+                            <div>
+                                <div className="social-inline">
+                                    <SocialInline socaildata={newsitem.social} />
+                                </div>
+                            </div>   
+                            {isDesktopOrTablet && 
+                                <div className="headline-summary">
+                                    <HeadLineSummary headlineObj={newsitem.headline} sumamryObj={newsitem.summary} published={newsitem.published}/>
+                                </div>
+                            }
+                            { isMobile &&<div>
+                                <div className="headline-summary">
+                                    <HeadLineSummary headlineObj={newsitem.headline} sumamryObj={newsitem.summary} published={newsitem.published}/>
+                                </div>
+                            </div>}
+                            
+                            
+                            
+                        {/* <Margin /> */}
+                </div>
+                {/* <hr className="horizontalline-partial hidden-mobile"/>  */}
+                </>
+
+            
 )}
  
    
-</InfiniteScroll>
-</Container>
+
+
+            
+        </>
+            
+            // <Container className="mx-mobile-2 mx-lg-6">
+           
  
 
 

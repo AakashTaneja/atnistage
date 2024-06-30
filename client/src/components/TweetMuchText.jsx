@@ -38,7 +38,7 @@ function TweetMuchText({socialdata, headlineLogoMap}){
                     {socialdata.text}
                 </div>
             <div className="twitter-koo-biosection">
-                <div className="twitter-koo-biopic-with-image">
+                {/* <div className="twitter-koo-biopic-with-image">
                     <img className="twitter-koo-img-profile" src={socialdata.profilePic} />
                 </div>
                 <div className="twitter-koo-biotext">
@@ -48,10 +48,14 @@ function TweetMuchText({socialdata, headlineLogoMap}){
                 </div>
                 <div className="filler-div-tweet">
 
-                </div>
-                <div className="twitter-koo-logo-div">
-                <img className="twitter-koo-logo twitter-logo-with-media" src={socialdata.sitelogo} />
-                </div>
+                </div> */}
+                <div class="readmore-container">
+                {'Read more...'}
+             </div>
+
+            <div className="twitter-koo-logo-div">
+            <img className="twitter-koo-logo twitter-logo-with-media" src={socialdata.sitelogo} />
+            </div>
                 
                 
                

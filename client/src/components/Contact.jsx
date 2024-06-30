@@ -12,7 +12,7 @@ function Contact(){
                     <p className="route-heading">Contact Us</p>
                 </div>
                 <div className="contactus-text">
-                Want to get connected, or delete account url information? please email us at contact@andthenewsis.com
+                Want to get connected, or delete account url information? please email us at admin@nutshellnews.in
                 </div>
              </div>
                     

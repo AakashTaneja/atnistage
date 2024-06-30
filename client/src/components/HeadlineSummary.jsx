@@ -1,45 +1,52 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import { useMediaQuery } from 'react-responsive';
+import MobileSummary from "./MobileSummary";
+import SummaryDesktop from "./SummaryDesktop";
 
-function HeadLineSummary({headlineObj, sumamryObj}){
-    function hanldeScroll(){
+const HeadLineSummary = ({headlineObj, sumamryObj, published}) => {
+    // Define a single condition for desktop and tablet
+    const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
+    // Define a condition for mobile
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
+    //console.log('summary obj is '+sumamryObj)
+    const hanldeScroll = () => {
         window.dataLayer.push({
             event: 'scrolled',
             site_name: 'summary',
-        });
-       
-            
+        });          
         }
     return(
-        <div class="container-fluid">
+        <div className="headline-summary-container">
+        
        
-        <Row>
-            <Col className="p-0">
-                <div className="headline-text">
+        <div>
+             <div className="headline-text">
                     {headlineObj}          
                 </div>
-            </Col>
-        </Row> 
-       
-
-       
+                <div className="published-text">
+                    {published + ' IST'}          
+                </div>
+        </div>
+               
+                <div className="in-a-nutshell">
+                    {'In a nutshell...'}          
+                </div>
         
-        <Row>
-            <Col className="p-0" >
             {  
+                
                 <div className="summary-items-container" onScroll={hanldeScroll}>
-                { Array.isArray(sumamryObj)
-                    ? sumamryObj.map(element => {
-                    return <div className="summary-item">{element}</div>
-                    {/* return <SummaryItem summarytext={element} /> */}
-                })
-                    : null}
+                { 
+                    isDesktopOrTablet && <SummaryDesktop sumamryObj={sumamryObj}/>
+                    
+                }
+
+                    {isMobile && <MobileSummary sumamryObj={sumamryObj}/>}
+
+                
 
                 </div>
             }
-            </Col>
-        </Row> 
-    
         </div>
     )
 }
