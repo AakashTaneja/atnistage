@@ -73,7 +73,7 @@ function SearchRecommendationsMobile({setPlaceHolderText, searchFired, setSearch
             <div className="search-rec-mobile-container">
 
             <div className="mesage-see-what">
-                {'See what other are searching for...'}
+                {'See what others are searching for...'}
             </div>
            
             
