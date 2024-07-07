@@ -2,12 +2,15 @@ import React from "react";
 import { useMediaQuery } from 'react-responsive';
 import MobileSummary from "./MobileSummary";
 import SummaryDesktop from "./SummaryDesktop";
+import Highlight from "./Highlight";
 
-const HeadLineSummary = ({headlineObj, sumamryObj, published}) => {
+const HeadLineSummary = ({headlineObj, sumamryObj, published, highlightTerm}) => {
     // Define a single condition for desktop and tablet
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
     // Define a condition for mobile
     const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
+    console.log('HeadLineSummary headlineObj is '+headlineObj)
 
     //console.log('summary obj is '+sumamryObj)
     const hanldeScroll = () => {
@@ -22,7 +25,8 @@ const HeadLineSummary = ({headlineObj, sumamryObj, published}) => {
        
         <div>
              <div className="headline-text">
-                    {headlineObj}          
+                <Highlight text={headlineObj} highlight={highlightTerm} />
+                    {/* {headlineObj}           */}
                 </div>
                 <div className="published-text">
                     {published + ' IST'}          
@@ -37,11 +41,11 @@ const HeadLineSummary = ({headlineObj, sumamryObj, published}) => {
                 
                 <div className="summary-items-container" onScroll={hanldeScroll}>
                 { 
-                    isDesktopOrTablet && <SummaryDesktop sumamryObj={sumamryObj}/>
+                    isDesktopOrTablet && <SummaryDesktop sumamryObj={sumamryObj} highlight={highlightTerm}/>
                     
                 }
 
-                    {isMobile && <MobileSummary sumamryObj={sumamryObj}/>}
+                    {isMobile && <MobileSummary sumamryObj={sumamryObj} highlight={highlightTerm}/>}
 
                 
 

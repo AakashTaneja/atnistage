@@ -1,18 +1,28 @@
 import React from "react";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import { Circles } from  'react-loader-spinner'
+import { useMediaQuery } from 'react-responsive';
+import HeadLineSummary from "./HeadlineSummary";
 
 function Loader(){
+    // Define a single condition for desktop and tablet
+    const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
+    // Define a condition for mobile
+    const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
     return(
-        <div className="loader-custom">
-            <Circles
-                height="100"
-                width="100"
-                color='#f5e5c4'
-                ariaLabel='loading'
-            />
-
-        </div>
+       <>
+        {isDesktopOrTablet && 
+            <div className="desktop-skeleton grey-gradient-background">
+    
+                
+            </div>
+        }
+        { isMobile &&
+            <div className="mobile-skeleton grey-gradient-background">
+        
+                
+            </div>
+        }
+       </>
     
     )
 }

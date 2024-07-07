@@ -4,6 +4,7 @@ import { HiTrendingUp } from "react-icons/hi";
 import { IoSearch } from "react-icons/io5";
 import { useMediaQuery } from 'react-responsive';
 import { useNavigate } from 'react-router-dom';
+import APIAddress from './RestApi';
 
 
 function Navbar2(){
@@ -12,6 +13,10 @@ function Navbar2(){
     const [isFocused, setIsFocused] = React.useState(false);
     const [searchTerm, setSearchTerm] = React.useState('');
     const [searchResults, setSearchResults] = React.useState([]);
+
+    const searchAPIHost = APIAddress.serverAddress
+    //const searchAPIURL = searchAPIHost + 'sections'
+
 
     // Define a single condition for desktop and tablet
     const isDesktopOrTablet = useMediaQuery({ query: '(min-width: 768px)' });
@@ -22,14 +27,22 @@ function Navbar2(){
 
     const handleKeyPress = async (event) => {
         if (event.key === 'Enter') {
-          try {
-            // Example fetch call to a search API
-            const response = await fetch(`https://api.example.com/search?q=${searchTerm}`);
-            const data = await response.json();
-            setSearchResults(data.results); // Adjust this according to your API response structure
-          } catch (error) {
-            console.error('Error fetching data:', error);
-          }
+            if(searchTerm.trim() !== ''){
+                try {
+                    //var searchAPIURL = searchAPIHost+ 'search?query=' + searchTerm
+                    // console.log('Enter key pressed with search term:', searchTerm);
+                    //console.log('search api url is '+searchAPIURL)
+                    // Example fetch call to a search API
+                    //const response = await fetch(searchAPIHost+ 'search?query=' + searchTerm);
+                    //const data = await response.json();
+                    //setSearchResults(data.results); // Adjust this according to your API response structure
+                    const newWindow = window.open(`/search?searchTerm=${searchTerm}`, '_blank', 'noopener,noreferrer');
+                    if (newWindow) newWindow.opener = null;
+                  } catch (error) {
+                    console.error('Error fetching data:', error);
+                  }
+            }
+          
         }
       };
 
@@ -47,103 +60,45 @@ function Navbar2(){
     return(
         <>
             <div className="header-container">
-             <div className="logo-search-container">
-             {isDesktopOrTablet && 
-                <div>
-                    <a href="/"><img className="hamaralogo" src="FullLogo_Transparent_NoBuffer.png" alt="Nutshell news"></img></a>
+
+                {/* nutshell logo */}
+                <div className="logo-search-container">         
+                    <div>
+                        <a href="/"><img className="hamaralogo" src="FullLogo_Transparent_NoBuffer.png" alt="Nutshell news"></img></a>
+                    </div> 
                 </div> 
 
-             }
-             {
-                isMobile &&
-                <>
-                    <div className={`trending-button-container hidden-desktop`}
-                        onClick={() => handleClick('home')}
-                    >
-                        <div className="trending-text">
-                            <img className="hamaralogo-mobile" src="FullLogo_Transparent_NoBufferPNG.png" alt="Nutshell news"></img>
-                        </div> 
-                        <div className={`trending-text ${selected === 'home' ? 'active' : ''}`} >
-                        {'Home'}
-                        </div>
-                    </div>
-                
-                    <div onClick={() => handleClick('trendingmobile')}>
-                    <div className={`trending-text ${selected === 'trendingmobile' ? 'active' : ''}`} >
-                        <HiTrendingUp 
-                            style={{
-                            
-                            }}
-                            size="32px"
-                        />
-                    </div>
-                    <div className={`trending-text ${selected === 'trendingmobile' ? 'active' : ''}`} >
-                        {'Trending'}
-                    </div>
-                    </div>
+    
 
-                    <div onClick={() => handleClick('search')} className="hidden-mobile">
-                        <div className={`trending-text ${selected === 'search' ? 'active' : ''}`} >
+                <div className="search-button-container">
+                    <div className="search-container">
+                        <input
+                            type="text"
+                            placeholder=" enter search text"
+                            onFocus={() => setIsFocused(true)}
+                            onBlur={() => setIsFocused(false)}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            onKeyDown={handleKeyPress}
+                            className={isFocused ? 'search-input focused' : 'search-input'}
+                        />
                             <IoSearch 
                                 style={{
                                 
                                 }}
-                                size="30px"
+                                size="20px"
+                                className="search-icon" 
                             />
-                        </div>
-                        <div className={`trending-text ${selected === 'search' ? 'active' : ''}`} >
-                            {'Search'}
-                        </div>
-                    </div>
-                    
-                
-                
-            
-                </>
-                
-             }
-                
-
-            </div> 
-
-            {isDesktopOrTablet &&
-                <>
-                <div className="search-button-container hidden-desktop">
-                    <div className="search-container">
-                    <input
-                        type="text"
-                        placeholder=" enter search text"
-                        onFocus={() => setIsFocused(true)}
-                        onBlur={() => setIsFocused(false)}
-                        onKeyDown={handleKeyPress}
-                        className={isFocused ? 'search-input focused' : 'search-input'}
-                    />
-                    <IoSearch 
-                                    style={{
-                                    
-                                    }}
-                                    size="20px"
-                                    className="search-icon" 
-                                />
 
                     </div>
                 </div> 
                 <div className="about-contact-container">
-                
-               
                     <a href="/about" target="_blank" className="footer-link hidden-mobile">
                             About           
                     </a>
                     <a href="/contact" target="_blank" className="footer-link hidden-mobile">
                                 Contact
                     </a>
-
-               
-            </div>
-                </>
-            }
-
-            
+                </div>             
             </div>
             <hr className="horizontalline"/> 
         </>

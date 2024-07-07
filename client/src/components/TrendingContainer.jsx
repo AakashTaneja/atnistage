@@ -31,7 +31,7 @@ function TrendingContainer(){
         window.dataLayer.push({
             event: 'trending_clicked',
         });
-        console.log('index clicked is '+index)
+        //console.log('index clicked is '+index)
         console.log('trending item is '+trendingitem)
         //navigate('/trending');
         // window.open( 

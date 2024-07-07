@@ -61,25 +61,30 @@ function TrendingPageMobile(){
                                 {newsitem.keywords}
                             </div>
                             
-                
+
+                           {
+                            newsitem.capsules && newsitem.capsules.map((capsuleitem, index) =>
                             <div className="trending-mobile-healine-image-container">
                                 <div className="trending-headline-published-container">
                                     <div className="headline-text-trending-mobile">
-                                        {newsitem.capsules[0].headline}  
+                                        {capsuleitem.headline}  
                                     </div>
                                     <div className="trending-section-published-mobile-container">
                                         <div className="published-displayname">
-                                            {newsitem.capsules[0].display_name}
+                                            {capsuleitem.display_name}
                                         </div>
                                         <div className="published-text">
-                                             {newsitem.capsules[0].published + ' IST'}
+                                             {capsuleitem.published + ' IST'}
                                         </div>
                                     </div>
                                 </div>
                                 <div>
-                                <img className ="trending-image" src={newsitem.capsules[0].social[0].image}></img>
+                                <img className ="trending-image" src={capsuleitem.social[0].image}></img>
                                 </div>
                             </div>
+                            )
+                           } 
+                            
                            
                                 
                            

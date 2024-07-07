@@ -4,10 +4,7 @@ import React, { useEffect, useState } from 'react';
 //import resultsFromDB from "../Database";
 import HeadLineSummary from './HeadlineSummary.jsx';
 import { useMediaQuery } from 'react-responsive';
-import {Container, Row, Col} from "react-bootstrap";
-import InfiniteScroll from 'react-infinite-scroll-component';
 import SocialInline from './SocialInline.jsx';
-import Margin from "./Margin";
 import Loader from "./Loader.jsx";
 // var newsDataFromDB = [{}];
 
@@ -37,6 +34,7 @@ function Capsule({dbname_capsule, fetchAPIHost}){
     
     const [newsDataFromDB, setnewsDataFromDB] = React.useState([]);
     const [hasMoreData, setHasMoreData] = React.useState(true);
+    const [isLoaded, setIsLoaded] = React.useState(false);
     const [page, setPage] = React.useState(0);
     //setPage(0)
    
@@ -62,6 +60,7 @@ function Capsule({dbname_capsule, fetchAPIHost}){
         .then((data) =>{
             data.sort((a, b) => a.index - b.index);
             setnewsDataFromDB(data);
+            setIsLoaded(true)
             setPage(page+1);
             //console.log("page num is "+page);
             
@@ -91,41 +90,39 @@ function Capsule({dbname_capsule, fetchAPIHost}){
 
     
 
-    const fetchMoreCapsues = async()=>{
-        //console.log("fetchMoreCapsues page num fetchMoreCapsues is "+fetchAPIURL+" "+page);
-        const res =  await fetch(fetchAPIURL+"?page="+page+"&limit=3");
-        window.dataLayer.push({
-            event: 'capsule_fetch'
-        });
+    // const fetchMoreCapsues = async()=>{
+    //     //console.log("fetchMoreCapsues page num fetchMoreCapsues is "+fetchAPIURL+" "+page);
+    //     const res =  await fetch(fetchAPIURL+"?page="+page+"&limit=3");
+    //     window.dataLayer.push({
+    //         event: 'capsule_fetch'
+    //     });
 
-        const data = res.json();
+    //     const data = res.json();
        
-        setPage(page+1);
-        //console.log("page num fetchMoreCapsues is "+page);
+    //     setPage(page+1);
+    //     //console.log("page num fetchMoreCapsues is "+page);
         
-        return data;
-    }
+    //     return data;
+    // }
 
    
 
-    const fetchData = async () =>{
-        const capsulesFromServer =  await fetchMoreCapsues();
-        //console.log("next items "+capsulesFromServer);
-        if(capsulesFromServer.length === 0){
-            setHasMoreData(false);
-        }
-        setnewsDataFromDB([...newsDataFromDB, ...capsulesFromServer]);
-    };
+    // const fetchData = async () =>{
+    //     const capsulesFromServer =  await fetchMoreCapsues();
+    //     //console.log("next items "+capsulesFromServer);
+    //     if(capsulesFromServer.length === 0){
+    //         setHasMoreData(false);
+    //     }
+    //     setnewsDataFromDB([...newsDataFromDB, ...capsulesFromServer]);
+    // };
     
     
     return(
 
         <>
-
-        
             
             
-            {  
+            {  isLoaded ?
                 newsDataFromDB && newsDataFromDB.map(newsitem =>
                 <>
                                 {/* <hr className="horizontalline-partial"/> */}
@@ -168,24 +165,13 @@ function Capsule({dbname_capsule, fetchAPIHost}){
                 </>
 
             
-)}
- 
+            ) 
+            :
+            <Loader />
+             }
    
-
-
-            
         </>
             
-            // <Container className="mx-mobile-2 mx-lg-6">
-           
- 
-
-
-
-
-       
-        
-       
 
     );
 }

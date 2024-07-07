@@ -5,15 +5,21 @@ import SocialInline from "./SocialInline";
 import HeadLineSummary from "./HeadlineSummary";
 import { useMediaQuery } from 'react-responsive';
 import APIAddress from "./RestApi";
+import Footer from "./Footer";
 
 function TrendingPage(){
     const {item}= useParams()
     const [queryParams, setQueryParams] = React.useState({});
     const [moreNews, setMoreNews] = React.useState()
+    const [isVisible, setIsVisible] = React.useState(false);
     var sectionType = ''
 
     React.useEffect(() => {
         window.scrollTo(0, 0);
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
       }, []);
 
     const section_uri = {
@@ -27,6 +33,54 @@ function TrendingPage(){
         'Health': 'health',
         'Science': 'science'
 
+    }
+
+    const handleScroll = () => {
+        if (window.scrollY > 300) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    function getOS() {
+        var uA = navigator.userAgent || navigator.vendor || window.opera;
+        if ((/iPad|iPhone|iPod/.test(uA) && !window.MSStream) || (uA.includes('Mac') && 'ontouchend' in document)) return 'iOS';
+      
+        var i, os = ['Windows', 'Android', 'Unix', 'Mac', 'Linux', 'BlackBerry'];
+        for (i = 0; i < os.length; i++) if (new RegExp(os[i],'i').test(uA)) return os[i];
+      }
+
+    var os = getOS()
+    function scroll_to_top(){
+        if (os === 'Android' || os === 'iOS'){
+            return(
+                <div className="scroll-to-top" onClick={scrollToTop}>
+                    {/* <div className="line"></div> */}
+                    <div className="arrow"></div>
+                    <div className="text">TOP</div>
+                    {/* <div className="line"></div> */}
+                </div>
+            )
+
+        }
+        else {
+            return(
+                <div className="scroll-to-top-desktop" onClick={scrollToTop}>
+                    {/* <div className="line"></div> */}
+                    <div className="arrow"></div>
+                    <div className="text">TOP</div>
+                    {/* <div className="line"></div> */}
+                </div>
+            )
+        }
     }
 
     function fetch_more(section_type){
@@ -65,6 +119,7 @@ function TrendingPage(){
     //console.log('ITEMS type is  '+typeof items)
     //console.log('ITEMS are '+JSON.stringify(items))
     var capsules = items["capsules"]
+    var display_keywords = items["keywords"]
     const news_type = capsules[0].display_name
     //console.log('display name is '+news_type)
     const section_type_api_value = section_uri[news_type]
@@ -105,7 +160,7 @@ function TrendingPage(){
 
                 <div>
                     <div className="trending-keyword-tending-page">
-                        {newsitem.keywords}
+                        {display_keywords}
                     </div>
                 </div>   
 
@@ -189,6 +244,12 @@ function TrendingPage(){
 
 
 )}
+
+{               isVisible && 
+                    scroll_to_top()
+                }
+                
+                {isDesktopOrTablet && <Footer />} 
 
 
 

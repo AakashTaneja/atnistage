@@ -5,6 +5,7 @@ import Sections from './Sections';
 import Footer from './Footer';
 import FooterMobile from './FooterMobile';
 import TrendingContainer from './TrendingContainer';
+import Margin from './Margin';
 
 const Home = () => {
     // Define a single condition for desktop and tablet
@@ -138,6 +139,8 @@ const Home = () => {
             {isVisible && 
                     scroll_to_top()
                 }
+
+                <Margin />
                 
                {isDesktopOrTablet && <Footer />} 
                {isMobile && <FooterMobile />} 
