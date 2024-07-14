@@ -4,7 +4,8 @@ const vehiclesShema = {
 
     "index": Number,
     headline: Object,
-    social: [Object]
+    social: [Object],
+    notification_id: String
 }
 
 const vehiclesModel = mongoose.model("vehicles", vehiclesShema);

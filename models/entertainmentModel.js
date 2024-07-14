@@ -4,7 +4,8 @@ const entertainmentShema = {
 
     "index": Number,
     headline: Object,
-    social: [Object]
+    social: [Object],
+    notification_id: String
 }
 
 mongoose.pluralize(null);

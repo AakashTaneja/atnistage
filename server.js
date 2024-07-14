@@ -143,6 +143,36 @@ app.use('/api/searchtrends', (req, res) => {
    console.log('responding /api/searchtrends in ms '+(t1 - t0))
 
 });
+
+app.use('/api/notifications', (req, res) => {
+   const t0 = performance.now();
+   // Extract notification_id from the query parameters
+   const notification_id = req.query.notification_id;
+
+   
+   // Check if notification_id is provided
+   if (!notification_id) {
+      return res.status(400).send('Please provide notification id');
+   }
+
+   // Define the collections to search
+   const collectionsToSearch = ['notifications'];
+   // Define the search criteria
+   const searchCriteria = { 'notification_id': notification_id };
+
+   // Call the databaseSearch function
+   databaseSearch(searchCriteria, collectionsToSearch)
+   .then(result => {
+         res.json(result);
+   })
+   .catch(error => {
+         console.error('Error during database search:', error);
+         res.status(500).send('Internal Server Error');
+   });
+   const t1 = performance.now();
+   console.log('responding /api/notifications in ms '+(t1 - t0))
+
+});
 app.use(errorHandler);
 
 //serve static assets if in production

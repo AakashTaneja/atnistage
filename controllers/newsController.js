@@ -15,7 +15,8 @@ const getAllNews = asyncHandler(async (req, res) => {
     const t0 = performance.now();
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
-    const slice = req.query.slice
+    const slice = req.query.slice;
+    const exclude_notification_id = req.query.exclude;
 
     if (process.env.ENV === "STAGE") {
         console.log("Environent is stage, for news responding with file")
@@ -25,13 +26,22 @@ const getAllNews = asyncHandler(async (req, res) => {
         if (typeof (slice) != 'undefined') {
             //console.log('slice is ' + slice)
             const news = await newsModel.find().sort({ 'index': 1 }).skip(slice);
-            //console.log("Environent is prod, for news responding from news database, slice is " + slice);
-            res.json(news)
+            res.json(news);
         }
         else {
-            //console.log("Environent is prod, for news responding from news database");
-            const news = await newsModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
-            res.json(news);
+            if (typeof (exclude_notification_id) != 'undefined') {
+                const searchCriteria = { 'notification_id': { $ne: exclude_notification_id } };
+                const news = await newsModel.find(searchCriteria).sort({ 'index': 1 });
+                res.json(news);
+            }
+            else{ // removing resPerPage logic for now.
+                
+                // console.log("Environent is prod, for markets responding from news database");
+                // const news = await newsModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
+                const news = await newsModel.find().sort({ 'index': 1 });
+                res.json(news);
+            }
+            
         }
 
     }

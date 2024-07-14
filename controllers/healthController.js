@@ -16,6 +16,7 @@ const getAllHealthNews = asyncHandler(async (req, res) => {
     const page = req.query.page || 0;
     const resPerPage = req.query.limit;
     const slice = req.query.slice
+    const exclude_notification_id = req.query.exclude;
 
     if (process.env.ENV === "STAGE") {
         console.log("Environent is stage, for entertainment responding with file newsdataEntJSON")
@@ -28,9 +29,18 @@ const getAllHealthNews = asyncHandler(async (req, res) => {
             res.json(news);
         }
         else {
-            //console.log("Environent is prod, for entertainment responding from database");
-            const news = await healthModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
-            res.json(news);
+            if (typeof (exclude_notification_id) != 'undefined') {
+                const searchCriteria = { 'notification_id': { $ne: exclude_notification_id } };
+                const news = await healthModel.find(searchCriteria).sort({ 'index': 1 });
+                res.json(news);
+            }
+            else{
+                 //console.log("Environent is prod, for entertainment responding from database");
+                //const news = await healthModel.find().sort({ 'index': 1 }).skip(page * resPerPage).limit(resPerPage);
+                const news = await healthModel.find().sort({ 'index': 1 });
+                res.json(news);
+
+            }
         }
 
     }
