@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 3002;
 const app = express();
 const rateLimit = require('express-rate-limit');
 const { databaseSearch } = require('./search/searchKey')
+const { videoData } = require('./search/videoData')
 const { performance } = require("perf_hooks");
 
 const limiter = rateLimit(
@@ -173,6 +174,41 @@ app.use('/api/notifications', (req, res) => {
    console.log('responding /api/notifications in ms '+(t1 - t0))
 
 });
+
+app.use('/api/videos_data', (req, res) => {
+   const t0 = performance.now();
+   // Extract notification_id from the query parameters
+   const video_type = req.query.videotype;
+
+   
+   // Check if video_type is provided
+   if (!video_type) {
+      return res.status(400).send('Please provide video type');
+   }
+   else{
+      if(video_type === 'MULTI_LONG' )
+      {
+         videoData(video_type)
+         .then(result => {
+         res.json(result);
+         })
+         .catch(error => {
+          console.error('Error during videos_data: for MULTI_LONG', error);
+            res.status(500).send('Internal Server Error');
+   });
+      }  
+         else{
+            return res.status(400).send('Please provide valid video type');
+        }
+   
+      
+
+   }
+   const t1 = performance.now();
+   console.log('responding /api/videos_data in ms '+(t1 - t0))
+
+});
+
 app.use(errorHandler);
 
 //serve static assets if in production
