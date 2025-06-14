@@ -21,7 +21,7 @@ const LandingPage = () => {
             <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
               <picture>
                 <source media="(max-width: 767px)" srcSet="./playstore-mobile.svg" />
-                <source media="(min-width: 768px)" srcSet="./appstore.svg" />
+                <source media="(min-width: 768px)" srcSet="./playstore.svg" />
                 <img src="./playstore-mobile.svg" alt="Play Store" height="32" loading="lazy" />
               </picture>
             </a>
@@ -33,13 +33,17 @@ const LandingPage = () => {
       <section className="section-dark text-center">
         <div className="container">
           <div className='banner-text'>
-          <h2 className="mb-3">AI-Powered News Summaries.Stay informed and to the point.</h2>
-              <p class="mb-4">With so much happening and so little time, reading long news articles every day isn’t always possible. That’s why we bring you the news in a nutshell—every story broken down into just 3 bullet points. No clutter, no noise. Just what you need to know.</p>
+          <h2 className="mb-3">AI-Powered News Summaries.<br/>Stay informed and to the point.</h2>
+              <p class="mb-4">With so much happening and so little time. <br /> Reading long news articles every day isn’t always possible. That’s why we bring you the news in a nutshell, every story broken down into just 3 bullet points. <br />No clutter, no noise. Just what you need to know.</p>
           </div>
           <div className="mb-3">
-            <img src="./appstore.svg" alt="App Store" className="me-2" height="40" />
-            <img src="./playstore.svg" alt="Google Play" className="me-2" height="40" />
-            <img src="./youtube.svg" alt="YouTube" height="40" />
+          <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
+                <img src="./appstore.svg" alt="App Store" className="me-2" height="40" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
+                <img src="./playstore.svg" alt="Google Play" className="me-2" height="40" />
+            </a>
+            {/* <img src="./youtube.svg" alt="YouTube" height="40" /> */}
           </div>
           <img src="./banner-img.png" alt="Phones" className="img-fluid banner-phone-img" style={{ maxWidth: '600px' }} />
         </div>
@@ -80,7 +84,7 @@ const LandingPage = () => {
             <div className="row align-items-center mb-5">
               <div className="col-md-6 cs-pd-left">
                 <h4 className="highlight">Trust Built on Many Voices.</h4>
-                <p className="highlight-para">Cross-checked by our editorial AI with racial + source diversity in mind. Stories are flagged for bias before they reach you.</p>
+                <p className="highlight-para">Cross-checked by AI. Our model compares facts across outlets, flagging inconsistencies before they reach you.</p>
               </div>
               <div className="col-md-6 text-center">
                 <img src="./trust-banner.png" alt="Phone screenshot" className="img-fluid" />
@@ -107,14 +111,15 @@ const LandingPage = () => {
                   <img src="./adblocker.png" className="bst-b-icon" alt="" />
                 </div>
                 <h5>All the Experience</h5>
-        <p>At Nutshell, we don’t sell your attention—we earn your trust. Just clean, credible news from real sources. No distractions, no sponsored noise</p>
+        {/* <p>At Nutshell, we don’t sell your attention—we earn your trust. Just clean, credible news from real sources. No distractions, no sponsored noise</p> */}
+        <p>At Nutshell, we don’t sell your attention—we earn your trust. Just clean, credible news from real sources.</p>
               </div>
               <div className="col-md-4">
                 <div className="feature-icon mb-3">
                   <img src="./newspaper.png" className="bst-b-icon" alt="" />
                 </div>
                 <h5>Top Publishers Combined</h5>
-        <p>Stories from top newspapers, blogs, and magazines — Nutshell brings credible news from many sources into one clean, easy-to-read feed</p>
+        <p>Stories from top newspapers, blogs, and magazines. Credible news from many sources into one clean easy-to-read feed</p>
               </div>
             </div>
           </div>
@@ -124,7 +129,7 @@ const LandingPage = () => {
       {/* Footer */}
       <div className="container text-center pre-footer">
         <h2 className="mb-1">Want to get connected?</h2>
-        <p className="contact-para">Please email us at: <a href="mailto:admin@nutshell.news" className='footer-m-link'>admin@nutshell.news</a></p>
+        <p className="contact-para">Please email us at: <a href="mailto:admin@nutshellnews.in" className='footer-m-link'>admin@nutshellnews.in</a></p>
       </div>
       <div className="icon-container text-center">
         <h3>Download the easiest way to stay informed</h3>
