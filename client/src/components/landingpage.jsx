@@ -36,7 +36,7 @@ const LandingPage = () => {
           <h2 className="mb-3">AI-Powered News Summaries.<br/>Stay informed and to the point.</h2>
               <p class="mb-4">With so much happening and so little time. <br /> Reading long news articles every day isn’t always possible. That’s why we bring you the news in a nutshell, every story broken down into just 3 bullet points. <br />No clutter, no noise. Just what you need to know.</p>
           </div>
-          <div className="mb-3">
+          <div className="mb-3 banner-icon-container">
           <a href="https://play.google.com/store/apps/details?id=com.andthenewsisapp">
                 <img src="./appstore.svg" alt="App Store" className="me-2" height="40" />
             </a>
