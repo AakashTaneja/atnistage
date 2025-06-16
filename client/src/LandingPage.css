@@ -17,7 +17,7 @@ body {
 .banner-text {
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .banner-text h2 {
@@ -28,6 +28,9 @@ body {
   letter-spacing: 0%;
   text-align: center;
   color: #FFFFFF;
+}
+.section-dark .banner-icon-container{
+      margin-bottom: 35px !important;
 }
 
 .banner-text p {
@@ -208,7 +211,10 @@ body {
     letter-spacing: 0%;
     text-align: center;
   }
-
+  .highlight{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .landinpage-header a.link {
     display: inline;
   }
@@ -245,7 +251,9 @@ body {
   .mb-mg-top {
     margin-top: 20px !important;
   }
-
+  .best-b-container.py-5 {
+        padding-top: 20px !important;
+  }
   .row.mb-mg-top .col-md-6.text-center {
     padding: 0px !important;
   }
